@@ -11,7 +11,7 @@ import { construirFut, type FutData } from "@/lib/constructor";
 import { agregarAlHistorial, cargarPerfil, guardarPerfil } from "@/lib/almacen";
 import { sugerirTramites } from "@/lib/sugeridor";
 import { generarDocxFut } from "@/lib/docx-generator";
-import { post } from "../api";
+import { post, SIN_SERVIDOR } from "../api";
 import FutDocument, { HojaA4, type CampoEditable } from "./FutDocument";
 import Sidebar, { NavMovil, type SeccionNav } from "./Sidebar";
 import Campo from "./Campo";
@@ -155,8 +155,8 @@ export default function Wizard({ tramiteInicial = null }: { tramiteInicial?: str
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ codigo }),
       });
-      const info = await resp.json();
-      if (!resp.ok) throw new Error(info.error || "Error desconocido");
+      const info = await resp.json().catch(() => ({}));
+      if (!resp.ok) throw new Error(info.error || (resp.status === 404 || resp.status === 405 ? SIN_SERVIDOR : "Error desconocido"));
       setDatos((d) => ({
         ...d,
         nombres_apellidos: info.nombresApellidos || d.nombres_apellidos,

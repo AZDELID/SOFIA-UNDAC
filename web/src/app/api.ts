@@ -1,4 +1,8 @@
 // Llamadas a la API FastAPI (nginx reenvía /api al contenedor "api")
+// En Vercel solo está la web: /api no existe y responde 404/405
+export const SIN_SERVIDOR = "Esta función usa la IA del servidor de SOFIA y no está disponible en la versión web.";
+const sinServidor = (status: number) => status === 404 || status === 405;
+
 export async function api<T = any>(ruta: string, opciones: RequestInit = {}): Promise<T> {
   const r = await fetch(`/api${ruta}`, {
     ...opciones,
@@ -8,7 +12,7 @@ export async function api<T = any>(ruta: string, opciones: RequestInit = {}): Pr
   if (!r.ok) {
     const d = cuerpo.detail;
     // FastAPI devuelve detail como texto, lista de errores o lista de objetos de validación
-    throw new Error(Array.isArray(d) ? d.map((e: any) => e.msg ?? e).join(" · ") : d || `Error ${r.status}`);
+    throw new Error(Array.isArray(d) ? d.map((e: any) => e.msg ?? e).join(" · ") : d || (sinServidor(r.status) ? SIN_SERVIDOR : `Error ${r.status}`));
   }
   return cuerpo;
 }
