@@ -1,0 +1,65 @@
+/* Paleta del generador FUT-UNDAC original (copiada de su globals.css). Son
+   nombres nuevos (bg-bg-main, text-azul-osc...), no chocan con el tema del ERP. */
+/* Sin "inline": las clases leen la variable y así el modo oscuro (tema.css) puede cambiarla */
+@theme {
+  --color-sb-bg: #0a1628;
+  --color-sb-hover: #162040;
+  --color-sb-active: #1e3560;
+  --color-sb-border: #1a2e50;
+  --color-sb-text: #8aa4c8;
+  --color-sb-text-act: #ffffff;
+  --color-sb-accent: #c9a227;
+
+  --color-bg-main: #f0f4fb;
+  --color-bg-card: #ffffff;
+  --color-bg-input: #f8faff;
+  --color-bg-header: #ffffff;
+
+  --color-azul: #1a56db;
+  --color-azul-h: #1343b0;
+  --color-azul-osc: #003087;
+  --color-dorado: #c9a227;
+  --color-dorado-h: #a88020;
+  --color-verde: #057a55;
+  --color-verde-bg: #ecfdf5;
+  --color-rojo: #dc2626;
+  --color-rojo-bg: #fef2f2;
+  --color-naranja: #d97706;
+  --color-naranja-bg: #fffbeb;
+
+  --color-titulo: #0f172a;
+  --color-cuerpo: #374151;
+  --color-suave: #6b7280;
+  --color-hint: #9ca3af;
+  --color-borde: #e5e7eb;
+  --color-borde-focus: #1a56db;
+  --color-borde-card: #e8edf5;
+}
+
+/* Solo dentro del generador: esquinas de 2 px como el original.
+   El tema del ERP compila rounded-sm como calc(var(--radius) - 4px). */
+.fut-app {
+  --radius: 6px;
+  color: var(--color-titulo);
+}
+.fut-app h1,
+.fut-app h2,
+.fut-app h3 {
+  letter-spacing: -0.01em;
+}
+
+/* La vista previa se imprime como una hoja A4 completa, sin márgenes del
+   navegador (la hoja trae los suyos). */
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
+
+@media print {
+  html,
+  body {
+    height: auto !important;
+    min-height: 0 !important;
+    background: #ffffff !important;
+  }
+}

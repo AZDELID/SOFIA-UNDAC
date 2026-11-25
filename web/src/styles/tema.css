@@ -1,0 +1,296 @@
+/* Tema de SOFIA: letras, modo claro/oscuro y movimiento. */
+
+/* ---------- Letras ----------
+   Plus Jakarta Sans para leer (redonda y clara), Rush Driver para los títulos de página,
+   Mermaid para los subtítulos y Bricolage Grotesque para las cifras. Todas vienen dentro
+   de la app: funcionan sin internet.
+   Rush Driver y Mermaid son gratis solo para uso personal; Mermaid pide licencia para web. */
+@font-face {
+  font-family: "Rush Driver";
+  src: url("./fuentes/RushDriver-Italic.otf") format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mermaid";
+  src: url("./fuentes/Mermaid1001.ttf") format("truetype");
+  font-display: swap;
+}
+@theme {
+  --font-sans: "Plus Jakarta Sans Variable", system-ui, Arial, sans-serif;
+  --font-display: "Bricolage Grotesque Variable", "Plus Jakarta Sans Variable", system-ui, sans-serif;
+  --font-titulo: "Rush Driver", "Bricolage Grotesque Variable", system-ui, sans-serif;
+  --font-subtitulo: "Mermaid", Georgia, serif;
+}
+
+:root {
+  --fondo: #f5f7fb;
+  --punto: rgba(15, 23, 42, 0.06);
+  color-scheme: light;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--fondo);
+  /* Trama de puntos muy suave: da textura sin distraer */
+  background-image: radial-gradient(var(--punto) 1px, transparent 1px);
+  background-size: 22px 22px;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s;
+}
+
+/* En la capa base para que las clases de Tailwind (font-semibold…) puedan ganarle.
+   La hoja A4 del FUT se queda con su Arial, como el formulario oficial. */
+@layer base {
+  .font-display:not(.fut-page *) {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+  /* Títulos de página: cursiva de carreras, con un poco de aire entre letras */
+  h1:not(.fut-page *) {
+    font-family: var(--font-titulo);
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
+  /* Subtítulos: Mermaid ya es gruesa; sin negrita falsa del navegador */
+  :is(h2, h3):not(.fut-page *) {
+    font-family: var(--font-subtitulo);
+    font-synthesis: none;
+    letter-spacing: 0;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #c7d7fe;
+}
+
+/* ---------- Modo oscuro ----------
+   Las pantallas usan la escala "slate" de Tailwind para textos, bordes y fondos suaves.
+   En oscuro esa escala se da vuelta (900 = casi blanco, 50 = gris oscuro): cada pantalla
+   cambia sola sin tocar su código. */
+.dark {
+  color-scheme: dark;
+  --fondo: oklch(16% 0.03 265);
+  --punto: rgba(148, 163, 184, 0.07);
+
+  --color-slate-50: oklch(23% 0.032 265);
+  --color-slate-100: oklch(27% 0.035 265);
+  --color-slate-200: oklch(32% 0.035 262);
+  --color-slate-300: oklch(40% 0.04 260);
+  --color-slate-400: oklch(58% 0.04 257);
+  --color-slate-500: oklch(68% 0.035 257);
+  --color-slate-600: oklch(78% 0.025 255);
+  --color-slate-700: oklch(85% 0.018 253);
+  --color-slate-800: oklch(92% 0.012 250);
+  --color-slate-900: oklch(96.5% 0.007 248);
+  --color-slate-950: oklch(98.5% 0.003 248);
+  --color-gray-100: oklch(27% 0.035 265);
+
+  /* Fondos de color pálidos → el mismo color, translúcido sobre oscuro */
+  --color-blue-50: rgba(59, 130, 246, 0.14);
+  --color-blue-100: rgba(59, 130, 246, 0.22);
+  --color-blue-200: rgba(59, 130, 246, 0.35);
+  --color-violet-50: rgba(139, 92, 246, 0.14);
+  --color-violet-100: rgba(139, 92, 246, 0.22);
+  --color-teal-50: rgba(20, 184, 166, 0.13);
+  --color-teal-100: rgba(20, 184, 166, 0.22);
+  --color-teal-200: rgba(20, 184, 166, 0.35);
+  --color-amber-50: rgba(245, 158, 11, 0.13);
+  --color-amber-200: rgba(245, 158, 11, 0.35);
+  --color-emerald-50: rgba(16, 185, 129, 0.13);
+  --color-red-50: rgba(239, 68, 68, 0.13);
+  --color-sky-50: rgba(14, 165, 233, 0.13);
+  --color-orange-50: rgba(249, 115, 22, 0.13);
+
+  /* Paleta del generador FUT (fut.css); la hoja A4 tiene sus propios colores y sigue blanca */
+  --color-bg-main: oklch(16% 0.03 265);
+  --color-bg-card: oklch(20.5% 0.034 265);
+  --color-bg-input: oklch(23% 0.032 265);
+  --color-bg-header: oklch(20.5% 0.034 265);
+  --color-titulo: oklch(96.5% 0.007 248);
+  --color-cuerpo: oklch(85% 0.018 253);
+  --color-suave: oklch(70% 0.03 257);
+  --color-hint: oklch(58% 0.04 257);
+  --color-borde: oklch(32% 0.035 262);
+  --color-borde-card: oklch(30% 0.035 262);
+}
+
+/* Tarjetas blancas y textos de color oscuros: se cambian por clase (no por variable)
+   para no oscurecer el texto blanco de los botones ni los fondos sólidos. */
+.dark :is(.bg-white, .bg-\[\#eff6ff\]):not(.tema-claro, .tema-claro *) {
+  background-color: oklch(20.5% 0.034 265);
+}
+.dark :is(.bg-white\/85, .bg-white\/95) {
+  background-color: oklch(20.5% 0.034 265 / 0.85);
+}
+.dark .border-\[\#bfdbfe\] {
+  border-color: rgba(59, 130, 246, 0.35);
+}
+.dark .shadow-sm:not(.tema-claro *) {
+  --tw-shadow-color: rgba(0, 0, 0, 0.4);
+}
+.dark :is(.text-blue-600, .text-blue-700, .hover\:text-blue-700:hover):not(.tema-claro *) { color: #93c5fd; }
+.dark :is(.text-violet-600, .text-violet-700):not(.tema-claro *) { color: #c4b5fd; }
+.dark .text-teal-700:not(.tema-claro *) { color: #5eead4; }
+.dark :is(.text-amber-700, .text-amber-800):not(.tema-claro *) { color: #fcd34d; }
+.dark :is(.text-emerald-700, .hover\:text-emerald-700:hover, .text-green-700):not(.tema-claro *) { color: #6ee7b7; }
+.dark :is(.text-red-600, .text-red-700):not(.tema-claro *) { color: #fca5a5; }
+.dark .text-sky-700:not(.tema-claro *) { color: #7dd3fc; }
+.dark .text-orange-600:not(.tema-claro *) { color: #fdba74; }
+.dark ::selection { background: #3730a3; }
+
+/* Islas que se quedan claras también en oscuro: hoja de horario y etiquetas pastel
+   (el mapa curricular sí se oscurece: sus tarjetas traen su propio color). Sus colores pastel con letra oscura no tienen versión oscura. */
+.tema-claro {
+  color-scheme: light;
+  --color-slate-50: oklch(98.4% 0.003 247.858);
+  --color-slate-100: oklch(96.8% 0.007 247.896);
+  --color-slate-200: oklch(92.9% 0.013 255.508);
+  --color-slate-300: oklch(86.9% 0.022 252.894);
+  --color-slate-400: oklch(70.4% 0.04 256.788);
+  --color-slate-500: oklch(55.4% 0.046 257.417);
+  --color-slate-600: oklch(44.6% 0.043 257.281);
+  --color-slate-700: oklch(37.2% 0.044 257.287);
+  --color-slate-800: oklch(27.9% 0.041 260.031);
+  --color-slate-900: oklch(20.8% 0.042 265.755);
+  --color-slate-950: oklch(12.9% 0.042 264.695);
+}
+
+/* ---------- Movimiento ----------
+   Todo anima solo opacity y transform: la tarjeta gráfica lo mueve sin recalcular la página. */
+@keyframes entrada {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+.animate-entrada {
+  animation: entrada 0.35s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+/* Aparece en cascada: cada elemento espera según su --i (0, 1, 2…) */
+@keyframes subir {
+  from { opacity: 0; transform: translateY(18px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+.cascada {
+  animation: subir 0.55s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation-delay: calc(var(--i, 0) * 70ms);
+}
+
+/* Las nubes de color de la portada flotan despacio */
+@keyframes flotar {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(40px, -30px) scale(1.08); }
+  66% { transform: translate(-30px, 20px) scale(0.95); }
+}
+.flotar {
+  animation: flotar 18s ease-in-out infinite;
+}
+
+/* Brillo que cruza los botones de degradado al pasar el mouse */
+/* (el botón pone su propio relative/fixed: aquí no se toca position) */
+.brillo {
+  overflow: hidden;
+}
+.brillo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.35) 50%, transparent 70%);
+  transform: translateX(-120%);
+  transition: transform 0.7s ease;
+}
+.brillo:hover::after {
+  transform: translateX(120%);
+}
+
+/* Al bajar, las secciones aparecen al entrar a la pantalla (solo en navegadores que
+   lo soportan; en los demás simplemente se ven, sin animación) */
+@supports (animation-timeline: view()) {
+  .revelar {
+    animation: subir linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 60%;
+  }
+}
+
+/* Cambio de tema: el nuevo color se expande en círculo desde el botón */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+::view-transition-new(root) {
+  animation: revelar-tema 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+}
+@keyframes revelar-tema {
+  from { clip-path: circle(0 at var(--tx, 100%) var(--ty, 0)); }
+  to { clip-path: circle(150vmax at var(--tx, 100%) var(--ty, 0)); }
+}
+
+/* Fondo de unos y ceros (FondoBinario.tsx): detrás de todo, sin recibir clics */
+.fondo-binario {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+.fondo-binario span {
+  position: absolute;
+  font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+  color: #4a6dff;
+  opacity: 0;
+  animation: bit ease-in-out infinite;
+}
+.dark .fondo-binario span {
+  color: #7a9bff;
+}
+@keyframes bit {
+  0%, 100% { opacity: 0; }
+  20%, 70% { opacity: 0.22; }
+}
+
+/* Cinta de logos del Inicio: la pista lleva los logos dos veces y avanza media pista */
+.cinta {
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+.cinta-pista {
+  display: flex;
+  width: max-content;
+  gap: 1rem;
+  animation: cinta 60s linear infinite;
+}
+.cinta-pista.al-reves {
+  animation-direction: reverse;
+}
+.cinta:hover .cinta-pista {
+  animation-play-state: paused;
+}
+@keyframes cinta {
+  to { transform: translateX(calc(-50% - 0.5rem)); }
+}
+
+/* El dinosaurio de Chrome salta mientras SOFIA no responde */
+.dino-salta {
+  animation: dino 1.2s ease-in-out infinite;
+}
+@keyframes dino {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-14px); }
+}
+
+/* Quien pidió menos movimiento en su sistema operativo no ve animaciones */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after,
+  ::view-transition-new(root) {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

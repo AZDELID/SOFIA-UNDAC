@@ -1,0 +1,37 @@
+# SOFIA (Sistema de Orientación y Formularios con IA): docker compose up -d --build  →  http://<ip-del-servidor>:8080
+services:
+  web:
+    build: ./web
+    ports:
+      - "8080:80"
+    depends_on: [api]
+    restart: unless-stopped
+
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    environment:
+      # URL de la API institucional (lleva tokens): solo vive en .env
+      UNDAC_API_BASE_URL: ${UNDAC_API_BASE_URL}
+      OLLAMA_URL: http://ollama:11434
+      OLLAMA_MODELO: ${OLLAMA_MODELO}
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:0.34.4
+    environment:
+      # deja el modelo cargado en la tarjeta: cargarlo de nuevo tarda ~90 s
+      OLLAMA_KEEP_ALIVE: 24h
+    volumes:
+      - ${OLLAMA_DIR}:/root/.ollama
+    # Usa la tarjeta NVIDIA; en un servidor sin GPU borra este bloque y corre en CPU
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    restart: unless-stopped
+

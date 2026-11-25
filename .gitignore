@@ -1,0 +1,7 @@
+# La URL de la API UNDAC lleva tokens: nunca se sube
+.env
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
