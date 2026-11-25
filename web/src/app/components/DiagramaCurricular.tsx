@@ -1,5 +1,5 @@
 import { useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from "react";
-import { ZoomIn, ZoomOut, Maximize2, X, ArrowRight, ArrowLeft } from "lucide-react";
+import { ZoomIn, ZoomOut, Maximize2, X, ArrowRight, ArrowLeft, BookOpen, Lightbulb, Target } from "lucide-react";
 import { cursosData, creditosSemestre, SEMESTRES_AHORA } from "../data/cursos";
 import { LOGOS, herramientasDe, urlLogo } from "../data/logos";
 
@@ -380,7 +380,19 @@ export function DiagramaCurricular({ cursos: todos, ramas, onHorario, onActivida
               <X size={18} />
             </button>
           </div>
-          {seleccionado.recomendacion && <p className="text-slate-700 text-sm mt-3">{seleccionado.recomendacion}</p>}
+          <div className="mt-3 space-y-3 text-sm">
+            {[
+              { icono: BookOpen, titulo: "De qué va", texto: seleccionado.sumilla },
+              { icono: Lightbulb, titulo: "Consejo", texto: seleccionado.recomendacion },
+              { icono: Target, titulo: "Para qué te sirve", texto: seleccionado.importancia },
+            ].map(({ icono: Icono, titulo, texto }) => texto && (
+              <div key={titulo}>
+                <div className="flex items-center gap-1.5 text-xs font-semibold text-slate-500"><Icono size={14} /> {titulo}</div>
+                <p className="text-slate-700 mt-0.5">{texto}</p>
+              </div>
+            ))}
+            <p className="text-[11px] text-slate-400">Textos referenciales: el sílabo de tu docente manda.</p>
+          </div>
           {herramientasDe(seleccionado.nombre).length > 0 && (
             <div className="mt-4">
               <div className="text-xs font-medium text-slate-500 mb-2">Herramientas que se suelen usar</div>

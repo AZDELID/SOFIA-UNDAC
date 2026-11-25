@@ -127,7 +127,8 @@ def _ficha(c: dict) -> str:
     hab = ", ".join(map(otro, c["desbloquea"])) or "ninguno"
     # en romano: con "semestre 9" el modelo llegó a decir "sexto semestre (semestre 9)"
     return (f"- {c['codigo']} {c['nombre']} (malla {c['malla']}xxx): semestre {ROMANO[c['semestre']]}, {c['creditos']} créditos, "
-            f"{c['tipo']}. Prerrequisitos: {req}. Habilita: {hab}.")
+            f"{c['tipo']}. Prerrequisitos: {req}. Habilita: {hab}. "
+            f"De qué trata (referencial): {c.get('sumilla', '-')} Consejo: {c.get('recomendacion', '-')}")
 
 
 def cursos_mencionados(pregunta: str) -> list:

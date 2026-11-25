@@ -9,7 +9,8 @@
   "desbloquea": [
    "17203"
   ],
-  "recomendacion": "Es importante comprender álgebra básica, ecuaciones y manipulación algebraica, ya que estos conceptos se utilizarán en múltiples cursos de matemática.",
+  "sumilla": "Lógica proposicional, conjuntos, números reales, ecuaciones, inecuaciones y funciones.",
+  "recomendacion": "Resuelve ejercicios todos los días: aquí se arma el álgebra que usarás en todos los cursos de cálculo.",
   "importancia": "Base para cursos matemáticos posteriores",
   "malla": "17"
  },
@@ -21,7 +22,8 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "Es importante desarrollar habilidades de redacción técnica que serán necesarias en informes, proyectos y tesis.",
+  "sumilla": "Redacción de textos académicos, ortografía, argumentación y exposición oral.",
+  "recomendacion": "Aprende a citar en APA desde ya: lo vas a usar en cada informe hasta la tesis.",
   "importancia": "Esencial para comunicación profesional",
   "malla": "17"
  },
@@ -33,7 +35,8 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "Curso importante para fortalecer habilidades matemáticas utilizadas en cursos avanzados de ingeniería.",
+  "sumilla": "Matrices, determinantes, sistemas de ecuaciones, vectores y números complejos.",
+  "recomendacion": "Practica las operaciones con matrices a mano: reaparecen en gráficos por computadora e IA.",
   "importancia": "Refuerzo matemático general",
   "malla": "17"
  },
@@ -47,7 +50,8 @@
   "desbloquea": [
    "17205"
   ],
-  "recomendacion": "Se recomienda reforzar conceptos de trigonometría y vectores. Este curso es base para Física I.",
+  "sumilla": "Magnitudes, vectores, cinemática, dinámica, trabajo y energía.",
+  "recomendacion": "Dibuja siempre el diagrama de fuerzas antes de escribir ecuaciones.",
   "importancia": "Fundamento para física aplicada",
   "malla": "17"
  },
@@ -61,7 +65,8 @@
   "desbloquea": [
    "17202"
   ],
-  "recomendacion": "Se recomienda dominar funciones algebraicas y conceptos básicos de límites. Este curso es fundamental para comprender cursos posteriores como cálculo integral y cálculo multivariable.",
+  "sumilla": "Límites, continuidad, derivadas y sus aplicaciones: máximos, mínimos y razón de cambio.",
+  "recomendacion": "Domina las reglas de derivación hasta hacerlas sin pensar: Cálculo Integral parte de ahí.",
   "importancia": "Fundamental para ramas matemáticas avanzadas",
   "malla": "17"
  },
@@ -78,7 +83,8 @@
    "17308",
    "17315"
   ],
-  "recomendacion": "Este curso introduce el pensamiento algorítmico. Es fundamental para programación, estructuras de datos y desarrollo de software.",
+  "sumilla": "Cómo plantear la solución de un problema paso a paso: pseudocódigo, diagramas de flujo, condicionales, bucles y arreglos.",
+  "recomendacion": "Aunque el curso sea en papel, pasa cada pseudocódigo a Python o C++ y pruébalo.",
   "importancia": "Base fundamental de la programación",
   "malla": "17"
  },
@@ -90,7 +96,8 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "Curso de formación científica básica.",
+  "sumilla": "Materia, estructura atómica, tabla periódica, enlaces, reacciones y estequiometría.",
+  "recomendacion": "Memoriza poco y entiende mucho: la estequiometría es pura proporción.",
   "importancia": "Fundamentos científicos",
   "malla": "17"
  },
@@ -102,7 +109,8 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "Curso orientado a comprender el contexto social y económico del país.",
+  "sumilla": "Análisis de la situación social, económica, política y cultural del Perú y de la región.",
+  "recomendacion": "Sigue las noticias de Pasco y la sierra central: los trabajos suelen pedir casos de la región.",
   "importancia": "Formación ciudadana",
   "malla": "17"
  },
@@ -116,7 +124,8 @@
   "desbloquea": [
    "17207"
   ],
-  "recomendacion": "Este curso es fundamental para análisis de datos, inteligencia artificial e investigación.",
+  "sumilla": "Estadística descriptiva: tablas, gráficos, medidas de tendencia y dispersión, y probabilidad básica.",
+  "recomendacion": "Haz los ejercicios también en Excel: así aprendes la herramienta que más vas a usar.",
   "importancia": "Base para análisis de datos",
   "malla": "17"
  },
@@ -128,7 +137,8 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "Permite desarrollar técnicas de organización y aprendizaje académico.",
+  "sumilla": "Técnicas de estudio, organización del tiempo, lectura comprensiva y normas para trabajos universitarios.",
+  "recomendacion": "Aplica lo que veas en tus otros cursos del semestre: es el momento de armar tu propio método.",
   "importancia": "Herramientas para el éxito académico",
   "malla": "17"
  },
@@ -140,7 +150,8 @@
   "tipo": "Electivo",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "Curso orientado al desarrollo integral del estudiante.",
+  "sumilla": "Taller práctico de expresión artística para la formación integral del estudiante.",
+  "recomendacion": "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
   "importancia": "Formación integral",
   "malla": "17"
  },
@@ -152,7 +163,8 @@
   "tipo": "Electivo",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "Curso orientado al desarrollo integral del estudiante.",
+  "sumilla": "Taller práctico de expresión artística para la formación integral del estudiante.",
+  "recomendacion": "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
   "importancia": "Formación integral",
   "malla": "17"
  },
@@ -164,7 +176,8 @@
   "tipo": "Electivo",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "Curso orientado al desarrollo integral del estudiante.",
+  "sumilla": "Taller práctico de expresión artística para la formación integral del estudiante.",
+  "recomendacion": "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
   "importancia": "Formación integral",
   "malla": "17"
  },
@@ -180,7 +193,8 @@
   "desbloquea": [
    "17204"
   ],
-  "recomendacion": "Dominar derivadas y límites facilitará el aprendizaje de integrales.",
+  "sumilla": "Integrales indefinidas y definidas, técnicas de integración y cálculo de áreas y volúmenes.",
+  "recomendacion": "Haz una hoja resumen de las técnicas (sustitución, por partes, fracciones parciales) y practica reconocer cuál usar.",
   "importancia": "Continuación esencial del cálculo",
   "malla": "17"
  },
@@ -196,7 +210,8 @@
   "desbloquea": [
    "17303"
   ],
-  "recomendacion": "Es importante comprender estructuras de control, variables y lógica de programación.",
+  "sumilla": "Primer lenguaje formal: variables, tipos de datos, estructuras de control, funciones y arreglos.",
+  "recomendacion": "Programa todos los días, aunque sean 20 minutos; resuelve retos en HackerRank o LeetCode.",
   "importancia": "Primera experiencia práctica en código",
   "malla": "17"
  },
@@ -208,7 +223,8 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "Curso de formación general.",
+  "sumilla": "Ecosistemas, recursos naturales, contaminación y desarrollo sostenible.",
+  "recomendacion": "Relaciónalo con la minería de Pasco: los trabajos con un caso local destacan.",
   "importancia": "Conciencia ambiental",
   "malla": "17"
  },
@@ -220,7 +236,8 @@
   "tipo": "Electivo",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "El dominio del inglés es fundamental en la ingeniería de sistemas debido a la gran cantidad de documentación técnica disponible en este idioma.",
+  "sumilla": "Gramática y vocabulario básico del inglés, con lectura de textos sencillos.",
+  "recomendacion": "Lee documentación técnica en inglés desde ahora: es el idioma de casi todo lo que vas a estudiar.",
   "importancia": "Esencial para documentación técnica",
   "malla": "17"
  },
@@ -232,7 +249,8 @@
   "tipo": "Electivo",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "Curso orientado a la preservación cultural.",
+  "sumilla": "Bases del quechua: pronunciación, saludos, vocabulario y estructura de oraciones.",
+  "recomendacion": "Practica con familiares o vecinos que lo hablen: es la forma más rápida de avanzar.",
   "importancia": "Formación cultural",
   "malla": "17"
  },
@@ -244,7 +262,8 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "Curso orientado a la formación integral.",
+  "sumilla": "Actividad física, deporte y hábitos de vida saludable.",
+  "recomendacion": "Asiste a todas las sesiones: se evalúa sobre todo la participación.",
   "importancia": "Salud y bienestar",
   "malla": "17"
  },
@@ -258,7 +277,8 @@
    "17101"
   ],
   "desbloquea": [],
-  "recomendacion": "Continuación de álgebra y matemática aplicada.",
+  "sumilla": "Continuación de Matemática Básica: geometría analítica, cónicas, funciones y sucesiones.",
+  "recomendacion": "Repasa funciones antes de empezar: son la base de todo lo que sigue.",
   "importancia": "Profundización matemática",
   "malla": "17"
  },
@@ -274,7 +294,8 @@
   "desbloquea": [
    "17209"
   ],
-  "recomendacion": "Se recomienda dominar integrales y derivadas parciales.",
+  "sumilla": "Funciones de varias variables, derivadas parciales e integrales dobles y triples.",
+  "recomendacion": "Mira las superficies en GeoGebra 3D: ver la gráfica ayuda mucho.",
   "importancia": "Cálculo avanzado aplicado",
   "malla": "17"
  },
@@ -290,7 +311,8 @@
   "desbloquea": [
    "17208"
   ],
-  "recomendacion": "Aplicación de conceptos físicos fundamentales.",
+  "sumilla": "Mecánica: estática, dinámica de partículas y del cuerpo rígido, y oscilaciones.",
+  "recomendacion": "Resuelve exámenes pasados: los tipos de problema se repiten.",
   "importancia": "Física aplicada a ingeniería",
   "malla": "17"
  },
@@ -304,7 +326,8 @@
    "17302"
   ],
   "desbloquea": [],
-  "recomendacion": "Consolidar conocimientos de programación estructurada y modular.",
+  "sumilla": "Programación orientada a objetos: clases, herencia, polimorfismo, colecciones y manejo de excepciones.",
+  "recomendacion": "Haz un proyecto pequeño propio (un inventario, una agenda): los objetos se entienden usándolos.",
   "importancia": "Programación intermedia",
   "malla": "17"
  },
@@ -318,7 +341,8 @@
   "desbloquea": [
    "17222"
   ],
-  "recomendacion": "Curso importante para la elaboración de proyectos de investigación.",
+  "sumilla": "Cómo plantear un problema, objetivos, hipótesis, marco teórico y diseño de una investigación.",
+  "recomendacion": "Elige un tema de sistemas que de verdad te interese: puede volverse tu tesis.",
   "importancia": "Base para investigación académica",
   "malla": "17"
  },
@@ -330,7 +354,8 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "Curso extremadamente importante para estructuras de datos, algoritmos y teoría de la computación.",
+  "sumilla": "Lógica, conjuntos, relaciones, combinatoria, grafos y árboles.",
+  "recomendacion": "Conecta cada tema con la programación: grafos y combinatoria reaparecen en algoritmos y redes.",
   "importancia": "Base de ciencias de la computación",
   "malla": "17"
  },
@@ -344,7 +369,8 @@
    "17107"
   ],
   "desbloquea": [],
-  "recomendacion": "Estadística aplicada al análisis y toma de decisiones.",
+  "sumilla": "Distribuciones, muestreo, intervalos de confianza y pruebas de hipótesis.",
+  "recomendacion": "Aprende a hacerlo en Excel, R o Python: en la tesis lo necesitarás para analizar tus datos.",
   "importancia": "Análisis estadístico avanzado",
   "malla": "17"
  },
@@ -360,7 +386,8 @@
   "desbloquea": [
    "17213"
   ],
-  "recomendacion": "Introduce conceptos de hardware que serán utilizados en arquitectura de computadoras.",
+  "sumilla": "Circuitos eléctricos y componentes (resistencias, diodos, transistores) y su análisis.",
+  "recomendacion": "Arma los circuitos en un simulador (Tinkercad, Proteus) antes del laboratorio.",
   "importancia": "Fundamentos de hardware",
   "malla": "17"
  },
@@ -376,7 +403,8 @@
   "desbloquea": [
    "17212"
   ],
-  "recomendacion": "Curso fundamental para optimización, modelamiento matemático y toma de decisiones.",
+  "sumilla": "Programación lineal, método simplex y modelos de transporte y asignación.",
+  "recomendacion": "Plantea bien el modelo antes de resolver y compruébalo con Solver de Excel.",
   "importancia": "Optimización y decisiones",
   "malla": "17"
  },
@@ -390,7 +418,8 @@
   "desbloquea": [
    "17214"
   ],
-  "recomendacion": "Permite comprender principios económicos aplicados a organizaciones.",
+  "sumilla": "Microeconomía y macroeconomía: oferta, demanda, mercados, inflación y PBI.",
+  "recomendacion": "Relaciona cada concepto con una noticia económica del Perú: se entiende y se recuerda mejor.",
   "importancia": "Gestión y negocios",
   "malla": "17"
  },
@@ -404,7 +433,8 @@
   "desbloquea": [
    "17305"
   ],
-  "recomendacion": "Curso fundamental para comprender autómatas, lenguajes formales y fundamentos de la computación.",
+  "sumilla": "Autómatas, lenguajes formales, gramáticas y máquinas de Turing.",
+  "recomendacion": "Usa JFLAP para dibujar y probar autómatas: ver cómo procesan una cadena lo aclara todo.",
   "importancia": "Fundamentos teóricos de la computación",
   "malla": "17"
  },
@@ -416,7 +446,8 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "Curso fundamental para comprender el enfoque sistémico en la ingeniería.",
+  "sumilla": "Enfoque sistémico: sistemas, subsistemas, entropía y retroalimentación, aplicados a organizaciones.",
+  "recomendacion": "Analiza una organización real (tu facultad, un negocio) como sistema: así se vuelve concreto.",
   "importancia": "Pensamiento sistémico",
   "malla": "17"
  },
@@ -432,7 +463,8 @@
   "desbloquea": [
    "17310"
   ],
-  "recomendacion": "Profundiza en técnicas de optimización avanzadas.",
+  "sumilla": "Modelos probabilísticos: teoría de colas, inventarios, decisiones y cadenas de Markov.",
+  "recomendacion": "Repasa probabilidad antes de empezar: casi todo el curso se apoya en ella.",
   "importancia": "Optimización avanzada",
   "malla": "17"
  },
@@ -448,7 +480,8 @@
   "desbloquea": [
    "17332"
   ],
-  "recomendacion": "Ampliación de conceptos electrónicos aplicados.",
+  "sumilla": "Electrónica digital: compuertas lógicas, álgebra de Boole y circuitos combinacionales y secuenciales.",
+  "recomendacion": "Practica con Arduino o un simulador: ver tu lógica encender un LED ayuda mucho.",
   "importancia": "Hardware avanzado",
   "malla": "17"
  },
@@ -464,7 +497,8 @@
   "desbloquea": [
    "17216"
   ],
-  "recomendacion": "Importante para comprender la gestión financiera en proyectos.",
+  "sumilla": "Estados financieros, registro contable y cálculo de costos de producción.",
+  "recomendacion": "Arma en Excel los estados de un negocio pequeño: la teoría sola se olvida rápido.",
   "importancia": "Gestión financiera",
   "malla": "17"
  },
@@ -478,7 +512,8 @@
   "desbloquea": [
    "17218"
   ],
-  "recomendacion": "Fundamentos de gestión y calidad en organizaciones.",
+  "sumilla": "Proceso administrativo y gestión de la calidad: ciclo PDCA, normas ISO y mejora continua.",
+  "recomendacion": "Busca un ejemplo real de mejora continua: los casos prácticos pesan en la nota.",
   "importancia": "Gestión organizacional",
   "malla": "17"
  },
@@ -494,7 +529,8 @@
   "desbloquea": [
    "17307"
   ],
-  "recomendacion": "Curso fundamental para comprender cómo funcionan los computadores a nivel de hardware.",
+  "sumilla": "Cómo está hecho un computador: CPU, memoria, buses, entrada/salida y lenguaje ensamblador.",
+  "recomendacion": "Abre una PC (con cuidado) y ubica cada parte; luego prueba un simulador de ensamblador.",
   "importancia": "Fundamentos de hardware computacional",
   "malla": "17"
  },
@@ -510,7 +546,8 @@
   "desbloquea": [
    "17309"
   ],
-  "recomendacion": "Curso crucial para el diseño y gestión de bases de datos.",
+  "sumilla": "Modelo entidad-relación, modelo relacional, normalización y SQL básico.",
+  "recomendacion": "Practica SQL en un motor real (SQL Server, MySQL o PostgreSQL) con datos que tú mismo inventes.",
   "importancia": "Gestión de datos",
   "malla": "17"
  },
@@ -526,7 +563,8 @@
   "desbloquea": [
    "17219"
   ],
-  "recomendacion": "Importante para comprender logística y gestión de operaciones.",
+  "sumilla": "Flujo de materiales en una empresa: compras, inventarios, almacenes y distribución.",
+  "recomendacion": "Fíjate en los sistemas (ERP) que controlan esa cadena: ahí está el aporte del ingeniero de sistemas.",
   "importancia": "Gestión de operaciones",
   "malla": "17"
  },
@@ -538,7 +576,8 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "Comprensión del factor humano en organizaciones.",
+  "sumilla": "Conducta de las personas en la empresa: motivación, liderazgo, cultura y cambio organizacional.",
+  "recomendacion": "Te servirá al implantar sistemas: la resistencia al cambio de los usuarios es real.",
   "importancia": "Gestión del talento humano",
   "malla": "17"
  },
@@ -554,7 +593,8 @@
   "desbloquea": [
    "17312"
   ],
-  "recomendacion": "Curso fundamental para comprender cómo funcionan los sistemas operativos.",
+  "sumilla": "Procesos, hilos, planificación, memoria, archivos y concurrencia.",
+  "recomendacion": "Usa Linux a diario mientras llevas el curso: la terminal te acompañará toda la carrera.",
   "importancia": "Gestión de recursos computacionales",
   "malla": "17"
  },
@@ -570,7 +610,8 @@
   "desbloquea": [
    "17314"
   ],
-  "recomendacion": "Introduce metodologías de desarrollo de software.",
+  "sumilla": "Ciclo de vida del software, requisitos, modelado con UML y metodologías de desarrollo.",
+  "recomendacion": "Trabaja con un proyecto real: un buen documento de requisitos te ahorra problemas en Software II.",
   "importancia": "Desarrollo de software profesional",
   "malla": "17"
  },
@@ -586,7 +627,8 @@
   "desbloquea": [
    "17313"
   ],
-  "recomendacion": "Profundiza en administración y optimización de bases de datos.",
+  "sumilla": "Bases de datos avanzadas: procedimientos almacenados, transacciones, índices, seguridad y optimización.",
+  "recomendacion": "Trabaja con un volumen grande de datos: así notas la diferencia que hace un índice.",
   "importancia": "Gestión avanzada de datos",
   "malla": "17"
  },
@@ -600,7 +642,8 @@
    "17212"
   ],
   "desbloquea": [],
-  "recomendacion": "Modelamiento y simulación de sistemas complejos.",
+  "sumilla": "Modelado y simulación de sistemas: números aleatorios, Montecarlo y simulación de eventos discretos.",
+  "recomendacion": "Aprende una herramienta (Arena, FlexSim o Python): el curso se entiende construyendo modelos.",
   "importancia": "Modelamiento de sistemas",
   "malla": "17"
  },
@@ -612,7 +655,8 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "Aplicación de tecnologías en el sector minero.",
+  "sumilla": "Software y tecnología aplicados a la minería: modelamiento, planificación y control de operaciones.",
+  "recomendacion": "Pasco es zona minera: conversar con alguien que trabaje en una mina abre puertas para las prácticas.",
   "importancia": "Tecnología aplicada a minería",
   "malla": "17"
  },
@@ -628,7 +672,8 @@
   "desbloquea": [
    "17220"
   ],
-  "recomendacion": "Desarrollo de habilidades de planificación estratégica.",
+  "sumilla": "Misión, visión, análisis FODA, objetivos estratégicos y control de la gestión.",
+  "recomendacion": "Practica con una empresa real: te servirá en el planeamiento de TI y en la tesis.",
   "importancia": "Gestión estratégica",
   "malla": "17"
  },
@@ -644,7 +689,8 @@
   "desbloquea": [
    "17221"
   ],
-  "recomendacion": "Gestión financiera de proyectos y organizaciones.",
+  "sumilla": "Análisis financiero, valor del dinero en el tiempo, presupuestos y financiamiento.",
+  "recomendacion": "Domina el VAN y la TIR en Excel: vuelven en los cursos de proyectos.",
   "importancia": "Finanzas corporativas",
   "malla": "17"
  },
@@ -660,7 +706,8 @@
   "desbloquea": [
    "17319"
   ],
-  "recomendacion": "Fundamentos de redes y comunicación de datos.",
+  "sumilla": "Modelos OSI y TCP/IP, direccionamiento IP, subredes, cableado y dispositivos de red.",
+  "recomendacion": "Practica el subneteo hasta hacerlo rápido y arma topologías en Cisco Packet Tracer.",
   "importancia": "Conectividad y redes",
   "malla": "17"
  },
@@ -676,7 +723,8 @@
   "desbloquea": [
    "17333"
   ],
-  "recomendacion": "Análisis de datos para toma de decisiones empresariales.",
+  "sumilla": "Data warehouse, procesos ETL, cubos OLAP y tableros para tomar decisiones.",
+  "recomendacion": "Haz un tablero en Power BI con datos reales: queda muy bien en tu portafolio.",
   "importancia": "Business Intelligence",
   "malla": "17"
  },
@@ -693,7 +741,8 @@
    "17320",
    "17321"
   ],
-  "recomendacion": "Metodologías avanzadas de desarrollo de software.",
+  "sumilla": "Diseño, arquitectura, pruebas, mantenimiento y gestión de la configuración del software.",
+  "recomendacion": "Usa Git con tu equipo desde el primer día: trabajar con ramas te lo pedirán en cualquier empleo.",
   "importancia": "Desarrollo de software avanzado",
   "malla": "17"
  },
@@ -707,7 +756,8 @@
    "17301"
   ],
   "desbloquea": [],
-  "recomendacion": "Comprensión del diseño e implementación de lenguajes.",
+  "sumilla": "Cómo se diseña un lenguaje: sintaxis, semántica, análisis léxico y sintáctico, compiladores e intérpretes.",
+  "recomendacion": "Construye un intérprete pequeño (una calculadora): es la mejor forma de entender un compilador.",
   "importancia": "Teoría de lenguajes",
   "malla": "17"
  },
@@ -721,7 +771,8 @@
   "desbloquea": [
    "17322"
   ],
-  "recomendacion": "Especialización en protocolos de red y enrutamiento.",
+  "sumilla": "Configuración de switches y routers: VLAN y enrutamiento estático y dinámico (RIP, OSPF).",
+  "recomendacion": "Practica mucho en Packet Tracer y, si puedes, sigue el material de CCNA.",
   "importancia": "Redes avanzadas",
   "malla": "17"
  },
@@ -735,7 +786,8 @@
   "desbloquea": [
    "17323"
   ],
-  "recomendacion": "Metodologías modernas como Scrum y Kanban.",
+  "sumilla": "Scrum, Kanban y XP: iteraciones, historias de usuario y roles del equipo.",
+  "recomendacion": "Organiza tus trabajos de grupo en un tablero (Trello o GitHub Projects): es práctica real.",
   "importancia": "Desarrollo ágil",
   "malla": "17"
  },
@@ -749,7 +801,8 @@
   "desbloquea": [
    "17324"
   ],
-  "recomendacion": "Desarrollo frontend con tecnologías modernas.",
+  "sumilla": "HTML, CSS y JavaScript para construir la parte visible de una web, con diseño adaptable.",
+  "recomendacion": "Publica tus prácticas en GitHub Pages o Vercel: un portafolio en línea vale más que una nota.",
   "importancia": "Desarrollo web frontend",
   "malla": "17"
  },
@@ -763,7 +816,8 @@
    "17218"
   ],
   "desbloquea": [],
-  "recomendacion": "Metodologías de gestión de proyectos como PMBOK.",
+  "sumilla": "Planificación, cronograma, costos, riesgos y seguimiento de proyectos según la guía PMBOK.",
+  "recomendacion": "Arma el cronograma de un proyecto real en un diagrama de Gantt: lo usarás en la tesis y en el trabajo.",
   "importancia": "Project Management",
   "malla": "17"
  },
@@ -779,7 +833,8 @@
   "desbloquea": [
    "17224"
   ],
-  "recomendacion": "Estrategias de marketing para productos y servicios.",
+  "sumilla": "Marketing: segmentación, producto, precio, plaza, promoción y marketing digital.",
+  "recomendacion": "Analiza cómo un negocio local usa sus redes sociales: los casos cercanos se entienden mejor.",
   "importancia": "Marketing y ventas",
   "malla": "17"
  },
@@ -795,7 +850,8 @@
   "desbloquea": [
    "17223"
   ],
-  "recomendacion": "Inicio del proyecto de investigación de tesis.",
+  "sumilla": "Elaboración del proyecto de investigación: problema, objetivos, marco teórico y metodología.",
+  "recomendacion": "Elige tu tema y tu asesor pronto: es lo que más retrasa la titulación.",
   "importancia": "Investigación de tesis",
   "malla": "17"
  },
@@ -811,7 +867,8 @@
   "desbloquea": [
    "17326"
   ],
-  "recomendacion": "Profundización en arquitecturas de red y protocolos.",
+  "sumilla": "Redes avanzadas: WAN, servicios de red, redes inalámbricas y seguridad.",
+  "recomendacion": "Configura servicios reales (DHCP, DNS) en máquinas virtuales para practicar.",
   "importancia": "Redes avanzadas",
   "malla": "17"
  },
@@ -827,7 +884,8 @@
   "desbloquea": [
    "17325"
   ],
-  "recomendacion": "Sistemas de información para la toma de decisiones.",
+  "sumilla": "Sistemas que apoyan las decisiones de los gerentes: tipos de sistemas de información, ERP, CRM e indicadores.",
+  "recomendacion": "Relaciona cada tipo de sistema con una empresa que conozcas.",
   "importancia": "Sistemas gerenciales",
   "malla": "17"
  },
@@ -844,7 +902,8 @@
    "17327",
    "17328"
   ],
-  "recomendacion": "Temas actuales en ingeniería de sistemas.",
+  "sumilla": "Temas actuales de la carrera que elige el docente: nuevas tecnologías y tendencias.",
+  "recomendacion": "Aprovecha para explorar un área nueva: puede marcar tu especialización.",
   "importancia": "Tendencias tecnológicas",
   "malla": "17"
  },
@@ -860,7 +919,8 @@
   "desbloquea": [
    "17329"
   ],
-  "recomendacion": "Gestión y administración de servidores.",
+  "sumilla": "Instalación y administración de servidores Linux y Windows: usuarios, servicios, seguridad, respaldos y contenedores.",
+  "recomendacion": "Practica en máquinas virtuales o con Docker: romper y reparar tu propio servidor enseña más que la teoría.",
   "importancia": "Administración de infraestructura",
   "malla": "17"
  },
@@ -876,7 +936,8 @@
   "desbloquea": [
    "17330"
   ],
-  "recomendacion": "Desarrollo de soluciones de software empresarial.",
+  "sumilla": "Desarrollo en equipo de un sistema completo, desde los requisitos hasta la entrega.",
+  "recomendacion": "Elige un problema real (un negocio, una oficina de la UNDAC): un sistema que se usa de verdad suma en tu portafolio.",
   "importancia": "Desarrollo empresarial",
   "malla": "17"
  },
@@ -892,7 +953,8 @@
   "desbloquea": [
    "17331"
   ],
-  "recomendacion": "Desarrollo backend con tecnologías modernas.",
+  "sumilla": "Programación del lado del servidor (PHP, Node.js u otros), conexión a bases de datos, sesiones y APIs.",
+  "recomendacion": "Aprende a crear una API REST: casi todas las aplicaciones modernas se comunican así.",
   "importancia": "Desarrollo web backend",
   "malla": "17"
  },
@@ -908,7 +970,8 @@
   "desbloquea": [
    "17225"
   ],
-  "recomendacion": "Continuación y desarrollo del proyecto de tesis.",
+  "sumilla": "Ejecución de la investigación: recojo y análisis de datos, resultados, discusión y conclusiones.",
+  "recomendacion": "Reúnete con tu asesor cada semana y no dejes la redacción para el final.",
   "importancia": "Desarrollo de tesis",
   "malla": "17"
  },
@@ -924,7 +987,8 @@
   "desbloquea": [
    "17226"
   ],
-  "recomendacion": "Optimización y rediseño de procesos empresariales.",
+  "sumilla": "Análisis, modelado y mejora de los procesos de negocio con BPMN, apoyados en la tecnología.",
+  "recomendacion": "Modela los procesos en Bizagi (es gratuito): es la herramienta que más se usa para BPMN.",
   "importancia": "Mejora de procesos",
   "malla": "17"
  },
@@ -938,7 +1002,8 @@
    "17320"
   ],
   "desbloquea": [],
-  "recomendacion": "Sistemas basados en conocimiento e inteligencia artificial.",
+  "sumilla": "Sistemas que razonan como un experto: base de conocimiento, reglas, motor de inferencia y lógica difusa.",
+  "recomendacion": "Construye un sistema experto pequeño (un diagnóstico, por ejemplo) en Python o Prolog.",
   "importancia": "Inteligencia artificial",
   "malla": "17"
  },
@@ -954,7 +1019,8 @@
   "desbloquea": [
    "17334"
   ],
-  "recomendacion": "Gestión estratégica de TI en organizaciones.",
+  "sumilla": "Gestión del área de TI en una organización: servicios, ITIL, COBIT y gobierno de TI.",
+  "recomendacion": "Aprende ITIL a nivel básico: lo piden mucho en empleos de soporte y gestión.",
   "importancia": "Gestión de TI",
   "malla": "17"
  },
@@ -968,7 +1034,8 @@
    "17321"
   ],
   "desbloquea": [],
-  "recomendacion": "Temas avanzados y actuales en ingeniería de sistemas.",
+  "sumilla": "Temas actuales de la carrera que elige el docente: nuevas tecnologías y tendencias.",
+  "recomendacion": "Aprovecha para explorar un área nueva: puede marcar tu especialización.",
   "importancia": "Tendencias avanzadas",
   "malla": "17"
  },
@@ -984,7 +1051,8 @@
   "desbloquea": [
    "17336"
   ],
-  "recomendacion": "Primera experiencia profesional en empresas.",
+  "sumilla": "Trabajo en una empresa o institución aplicando lo aprendido, bajo la guía de un docente asesor.",
+  "recomendacion": "Busca la empresa con tiempo y revisa la ruta de prácticas en SOFIA: plazos, anexos y el FUT que toca.",
   "importancia": "Experiencia profesional",
   "malla": "17"
  },
@@ -998,7 +1066,8 @@
    "17322"
   ],
   "desbloquea": [],
-  "recomendacion": "Tecnologías de virtualización y computación en la nube.",
+  "sumilla": "Máquinas virtuales, contenedores y servicios en la nube (IaaS, PaaS, SaaS) en AWS, Azure o Google Cloud.",
+  "recomendacion": "Usa las cuentas gratuitas para estudiantes (AWS Educate, Azure for Students) y despliega algo tuyo.",
   "importancia": "Cloud computing",
   "malla": "17"
  },
@@ -1012,7 +1081,8 @@
    "17323"
   ],
   "desbloquea": [],
-  "recomendacion": "Desarrollo avanzado de soluciones de software.",
+  "sumilla": "Continuación de Desarrollo de Soluciones I: un sistema más grande, con calidad, pruebas y despliegue.",
+  "recomendacion": "Puede servirte de base para la tesis o las prácticas: elige el tema pensando en eso.",
   "importancia": "Desarrollo avanzado",
   "malla": "17"
  },
@@ -1026,7 +1096,8 @@
    "17324"
   ],
   "desbloquea": [],
-  "recomendacion": "Deployment y DevOps para aplicaciones web.",
+  "sumilla": "Publicar una aplicación en producción: servidores, dominios, HTTPS, contenedores e integración continua.",
+  "recomendacion": "Despliega tus proyectos en Vercel, Render o un VPS: tener algo en línea demuestra que sabes.",
   "importancia": "DevOps",
   "malla": "17"
  },
@@ -1040,7 +1111,8 @@
    "17223"
   ],
   "desbloquea": [],
-  "recomendacion": "Culminación del proyecto de investigación.",
+  "sumilla": "Investigación final con la que se obtiene el grado de bachiller.",
+  "recomendacion": "Si puedes, que sea la base de tu tesis: avanzas dos cosas a la vez.",
   "importancia": "Proyecto final",
   "malla": "17"
  },
@@ -1054,7 +1126,8 @@
    "17224"
   ],
   "desbloquea": [],
-  "recomendacion": "Desarrollo de habilidades emprendedoras.",
+  "sumilla": "Cómo crear un negocio: idea, modelo Canvas, validación con clientes y plan de negocios.",
+  "recomendacion": "Piensa en una startup tecnológica: muchos proyectos de software se vuelven negocios.",
   "importancia": "Emprendimiento",
   "malla": "17"
  },
@@ -1068,7 +1141,8 @@
    "17213"
   ],
   "desbloquea": [],
-  "recomendacion": "Automatización industrial y de procesos.",
+  "sumilla": "Automatización de procesos industriales y de oficina: sensores, controladores, PLC y robots de software (RPA).",
+  "recomendacion": "Practica con Arduino o con una herramienta RPA (UiPath tiene versión gratuita).",
   "importancia": "Automatización",
   "malla": "17"
  },
@@ -1082,7 +1156,8 @@
    "17313"
   ],
   "desbloquea": [],
-  "recomendacion": "Técnicas de análisis y extracción de conocimiento.",
+  "sumilla": "Descubrir patrones en grandes volúmenes de datos: clasificación, agrupamiento y reglas de asociación.",
+  "recomendacion": "Aprende Python con pandas y scikit-learn y practica con datos públicos de Kaggle.",
   "importancia": "Data mining",
   "malla": "17"
  },
@@ -1096,7 +1171,8 @@
    "17326"
   ],
   "desbloquea": [],
-  "recomendacion": "Auditoría y evaluación de sistemas de TI.",
+  "sumilla": "Evaluación de los controles, la seguridad y el uso de la tecnología en una organización (COBIT, normas ISO).",
+  "recomendacion": "Audita una oficina real: los hallazgos concretos son lo que más se valora.",
   "importancia": "Auditoría de TI",
   "malla": "17"
  },
@@ -1108,7 +1184,8 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "Aspectos legales de la tecnología y sistemas.",
+  "sumilla": "Leyes peruanas sobre tecnología: delitos informáticos, datos personales, firma digital y propiedad intelectual.",
+  "recomendacion": "Lee la Ley 30096 (delitos informáticos) y la Ley 29733 (datos personales): te tocará cumplirlas.",
   "importancia": "Marco legal",
   "malla": "17"
  },
@@ -1122,7 +1199,8 @@
    "17328"
   ],
   "desbloquea": [],
-  "recomendacion": "Continuación de experiencia profesional.",
+  "sumilla": "Trabajo en una empresa o institución aplicando lo aprendido, bajo la guía de un docente asesor.",
+  "recomendacion": "Busca la empresa con tiempo y revisa la ruta de prácticas en SOFIA: plazos, anexos y el FUT que toca.",
   "importancia": "Experiencia profesional avanzada",
   "malla": "17"
  },
@@ -1136,8 +1214,9 @@
   "desbloquea": [
    "26113"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Lógica proposicional, conjuntos, números reales, ecuaciones, inecuaciones y funciones.",
+  "recomendacion": "Resuelve ejercicios todos los días: aquí se arma el álgebra que usarás en todos los cursos de cálculo.",
+  "importancia": "Base para Matemática II y Cálculo",
   "malla": "26"
  },
  {
@@ -1148,8 +1227,9 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Redacción de textos académicos, ortografía, argumentación y exposición oral.",
+  "recomendacion": "Aprende a citar en APA desde ya: lo vas a usar en cada informe hasta la tesis.",
+  "importancia": "Redactar informes y exponer",
   "malla": "26"
  },
  {
@@ -1162,8 +1242,9 @@
   "desbloquea": [
    "26127"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Técnicas de estudio, organización del tiempo, lectura comprensiva y normas para trabajos universitarios.",
+  "recomendacion": "Aplica lo que veas en tus otros cursos del semestre: es el momento de armar tu propio método.",
+  "importancia": "Organizar tu estudio",
   "malla": "26"
  },
  {
@@ -1174,8 +1255,9 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Actividad física, deporte y hábitos de vida saludable.",
+  "recomendacion": "Asiste a todas las sesiones: se evalúa sobre todo la participación.",
+  "importancia": "Salud y bienestar",
   "malla": "26"
  },
  {
@@ -1188,8 +1270,9 @@
   "desbloquea": [
    "26202"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Magnitudes, vectores, cinemática, dinámica, trabajo y energía.",
+  "recomendacion": "Dibuja siempre el diagrama de fuerzas antes de escribir ecuaciones.",
+  "importancia": "Fundamento para física aplicada",
   "malla": "26"
  },
  {
@@ -1200,8 +1283,9 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Ecosistemas, recursos naturales, contaminación y desarrollo sostenible.",
+  "recomendacion": "Relaciónalo con la minería de Pasco: los trabajos con un caso local destacan.",
+  "importancia": "Proyectos responsables con el ambiente",
   "malla": "26"
  },
  {
@@ -1214,8 +1298,9 @@
   "desbloquea": [
    "26304"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Qué hace un ingeniero de sistemas: áreas de la carrera, historia de la computación, hardware, software y redes.",
+  "recomendacion": "Explora todas las áreas con curiosidad: aquí empiezas a ver cuál te gusta (el Elector de área de SOFIA ayuda).",
+  "importancia": "Conocer la carrera y sus áreas",
   "malla": "26"
  },
  {
@@ -1228,8 +1313,9 @@
   "desbloquea": [
    "26303"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Cómo plantear la solución de un problema paso a paso: pseudocódigo, diagramas de flujo, condicionales, bucles y arreglos.",
+  "recomendacion": "Aunque el curso sea en papel, pasa cada pseudocódigo a Python o C++ y pruébalo.",
+  "importancia": "Base fundamental de la programación",
   "malla": "26"
  },
  {
@@ -1242,8 +1328,9 @@
   "desbloquea": [
    "26205"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Estadística descriptiva: tablas, gráficos, medidas de tendencia y dispersión, y probabilidad básica.",
+  "recomendacion": "Haz los ejercicios también en Excel: así aprendes la herramienta que más vas a usar.",
+  "importancia": "Base para análisis de datos",
   "malla": "26"
  },
  {
@@ -1258,8 +1345,9 @@
   "desbloquea": [
    "26204"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Matrices, determinantes, sistemas de ecuaciones, vectores y geometría analítica.",
+  "recomendacion": "Practica las operaciones con matrices a mano: reaparecen en gráficos por computadora e IA.",
+  "importancia": "Base para Cálculo y modelamiento",
   "malla": "26"
  },
  {
@@ -1272,8 +1360,9 @@
   "desbloquea": [
    "26209"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Análisis de la situación social, económica, política y cultural del Perú y de la región.",
+  "recomendacion": "Sigue las noticias de Pasco y la sierra central: los trabajos suelen pedir casos de la región.",
+  "importancia": "Entender el contexto del país",
   "malla": "26"
  },
  {
@@ -1284,8 +1373,9 @@
   "tipo": "Electivo",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Taller práctico de expresión artística para la formación integral del estudiante.",
+  "recomendacion": "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
+  "importancia": "Formación integral",
   "malla": "26"
  },
  {
@@ -1296,8 +1386,9 @@
   "tipo": "Electivo",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Taller práctico de expresión artística para la formación integral del estudiante.",
+  "recomendacion": "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
+  "importancia": "Formación integral",
   "malla": "26"
  },
  {
@@ -1308,8 +1399,9 @@
   "tipo": "Electivo",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Taller práctico de expresión artística para la formación integral del estudiante.",
+  "recomendacion": "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
+  "importancia": "Formación integral",
   "malla": "26"
  },
  {
@@ -1320,8 +1412,9 @@
   "tipo": "Electivo",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Gramática y vocabulario básico del inglés, con lectura de textos sencillos.",
+  "recomendacion": "Lee documentación técnica en inglés desde ahora: es el idioma de casi todo lo que vas a estudiar.",
+  "importancia": "Leer documentación técnica",
   "malla": "26"
  },
  {
@@ -1332,8 +1425,9 @@
   "tipo": "Electivo",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Bases del quechua: pronunciación, saludos, vocabulario y estructura de oraciones.",
+  "recomendacion": "Practica con familiares o vecinos que lo hablen: es la forma más rápida de avanzar.",
+  "importancia": "Comunicarte con tu región",
   "malla": "26"
  },
  {
@@ -1346,8 +1440,9 @@
   "desbloquea": [
    "26203"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Límites, derivadas, integrales y sus aplicaciones.",
+  "recomendacion": "Practica las reglas de derivación e integración hasta hacerlas sin pensar.",
+  "importancia": "Base para Ecuaciones Diferenciales y Física Aplicada",
   "malla": "26"
  },
  {
@@ -1362,8 +1457,9 @@
   "desbloquea": [
    "26305"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Primer lenguaje formal: variables, tipos de datos, estructuras de control, funciones y arreglos.",
+  "recomendacion": "Programa todos los días, aunque sean 20 minutos; resuelve retos en HackerRank o LeetCode.",
+  "importancia": "Primera experiencia práctica en código",
   "malla": "26"
  },
  {
@@ -1378,8 +1474,9 @@
   "desbloquea": [
    "26206"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Mecánica, electricidad y magnetismo aplicados a la ingeniería.",
+  "recomendacion": "Dibuja siempre el diagrama antes de plantear ecuaciones.",
+  "importancia": "Base para Electrónica",
   "malla": "26"
  },
  {
@@ -1394,8 +1491,9 @@
   "desbloquea": [
    "26306"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Ecuaciones diferenciales ordinarias y su uso para modelar fenómenos: crecimiento, circuitos, enfriamiento.",
+  "recomendacion": "Resuelve los modelos también en Python o GeoGebra para ver cómo se comportan.",
+  "importancia": "Modelar sistemas que cambian en el tiempo",
   "malla": "26"
  },
  {
@@ -1410,8 +1508,9 @@
   "desbloquea": [
    "26309"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Lógica, conjuntos, relaciones, combinatoria, grafos y árboles.",
+  "recomendacion": "Conecta cada tema con la programación: grafos y combinatoria reaparecen en algoritmos y redes.",
+  "importancia": "Base de ciencias de la computación",
   "malla": "26"
  },
  {
@@ -1426,8 +1525,9 @@
   "desbloquea": [
    "26330"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Distribuciones, muestreo, intervalos de confianza y pruebas de hipótesis.",
+  "recomendacion": "Aprende a hacerlo en Excel, R o Python: en la tesis lo necesitarás para analizar tus datos.",
+  "importancia": "Análisis estadístico avanzado",
   "malla": "26"
  },
  {
@@ -1442,8 +1542,9 @@
   "desbloquea": [
    "26212"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "HTML, CSS y JavaScript básicos para crear páginas web y publicarlas.",
+  "recomendacion": "Publica tus prácticas en GitHub Pages o Vercel desde el primer trabajo.",
+  "importancia": "Base del desarrollo web",
   "malla": "26"
  },
  {
@@ -1458,8 +1559,9 @@
   "desbloquea": [
    "26307"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Programación orientada a objetos: clases, herencia, polimorfismo, colecciones y manejo de excepciones.",
+  "recomendacion": "Haz un proyecto pequeño propio (un inventario, una agenda): los objetos se entienden usándolos.",
+  "importancia": "Programación intermedia",
   "malla": "26"
  },
  {
@@ -1474,8 +1576,9 @@
   "desbloquea": [
    "26211"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Cómo plantear un problema, objetivos, hipótesis, marco teórico y diseño de una investigación.",
+  "recomendacion": "Elige un tema de sistemas que de verdad te interese: puede volverse tu tesis.",
+  "importancia": "Base para investigación académica",
   "malla": "26"
  },
  {
@@ -1490,8 +1593,9 @@
   "desbloquea": [
    "26208"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Circuitos eléctricos y componentes (resistencias, diodos, transistores) y su análisis.",
+  "recomendacion": "Arma los circuitos en un simulador (Tinkercad, Proteus) antes del laboratorio.",
+  "importancia": "Fundamentos de hardware",
   "malla": "26"
  },
  {
@@ -1502,8 +1606,9 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Proceso administrativo y gestión de la calidad: ciclo PDCA, normas ISO y mejora continua.",
+  "recomendacion": "Busca un ejemplo real de mejora continua: los casos prácticos pesan en la nota.",
+  "importancia": "Gestión organizacional",
   "malla": "26"
  },
  {
@@ -1518,8 +1623,9 @@
   "desbloquea": [
    "26314"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Programación lineal, método simplex y modelos de transporte y asignación.",
+  "recomendacion": "Plantea bien el modelo antes de resolver y compruébalo con Solver de Excel.",
+  "importancia": "Optimización y decisiones",
   "malla": "26"
  },
  {
@@ -1535,8 +1641,9 @@
    "26310",
    "26312"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Ciclo de vida del software, requisitos, modelado con UML y metodologías de desarrollo.",
+  "recomendacion": "Trabaja con un proyecto real: un buen documento de requisitos te ahorra problemas en Software II.",
+  "importancia": "Desarrollo de software profesional",
   "malla": "26"
  },
  {
@@ -1551,8 +1658,9 @@
   "desbloquea": [
    "26313"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Autómatas, lenguajes formales, gramáticas y máquinas de Turing.",
+  "recomendacion": "Usa JFLAP para dibujar y probar autómatas: ver cómo procesan una cadena lo aclara todo.",
+  "importancia": "Fundamentos teóricos de la computación",
   "malla": "26"
  },
  {
@@ -1567,8 +1675,9 @@
   "desbloquea": [
    "26325"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Electrónica digital: compuertas lógicas, álgebra de Boole y circuitos combinacionales y secuenciales.",
+  "recomendacion": "Practica con Arduino o un simulador: ver tu lógica encender un LED ayuda mucho.",
+  "importancia": "Hardware avanzado",
   "malla": "26"
  },
  {
@@ -1583,8 +1692,9 @@
   "desbloquea": [
    "26319"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Diseño, arquitectura, pruebas, mantenimiento y gestión de la configuración del software.",
+  "recomendacion": "Usa Git con tu equipo desde el primer día: trabajar con ramas te lo pedirán en cualquier empleo.",
+  "importancia": "Desarrollo de software avanzado",
   "malla": "26"
  },
  {
@@ -1597,8 +1707,9 @@
   "desbloquea": [
    "26317"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Enfoque sistémico: sistemas, subsistemas, entropía y retroalimentación, aplicados a organizaciones.",
+  "recomendacion": "Analiza una organización real (tu facultad, un negocio) como sistema: así se vuelve concreto.",
+  "importancia": "Pensamiento sistémico",
   "malla": "26"
  },
  {
@@ -1613,8 +1724,9 @@
   "desbloquea": [
    "26315"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Modelo entidad-relación, modelo relacional, normalización y SQL básico.",
+  "recomendacion": "Practica SQL en un motor real (SQL Server, MySQL o PostgreSQL) con datos que tú mismo inventes.",
+  "importancia": "Gestión de datos",
   "malla": "26"
  },
  {
@@ -1629,8 +1741,9 @@
   "desbloquea": [
    "26316"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Cómo está hecho un computador: CPU, memoria, buses, entrada/salida y lenguaje ensamblador.",
+  "recomendacion": "Abre una PC (con cuidado) y ubica cada parte; luego prueba un simulador de ensamblador.",
+  "importancia": "Entender cómo funciona el hardware",
   "malla": "26"
  },
  {
@@ -1645,8 +1758,9 @@
   "desbloquea": [
    "26318"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Modelos probabilísticos: teoría de colas, inventarios, decisiones y cadenas de Markov.",
+  "recomendacion": "Repasa probabilidad antes de empezar: casi todo el curso se apoya en ella.",
+  "importancia": "Optimización avanzada",
   "malla": "26"
  },
  {
@@ -1657,8 +1771,9 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Autoconocimiento, manejo de emociones, empatía y trabajo en equipo.",
+  "recomendacion": "Aplícalo en tus trabajos de grupo: las empresas valoran estas habilidades tanto como las técnicas.",
+  "importancia": "Trabajo en equipo y liderazgo",
   "malla": "26"
  },
  {
@@ -1673,8 +1788,9 @@
   "desbloquea": [
    "26320"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Análisis, modelado y mejora de los procesos de negocio con BPMN, apoyados en la tecnología.",
+  "recomendacion": "Modela los procesos en Bizagi (es gratuito): es la herramienta que más se usa para BPMN.",
+  "importancia": "Diseñar sistemas que sigan los procesos reales",
   "malla": "26"
  },
  {
@@ -1685,8 +1801,9 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Valor del dinero en el tiempo, VAN, TIR y evaluación de alternativas de inversión.",
+  "recomendacion": "Domina el VAN y la TIR en Excel: vuelven en los cursos de proyectos.",
+  "importancia": "Saber si una inversión conviene",
   "malla": "26"
  },
  {
@@ -1701,8 +1818,9 @@
   "desbloquea": [
    "26214"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Marketing en internet: redes sociales, SEO, publicidad digital y analítica.",
+  "recomendacion": "Haz crecer una página real (tuya o de un negocio conocido) y mide los resultados.",
+  "importancia": "Dar a conocer productos digitales",
   "malla": "26"
  },
  {
@@ -1717,8 +1835,9 @@
   "desbloquea": [
    "26324"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Bases de datos avanzadas: procedimientos almacenados, transacciones, índices, seguridad y optimización.",
+  "recomendacion": "Trabaja con un volumen grande de datos: así notas la diferencia que hace un índice.",
+  "importancia": "Bases de datos de alto rendimiento",
   "malla": "26"
  },
  {
@@ -1733,8 +1852,9 @@
   "desbloquea": [
    "26321"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Procesos, hilos, planificación, memoria, archivos y concurrencia.",
+  "recomendacion": "Usa Linux a diario mientras llevas el curso: la terminal te acompañará toda la carrera.",
+  "importancia": "Gestión de recursos computacionales",
   "malla": "26"
  },
  {
@@ -1747,8 +1867,9 @@
    "26311"
   ],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Modelar sistemas complejos con diagramas causales, flujos y niveles, y simularlos en el tiempo.",
+  "recomendacion": "Usa Vensim (tiene versión gratuita) para construir y simular tus modelos.",
+  "importancia": "Analizar sistemas con retroalimentación",
   "malla": "26"
  },
  {
@@ -1763,8 +1884,9 @@
   "desbloquea": [
    "26213"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Elaboración del proyecto de investigación: problema, objetivos, marco teórico y metodología.",
+  "recomendacion": "Elige tu tema y tu asesor pronto: es lo que más retrasa la titulación.",
+  "importancia": "Primer paso del trabajo de investigación",
   "malla": "26"
  },
  {
@@ -1777,8 +1899,9 @@
    "26314"
   ],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Modelado y simulación de sistemas: números aleatorios, Montecarlo y simulación de eventos discretos.",
+  "recomendacion": "Aprende una herramienta (Arena, FlexSim o Python): el curso se entiende construyendo modelos.",
+  "importancia": "Modelamiento de sistemas",
   "malla": "26"
  },
  {
@@ -1793,8 +1916,9 @@
   "desbloquea": [
    "26332"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Programación a bajo nivel: ensamblador, compiladores, enlazadores y llamadas al sistema operativo.",
+  "recomendacion": "Practica en C sobre Linux: entender la memoria te hace mejor programador en cualquier lenguaje.",
+  "importancia": "Entender cómo se ejecuta un programa",
   "malla": "26"
  },
  {
@@ -1807,8 +1931,9 @@
    "26209"
   ],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Pruebas de software, métricas, estándares de calidad (ISO 25010) y aseguramiento de la calidad.",
+  "recomendacion": "Escribe pruebas automáticas para tus propios proyectos: es una práctica muy pedida en el trabajo.",
+  "importancia": "Entregar software confiable",
   "malla": "26"
  },
  {
@@ -1823,8 +1948,9 @@
   "desbloquea": [
    "26326"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Modelos OSI y TCP/IP, direccionamiento IP, subredes, cableado y dispositivos de red.",
+  "recomendacion": "Practica el subneteo hasta hacerlo rápido y arma topologías en Cisco Packet Tracer.",
+  "importancia": "Conectividad y redes",
   "malla": "26"
  },
  {
@@ -1835,8 +1961,9 @@
   "tipo": "Electivo",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Datos geográficos, mapas digitales y análisis espacial con herramientas SIG.",
+  "recomendacion": "Instala QGIS (es gratuito) y practica con mapas de tu región.",
+  "importancia": "Analizar datos con ubicación",
   "malla": "26"
  },
  {
@@ -1847,8 +1974,9 @@
   "tipo": "Electivo",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Desarrollo de aplicaciones para Android e iOS, nativas o con Flutter o React Native.",
+  "recomendacion": "Publica una app pequeña propia: aunque sea simple, demuestra que llegaste hasta el final.",
+  "importancia": "Desarrollar apps para celular",
   "malla": "26"
  },
  {
@@ -1863,8 +1991,9 @@
   "desbloquea": [
    "26216"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Ejecución de la investigación: recojo y análisis de datos, resultados, discusión y conclusiones.",
+  "recomendacion": "Reúnete con tu asesor cada semana y no dejes la redacción para el final.",
+  "importancia": "Terminar el trabajo de investigación",
   "malla": "26"
  },
  {
@@ -1879,8 +2008,9 @@
   "desbloquea": [
    "26215"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Estudio de mercado, técnico y financiero de un proyecto de inversión.",
+  "recomendacion": "Elige un proyecto tecnológico real: puede servirte después en Emprendimiento.",
+  "importancia": "Saber si un proyecto es viable",
   "malla": "26"
  },
  {
@@ -1895,8 +2025,9 @@
   "desbloquea": [
    "26331"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Data warehouse, procesos ETL, cubos OLAP y tableros para tomar decisiones.",
+  "recomendacion": "Haz un tablero en Power BI con datos reales: queda muy bien en tu portafolio.",
+  "importancia": "Business Intelligence",
   "malla": "26"
  },
  {
@@ -1909,8 +2040,9 @@
    "26208"
   ],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Automatización de procesos industriales y de oficina: sensores, controladores, PLC y robots de software (RPA).",
+  "recomendacion": "Practica con Arduino o con una herramienta RPA (UiPath tiene versión gratuita).",
+  "importancia": "Automatización",
   "malla": "26"
  },
  {
@@ -1925,8 +2057,9 @@
   "desbloquea": [
    "26333"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Redes avanzadas: WAN, servicios de red, redes inalámbricas y seguridad.",
+  "recomendacion": "Configura servicios reales (DHCP, DNS) en máquinas virtuales para practicar.",
+  "importancia": "Redes avanzadas",
   "malla": "26"
  },
  {
@@ -1937,8 +2070,9 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Cómo alinear la tecnología de la información con los objetivos de la organización: el plan estratégico de TI.",
+  "recomendacion": "Practica con una empresa real: te servirá en el trabajo de investigación.",
+  "importancia": "Planificar la TI de una organización",
   "malla": "26"
  },
  {
@@ -1949,8 +2083,9 @@
   "tipo": "Electivo",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Normas y estándares de la profesión (ISO, IEEE) y cómo aplicarlos en proyectos de TI.",
+  "recomendacion": "Haz un resumen de las normas principales: te tocará citarlas en informes y en la tesis.",
+  "importancia": "Trabajar según normas reconocidas",
   "malla": "26"
  },
  {
@@ -1961,8 +2096,9 @@
   "tipo": "Electivo",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Negocios por internet: tiendas en línea, medios de pago, logística y seguridad.",
+  "recomendacion": "Monta una tienda de prueba (WooCommerce o Shopify) para entender todo el flujo.",
+  "importancia": "Vender por internet",
   "malla": "26"
  },
  {
@@ -1973,8 +2109,9 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Cómo crear un negocio (idea, modelo Canvas, plan de negocios) con impacto positivo en la sociedad.",
+  "recomendacion": "Piensa en una startup tecnológica: muchos proyectos de software se vuelven negocios.",
+  "importancia": "Crear tu propio negocio",
   "malla": "26"
  },
  {
@@ -1987,8 +2124,9 @@
    "26214"
   ],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Planificación, cronograma, costos, riesgos y seguimiento de proyectos según la guía PMBOK.",
+  "recomendacion": "Arma el cronograma de un proyecto real en un diagrama de Gantt: lo usarás en la tesis y en el trabajo.",
+  "importancia": "Project Management",
   "malla": "26"
  },
  {
@@ -2003,8 +2141,9 @@
   "desbloquea": [
    "26337"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Fundamentos de la IA: búsqueda, representación del conocimiento y aprendizaje automático.",
+  "recomendacion": "Aprende Python con scikit-learn y practica con datos públicos de Kaggle.",
+  "importancia": "Base de la inteligencia artificial",
   "malla": "26"
  },
  {
@@ -2019,8 +2158,9 @@
   "desbloquea": [
    "26336"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Sistemas que apoyan las decisiones de los gerentes: tipos de sistemas de información, ERP, CRM e indicadores.",
+  "recomendacion": "Relaciona cada tipo de sistema con una empresa que conozcas.",
+  "importancia": "Apoyar las decisiones de gerencia",
   "malla": "26"
  },
  {
@@ -2035,8 +2175,9 @@
   "desbloquea": [
    "26338"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Evaluación de los controles, la seguridad y el uso de la tecnología en una organización (COBIT, normas ISO).",
+  "recomendacion": "Audita una oficina real: los hallazgos concretos son lo que más se valora.",
+  "importancia": "Auditoría de TI",
   "malla": "26"
  },
  {
@@ -2051,8 +2192,9 @@
   "desbloquea": [
    "26217"
   ],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Protección de la información: amenazas, criptografía, controles, ISO 27001 y gestión de riesgos.",
+  "recomendacion": "Practica en laboratorios legales (TryHackMe, Hack The Box), nunca en sistemas ajenos sin permiso.",
+  "importancia": "Proteger los datos de una organización",
   "malla": "26"
  },
  {
@@ -2063,8 +2205,9 @@
   "tipo": "Electivo",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Leyes peruanas sobre tecnología: delitos informáticos, datos personales, firma digital y propiedad intelectual.",
+  "recomendacion": "Lee la Ley 30096 (delitos informáticos) y la Ley 29733 (datos personales): te tocará cumplirlas.",
+  "importancia": "Marco legal",
   "malla": "26"
  },
  {
@@ -2075,8 +2218,9 @@
   "tipo": "Electivo",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Recolección y análisis de evidencia digital para investigar incidentes y delitos informáticos.",
+  "recomendacion": "Practica con herramientas libres como Autopsy sobre imágenes de prueba.",
+  "importancia": "Investigar incidentes informáticos",
   "malla": "26"
  },
  {
@@ -2089,8 +2233,9 @@
    "26213"
   ],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Investigación final con la que se obtiene el grado de bachiller.",
+  "recomendacion": "Si puedes, que sea la base de tu tesis: avanzas dos cosas a la vez.",
+  "importancia": "Proyecto final",
   "malla": "26"
  },
  {
@@ -2103,8 +2248,9 @@
    "26333"
   ],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Máquinas virtuales, contenedores y servicios en la nube (IaaS, PaaS, SaaS) en AWS, Azure o Google Cloud.",
+  "recomendacion": "Usa las cuentas gratuitas para estudiantes (AWS Educate, Azure for Students) y despliega algo tuyo.",
+  "importancia": "Desplegar servicios en la nube",
   "malla": "26"
  },
  {
@@ -2115,8 +2261,9 @@
   "tipo": "Obligatorio",
   "prerrequisitos": [],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Responsabilidad del ingeniero: código de ética, privacidad, propiedad intelectual y dilemas de la tecnología.",
+  "recomendacion": "Relaciónalo con casos reales (fugas de datos, uso de la IA): los debates bien argumentados suben la nota.",
+  "importancia": "Ejercer la profesión con responsabilidad",
   "malla": "26"
  },
  {
@@ -2129,8 +2276,9 @@
    "26331"
   ],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Trabajo en una empresa o institución aplicando lo aprendido, bajo la guía de un docente asesor.",
+  "recomendacion": "Busca la empresa con tiempo y revisa la ruta de prácticas en SOFIA: plazos, anexos y el FUT que toca.",
+  "importancia": "Experiencia profesional",
   "malla": "26"
  },
  {
@@ -2143,8 +2291,9 @@
    "26330"
   ],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "IA avanzada: redes neuronales, aprendizaje profundo, visión por computadora y procesamiento de lenguaje natural.",
+  "recomendacion": "Entrena un modelo propio y publícalo; SOFIA misma usa un modelo de lenguaje local.",
+  "importancia": "Construir sistemas inteligentes",
   "malla": "26"
  },
  {
@@ -2157,8 +2306,9 @@
    "26332"
   ],
   "desbloquea": [],
-  "recomendacion": "",
-  "importancia": "",
+  "sumilla": "Temas actuales de la carrera que elige el docente: nuevas tecnologías y tendencias.",
+  "recomendacion": "Aprovecha para explorar un área nueva: puede marcar tu especialización.",
+  "importancia": "Explorar tendencias de la carrera",
   "malla": "26"
  }
 ]
