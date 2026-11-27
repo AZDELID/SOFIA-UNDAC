@@ -10,7 +10,8 @@ export function descargarBlob(blob: Blob, nombreArchivo: string) {
   document.body.appendChild(a);
   a.click();
   a.remove();
-  URL.revokeObjectURL(url);
+  // revocar en el mismo instante puede cortar la descarga en Firefox y Safari
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
 export async function descargarPdfDesdeHoja(hoja: HTMLElement, nombreArchivo: string) {

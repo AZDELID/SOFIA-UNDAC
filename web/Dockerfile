@@ -1,8 +1,9 @@
 # Etapa 1: compila el React con Node
 FROM node:22-alpine AS build
 WORKDIR /app
-COPY package.json ./
-RUN npm install --no-audit --no-fund
+# con el lockfile: cada build instala las mismas versiones que se probaron
+COPY package.json package-lock.json ./
+RUN npm ci --no-audit --no-fund
 COPY . .
 RUN npm run build
 

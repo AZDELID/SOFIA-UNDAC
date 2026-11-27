@@ -9,7 +9,7 @@ from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import JSONResponse
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 from core import ia
 from core.api_undac import APIError, consultar_estudiante
@@ -83,14 +83,21 @@ class TextoLibre(BaseModel):
 
 
 class PedidoFundamentar(BaseModel):
-    tramite_clave: str
-    datos: dict
+    tramite_clave: str = Field(max_length=80)
+    # solo texto: una lista o un número aquí tumbaba el armado del prompt
+    datos: dict[str, str] = Field(max_length=60)
     descripcion: str = ""
+
+
+class Mensaje(BaseModel):
+    rol: str = "user"
+    texto: str = ""
 
 
 class PedidoChat(BaseModel):
     pregunta: str
-    historial: list = []
+    # con dicts sueltos, un mensaje sin "texto" o un texto que no es str daba error 500
+    historial: list[Mensaje] = []
 
 
 @app.post("/api/ia/detectar")
@@ -100,7 +107,8 @@ def detectar(p: TextoLibre):
 
 @app.post("/api/ia/fundamentar")
 def fundamentar(p: PedidoFundamentar):
-    texto = ia_o_503(ia.generar_fundamentacion, p.tramite_clave, p.datos, p.descripcion[:2000])
+    datos = {k[:60]: v[:500] for k, v in p.datos.items()}
+    texto = ia_o_503(ia.generar_fundamentacion, p.tramite_clave, datos, p.descripcion[:2000])
     return {"fundamentacion": texto}
 
 
@@ -148,7 +156,7 @@ def cursos_mencionados(pregunta: str) -> list:
     return ([c for c in elegidos if c["malla"] == malla] or elegidos)[:3]
 
 
-def contexto_erp(pregunta: str) -> str:
+def contexto_erp(pregunta: str, anterior: str = "") -> str:
     """Plan de estudios y trámites para el chat, con la ficha exacta de los cursos nombrados."""
     # Lista completa solo de la malla 17xxx (la de casi todos); la 26xxx entra por las fichas de la pregunta
     cursos = "\n".join(f"- {c['codigo']} {c['nombre']} (semestre {ROMANO[c['semestre']]}, {c['creditos']} cr"
@@ -156,7 +164,8 @@ def contexto_erp(pregunta: str) -> str:
                        for c in CURSOS if c["malla"] == "17")
     tramites = "\n".join(f"- {t['nombre']}: anexos {t.get('anexo_sugerido', '-')}"
                          for t in CATALOGO.values())
-    fichas = "\n".join(_ficha(c) for c in cursos_mencionados(pregunta))
+    # "¿y qué necesito para llevarlo?" no nombra el curso: se busca en la pregunta anterior
+    fichas = "\n".join(_ficha(c) for c in cursos_mencionados(pregunta) or cursos_mencionados(anterior))
     return (f"\nPLAN DE ESTUDIOS de Ingeniería de Sistemas y Computación (malla 17xxx; "
             f"la malla nueva 26xxx la lleva desde el II semestre):\n{cursos}\n"
             f"\nTRÁMITES que se pueden hacer con FUT en este sistema:\n{tramites}\n"
@@ -187,7 +196,9 @@ def informacion_oficial(texto: str) -> str:
 @app.post("/api/chat")
 def chat(p: PedidoChat):
     # la pregunta anterior entra en la búsqueda para que "¿y cuánto dura?" siga el mismo tema
-    anterior = next((m.get("texto", "") for m in reversed(p.historial) if m.get("rol") == "user"), "")
-    texto = ia_o_503(ia.chat_asistente, p.pregunta[:2000], p.historial,
-                     contexto_extra=contexto_erp(p.pregunta) + informacion_oficial(f"{p.pregunta[:2000]} {anterior[:500]}"))
+    # solo los 6 últimos y recortados: 6 mensajes de 150 000 letras pasaban enteros al modelo
+    historial = [{"rol": m.rol, "texto": m.texto[:2000]} for m in p.historial[-6:]]
+    anterior = next((m["texto"] for m in reversed(historial) if m["rol"] == "user"), "")
+    texto = ia_o_503(ia.chat_asistente, p.pregunta[:2000], historial,
+                     contexto_extra=contexto_erp(p.pregunta, anterior[:500]) + informacion_oficial(f"{p.pregunta[:2000]} {anterior[:500]}"))
     return {"respuesta": texto}

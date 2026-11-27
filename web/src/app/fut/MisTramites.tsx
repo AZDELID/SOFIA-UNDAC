@@ -23,6 +23,9 @@ export function PantallaMisTramites({ onAbrir, onNuevo }: { onAbrir: (fut: FutDa
         <p className="text-[11px] text-suave mb-4">
           Se guardan solo en este navegador (no en un servidor) y se conservan hasta 20. Si borras los datos del
           navegador o usas otro equipo, no aparecerán.
+          <strong className="block mt-1 text-rojo">
+            Llevan tu DNI y domicilio: si usas una computadora de laboratorio, bórralos al terminar.
+          </strong>
         </p>
         {entradas.length === 0 ? (
           <div className="bg-bg-card border border-borde rounded-sm p-6 text-[12px] text-suave">

@@ -1,0 +1,6 @@
+# La API se construye desde la raíz: que el .env (tokens) ni node_modules entren al contexto
+.env
+.git
+**/node_modules
+**/dist
+.claude

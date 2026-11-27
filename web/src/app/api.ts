@@ -12,7 +12,9 @@ export async function api<T = any>(ruta: string, opciones: RequestInit = {}): Pr
   if (!r.ok) {
     const d = cuerpo.detail;
     // FastAPI devuelve detail como texto, lista de errores o lista de objetos de validación
-    throw new Error(Array.isArray(d) ? d.map((e: any) => e.msg ?? e).join(" · ") : d || (sinServidor(r.status) ? SIN_SERVIDOR : `Error ${r.status}`));
+    // el 429 lo pone nginx (freno a la IA) y viene en HTML, sin "detail"
+    const porDefecto = r.status === 429 ? "Hiciste muchas preguntas seguidas. Espera un minuto y vuelve a intentarlo." : sinServidor(r.status) ? SIN_SERVIDOR : `Error ${r.status}`;
+    throw new Error(Array.isArray(d) ? d.map((e: any) => e.msg ?? e).join(" · ") : d || porDefecto);
   }
   return cuerpo;
 }

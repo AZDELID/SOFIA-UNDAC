@@ -46,6 +46,14 @@ const ETIQUETAS_EXTRA: Record<string, string> = {
   fundamentacion_libre: "Describe tu pedido con más detalle",
 };
 
+// Semestre en curso: A = marzo–agosto, B = septiembre–diciembre; en enero y febrero
+// (vacaciones) se sugiere el B del año que terminó
+function periodoActual(hoy = new Date()) {
+  const mes = hoy.getMonth(); // 0 = enero
+  if (mes < 2) return `${hoy.getFullYear() - 1}-B`;
+  return `${hoy.getFullYear()}-${mes >= 8 ? "B" : "A"}`;
+}
+
 function nombreArchivo(nombresApellidos: string, claveTramite: string) {
   const apellido = (nombresApellidos || "estudiante").trim().split(/\s+/)[0] || "estudiante";
   const fecha = new Date().toISOString().slice(0, 10).replace(/-/g, "");
@@ -129,6 +137,12 @@ export default function Wizard({ tramiteInicial = null }: { tramiteInicial?: str
   }
 
   function actualizarCampo(clave: string, valor: string) {
+    // al escribir, el campo deja de marcarse en rojo
+    setErrores((e) => {
+      if (!e[clave]) return e;
+      const { [clave]: _, ...resto } = e;
+      return resto;
+    });
     setDatos((d) => {
       const nuevo = { ...d, [clave]: valor };
       if (clave === "facultad") {
@@ -186,7 +200,7 @@ export default function Wizard({ tramiteInicial = null }: { tramiteInicial?: str
     for (const campo of CAMPOS_CONFIG) {
       const valor = (dat[campo.clave] || "").trim();
       if (campo.obligatorio && !valor) {
-        nuevosErrores[campo.clave] = "Obligatorio";
+        nuevosErrores[campo.clave] = "Falta completar este dato";
         continue;
       }
       if (valor) {
@@ -197,7 +211,7 @@ export default function Wizard({ tramiteInicial = null }: { tramiteInicial?: str
     const opcionales = new Set(tramite.camposExtraOpcionales ?? []);
     for (const campo of tramite.camposExtra) {
       if (!opcionales.has(campo) && !(dat[campo] || "").trim()) {
-        nuevosErrores[campo] = "Obligatorio";
+        nuevosErrores[campo] = "Falta completar este dato";
       }
     }
     setErrores(nuevosErrores);
@@ -216,7 +230,15 @@ export default function Wizard({ tramiteInicial = null }: { tramiteInicial?: str
   const [fundamentacion, setFundamentacion] = useState("");
 
   function irAFundamentacion() {
-    if (!validarFormulario()) return;
+    if (!validarFormulario()) {
+      // antes no pasaba nada visible: el error quedaba arriba y el botón abajo. Se sube al primero que falta
+      requestAnimationFrame(() => {
+        const primero = document.querySelector<HTMLElement>('[aria-invalid="true"]');
+        primero?.scrollIntoView({ behavior: "smooth", block: "center" });
+        primero?.focus({ preventScroll: true });
+      });
+      return;
+    }
     setFundamentacion(textoFundamentacionSugerido);
     setPaso("fundamentacion");
   }
@@ -486,6 +508,7 @@ function PantallaFormulario({
   const [guardado, setGuardado] = useState("");
   const tramite = CATALOGO[claveTramite];
   const escuelasDisponibles = listarEscuelas(datos.facultad) ?? [];
+  const faltan = Object.keys(errores).length;
 
   return (
     <>
@@ -522,7 +545,8 @@ function PantallaFormulario({
             <input
               className="border border-borde rounded-sm px-2.5 py-1.5 text-[12px] w-44"
               value={codApi}
-              onChange={(e) => setCodApi(e.target.value)}
+              onChange={(e) => setCodApi(e.target.value.replace(/\D/g, ""))}
+              maxLength={12}
               onKeyDown={(e) => {
                 if (e.key === "Enter" && !consultando) consultarApi();
               }}
@@ -588,6 +612,7 @@ function PantallaFormulario({
                   error={errores[clave]}
                   valor={datos[clave] || ""}
                   onChange={(v) => actualizarCampo(clave, v)}
+                  sugerencia={clave === "periodo" ? periodoActual() : undefined}
                 />
               ))}
             </>
@@ -599,9 +624,16 @@ function PantallaFormulario({
             <ArrowLeft size={14} />
             Cambiar trámite
           </button>
-          <Button variant="primary" onClick={onContinuar} iconoDer={<ArrowRight size={14} />}>
-            Continuar
-          </Button>
+          <div className="flex items-center gap-3 flex-wrap justify-end">
+            {faltan > 0 && (
+              <span role="alert" className="text-[11px] font-semibold text-rojo">
+                Falta{faltan > 1 ? "n" : ""} {faltan} dato{faltan > 1 ? "s" : ""} (marcado{faltan > 1 ? "s" : ""} en rojo)
+              </span>
+            )}
+            <Button variant="primary" onClick={onContinuar} iconoDer={<ArrowRight size={14} />}>
+              Continuar
+            </Button>
+          </div>
         </div>
       </div>
     </>

@@ -100,7 +100,8 @@ def consultar_estudiante(codigo: str) -> dict:
     except TimeoutError:
         raise APIError("La API tardó demasiado en responder (timeout).")
     except Exception as e:
-        raise APIError(f"Error inesperado consultando la API: {e}")
+        # sin str(e): algunos errores traen la URL completa, con los tokens de UNDAC_API_BASE_URL
+        raise APIError(f"Error inesperado consultando la API ({type(e).__name__}).")
 
     try:
         data = json.loads(raw_bytes.decode("utf-8"))

@@ -13,9 +13,10 @@ services:
       dockerfile: api/Dockerfile
     environment:
       # URL de la API institucional (lleva tokens): solo vive en .env
-      UNDAC_API_BASE_URL: ${UNDAC_API_BASE_URL}
+      UNDAC_API_BASE_URL: ${UNDAC_API_BASE_URL:-}
       OLLAMA_URL: http://ollama:11434
-      OLLAMA_MODELO: ${OLLAMA_MODELO}
+      # sin el valor por defecto, un .env sin OLLAMA_MODELO dejaba el modelo vacío y la IA no andaba
+      OLLAMA_MODELO: ${OLLAMA_MODELO:-qwen3.5:4b}
     restart: unless-stopped
 
   ollama:

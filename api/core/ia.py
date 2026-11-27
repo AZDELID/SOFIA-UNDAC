@@ -67,7 +67,8 @@ def _ollama_chat(mensajes: list, max_tokens: int, temperatura: float,
         with urllib.request.urlopen(req, timeout=300) as r:
             return json.loads(r.read())["message"]["content"].strip()
     except Exception as e:
-        raise IAError(f"No se pudo usar el modelo '{MODELO_ID}' en {OLLAMA_URL}: {e}")
+        # sin la dirección interna de Ollama: este texto le llega al navegador
+        raise IAError(f"No se pudo usar el modelo '{MODELO_ID}' ({type(e).__name__}).")
 
 
 def _llamar_bedrock(prompt_sistema: str, prompt_usuario: str,
@@ -235,11 +236,13 @@ Responde ÚNICAMENTE con el JSON, sin texto adicional.
 
     try:
         resultado = json.loads(texto_json)
-        # Validar que tenga los campos necesarios
-        if "tramite_clave" not in resultado:
+        # El modelo puede devolver una lista o un texto en vez del objeto: eso daba error 500
+        if not isinstance(resultado, dict) or "tramite_clave" not in resultado:
             raise ValueError("Falta tramite_clave en la respuesta")
         if resultado["tramite_clave"] not in TRAMITES_DISPONIBLES:
             resultado["tramite_clave"] = "otro"
+        if not isinstance(resultado.get("datos_extraidos"), dict):
+            resultado["datos_extraidos"] = {}
         return resultado
     except (json.JSONDecodeError, ValueError):
         # Si falla el parseo, retornar respuesta conservadora
