@@ -358,7 +358,7 @@ function PantallaInicio({
               onKeyDown={(e) => e.key === "Enter" && buscar()}
             />
           </div>
-          <div className="mt-2 flex items-center gap-3">
+          <div className="mt-2 flex flex-wrap items-center gap-3">
             <Button variant="primary" onClick={detectarConIA} disabled={iaOcupado || !busqueda.trim()} icono={iaOcupado ? <Loader2 size={14} className="animate-spin" /> : <Sparkles size={14} />}>
               {iaOcupado ? "La IA está leyendo tu caso..." : "Detectar con IA"}
             </Button>

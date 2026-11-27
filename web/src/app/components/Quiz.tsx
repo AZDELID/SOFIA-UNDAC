@@ -517,11 +517,11 @@ export function Quiz({ onComplete }: QuizProps) {
           </div>
 
           {/* Navigation Buttons */}
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between gap-3">
             <button
               onClick={handleBack}
               disabled={currentQuestion === 0}
-              className="px-6 py-3 bg-white border border-slate-200 text-slate-900 rounded-xl hover:bg-slate-100 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+              className="px-4 sm:px-6 py-3 bg-white border border-slate-200 text-slate-900 rounded-xl hover:bg-slate-100 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
             >
               <ArrowLeft size={20} />
               Anterior
@@ -530,7 +530,7 @@ export function Quiz({ onComplete }: QuizProps) {
             <button
               onClick={handleNext}
               disabled={selectedAnswer === null}
-              className="px-6 py-3 bg-gradient-to-r from-[#4A6DFF] to-[#7A5BFF] text-white rounded-xl hover:shadow-lg hover:shadow-[#4A6DFF]/50 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+              className="px-4 sm:px-6 py-3 bg-gradient-to-r from-[#4A6DFF] to-[#7A5BFF] text-white rounded-xl hover:shadow-lg hover:shadow-[#4A6DFF]/50 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
             >
               {currentQuestion === questions.length - 1 ? 'Ver Resultados' : 'Siguiente'}
               <ArrowRight size={20} />

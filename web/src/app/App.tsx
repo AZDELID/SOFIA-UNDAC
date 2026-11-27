@@ -7,6 +7,7 @@ import { TrackResult } from "./components/TrackResult";
 import { Horarios } from "./components/Horarios";
 import { Practicas } from "./components/Practicas";
 import { ProyeccionSocial } from "./components/ProyeccionSocial";
+import { Movilidad } from "./components/Movilidad";
 import Wizard from "./fut/Wizard";
 import { Chat } from "./components/Chat";
 import { FondoBinario } from "./components/FondoBinario";
@@ -16,7 +17,7 @@ import { ImageWithFallback } from "./components/figma/ImageWithFallback";
 
 export type Page =
   | "home" | "roadmap" | "tracks" | "quiz" | "result"
-  | "horarios" | "practicas" | "proyeccion" | "tramites" | "chat";
+  | "horarios" | "practicas" | "proyeccion" | "movilidad" | "tramites" | "chat";
 
 // Un solo menú para escritorio y celular
 const MENU: { page: Page; label: string }[] = [
@@ -26,8 +27,10 @@ const MENU: { page: Page; label: string }[] = [
   { page: "horarios", label: "Horarios" },
   { page: "practicas", label: "Prácticas" },
   { page: "proyeccion", label: "Proyección Social" },
+  { page: "movilidad", label: "Movilidad" },
   { page: "tramites", label: "Trámites FUT" },
   { page: "chat", label: "Asistente IA" },
+  { page: "quiz", label: "Hacer Quiz" },
 ];
 
 type QuizResult = { track: string; scores: { redes: number; software: number; web: number } };
@@ -106,27 +109,21 @@ export default function App() {
               </span>
             </button>
 
-            <div className="hidden lg:flex items-center gap-1">
-              {MENU.slice(1).map(enlace("text-sm"))}
-              <span className="ml-1">{botonTema}</span>
-              <button
-                onClick={() => navigateTo("quiz")}
-                className="brillo relative ml-2 px-4 py-2 text-sm bg-gradient-to-r from-[#4A6DFF] to-[#7A5BFF] text-white rounded-xl shadow-md shadow-[#4A6DFF]/20 hover:shadow-lg hover:shadow-[#4A6DFF]/30 hover:-translate-y-px transition-all duration-200"
-              >
-                Hacer Quiz
-              </button>
+            <div className="hidden xl:flex items-center gap-1">
+              {MENU.slice(1).map(enlace("text-sm whitespace-nowrap"))}
+              <span className="ml-2">{botonTema}</span>
             </div>
 
-            <div className="lg:hidden flex items-center gap-1">
+            <div className="xl:hidden flex items-center gap-1">
             {botonTema}
-            <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="lg:hidden text-slate-700 p-2 rounded-lg hover:bg-slate-100" aria-label="Menú">
+            <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="xl:hidden text-slate-700 p-2 rounded-lg hover:bg-slate-100" aria-label="Menú">
               {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
             </div>
           </div>
 
           {mobileMenuOpen && (
-            <div className="lg:hidden pb-4 space-y-1 animate-entrada">
+            <div className="xl:hidden pb-4 space-y-1 animate-entrada">
               {MENU.map(enlace("block w-full text-left"))}
             </div>
           )}
@@ -153,6 +150,7 @@ export default function App() {
           {currentPage === "horarios" && <Horarios key={parametro ?? ""} cursoInicial={parametro} />}
           {currentPage === "practicas" && <Practicas onFut={(clave) => navigateTo("tramites", clave)} />}
           {currentPage === "proyeccion" && <ProyeccionSocial />}
+          {currentPage === "movilidad" && <Movilidad onFut={(clave) => navigateTo("tramites", clave)} />}
           {currentPage === "tramites" && <Wizard key={parametro ?? ""} tramiteInicial={parametro} />}
           {currentPage === "chat" && <Chat />}
         </div>

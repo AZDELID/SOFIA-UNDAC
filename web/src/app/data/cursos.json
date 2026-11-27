@@ -10,7 +10,12 @@
    "17203"
   ],
   "sumilla": "Lógica proposicional, conjuntos, números reales, ecuaciones, inecuaciones y funciones.",
-  "recomendacion": "Resuelve ejercicios todos los días: aquí se arma el álgebra que usarás en todos los cursos de cálculo.",
+  "que_se_hace": "Teoría y muchos ejercicios en clase, prácticas calificadas cada pocas semanas y exámenes parcial y final escritos.",
+  "como_aprobar": [
+   "Resuelve ejercicios todos los días: aquí se arma el álgebra que usarás en todos los cursos de cálculo.",
+   "Asiste a todas las prácticas calificadas: sumadas suelen pesar tanto como un examen.",
+   "Estudia en grupo y explica a otro cómo resolviste un ejercicio: si lo puedes explicar, lo sabes."
+  ],
   "importancia": "Base para cursos matemáticos posteriores",
   "malla": "17"
  },
@@ -23,7 +28,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Redacción de textos académicos, ortografía, argumentación y exposición oral.",
-  "recomendacion": "Aprende a citar en APA desde ya: lo vas a usar en cada informe hasta la tesis.",
+  "que_se_hace": "Redactas textos (resúmenes, ensayos, informes) y haces exposiciones orales frente al grupo.",
+  "como_aprobar": [
+   "Aprende a citar en APA desde ya: lo vas a usar en cada informe hasta la tesis.",
+   "Revisa ortografía y tildes antes de entregar: es lo primero que se descuenta.",
+   "Ensaya tus exposiciones en voz alta y con tiempo: la seguridad al hablar también se califica."
+  ],
   "importancia": "Esencial para comunicación profesional",
   "malla": "17"
  },
@@ -36,7 +46,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Matrices, determinantes, sistemas de ecuaciones, vectores y números complejos.",
-  "recomendacion": "Practica las operaciones con matrices a mano: reaparecen en gráficos por computadora e IA.",
+  "que_se_hace": "Ejercicios de matrices, determinantes y sistemas de ecuaciones; prácticas calificadas y exámenes escritos.",
+  "como_aprobar": [
+   "Practica las operaciones con matrices a mano: reaparecen en gráficos por computadora e IA.",
+   "Aprende bien Gauss-Jordan: resuelve la mayoría de preguntas de sistemas.",
+   "Revisa tus resultados con una calculadora de matrices, pero en el examen hazlo a mano."
+  ],
   "importancia": "Refuerzo matemático general",
   "malla": "17"
  },
@@ -51,7 +66,12 @@
    "17205"
   ],
   "sumilla": "Magnitudes, vectores, cinemática, dinámica, trabajo y energía.",
-  "recomendacion": "Dibuja siempre el diagrama de fuerzas antes de escribir ecuaciones.",
+  "que_se_hace": "Teoría con problemas resueltos, laboratorios con informe y exámenes de resolución de problemas.",
+  "como_aprobar": [
+   "Dibuja siempre el diagrama de fuerzas antes de escribir ecuaciones.",
+   "Entrega todos los informes de laboratorio: son nota segura si sigues el formato.",
+   "Escribe las unidades en cada paso: evitan errores y muchos docentes las califican."
+  ],
   "importancia": "Fundamento para física aplicada",
   "malla": "17"
  },
@@ -66,7 +86,12 @@
    "17202"
   ],
   "sumilla": "Límites, continuidad, derivadas y sus aplicaciones: máximos, mínimos y razón de cambio.",
-  "recomendacion": "Domina las reglas de derivación hasta hacerlas sin pensar: Cálculo Integral parte de ahí.",
+  "que_se_hace": "Ejercicios de límites y derivadas en clase, prácticas calificadas y exámenes con problemas de aplicación.",
+  "como_aprobar": [
+   "Domina las reglas de derivación hasta hacerlas sin pensar: Cálculo Integral parte de ahí.",
+   "Practica muchos límites: es el tema donde más se jala el primer parcial.",
+   "Usa GeoGebra o Symbolab para revisar tus respuestas, no para copiarlas."
+  ],
   "importancia": "Fundamental para ramas matemáticas avanzadas",
   "malla": "17"
  },
@@ -84,7 +109,12 @@
    "17315"
   ],
   "sumilla": "Cómo plantear la solución de un problema paso a paso: pseudocódigo, diagramas de flujo, condicionales, bucles y arreglos.",
-  "recomendacion": "Aunque el curso sea en papel, pasa cada pseudocódigo a Python o C++ y pruébalo.",
+  "que_se_hace": "Resuelves problemas en pseudocódigo y diagramas de flujo, con prácticas en clase y exámenes de escribir algoritmos a mano.",
+  "como_aprobar": [
+   "Aunque el curso sea en papel, pasa cada pseudocódigo a Python o C++ y pruébalo.",
+   "Haz la prueba de escritorio (seguir el algoritmo con valores) antes de dar por buena una solución.",
+   "Practica bucles anidados y arreglos: son lo que más aparece en los exámenes."
+  ],
   "importancia": "Base fundamental de la programación",
   "malla": "17"
  },
@@ -97,7 +127,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Materia, estructura atómica, tabla periódica, enlaces, reacciones y estequiometría.",
-  "recomendacion": "Memoriza poco y entiende mucho: la estequiometría es pura proporción.",
+  "que_se_hace": "Teoría, ejercicios de estequiometría y laboratorios con informe; exámenes escritos.",
+  "como_aprobar": [
+   "Memoriza poco y entiende mucho: la estequiometría es pura proporción.",
+   "Aprende a balancear ecuaciones rápido: casi todo problema empieza ahí.",
+   "Cumple las normas del laboratorio (mandil, puntualidad): a veces sin ellas no te dejan entrar."
+  ],
   "importancia": "Fundamentos científicos",
   "malla": "17"
  },
@@ -110,7 +145,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Análisis de la situación social, económica, política y cultural del Perú y de la región.",
-  "recomendacion": "Sigue las noticias de Pasco y la sierra central: los trabajos suelen pedir casos de la región.",
+  "que_se_hace": "Lecturas, debates y trabajos grupales sobre los problemas del país y de la región, con exposiciones.",
+  "como_aprobar": [
+   "Sigue las noticias de Pasco y la sierra central: los trabajos suelen pedir casos de la región.",
+   "Participa en los debates con datos (INEI, noticias): la participación suele tener nota.",
+   "Reparte el trabajo grupal desde el inicio y guarda evidencia de tu parte."
+  ],
   "importancia": "Formación ciudadana",
   "malla": "17"
  },
@@ -125,7 +165,12 @@
    "17207"
   ],
   "sumilla": "Estadística descriptiva: tablas, gráficos, medidas de tendencia y dispersión, y probabilidad básica.",
-  "recomendacion": "Haz los ejercicios también en Excel: así aprendes la herramienta que más vas a usar.",
+  "que_se_hace": "Ejercicios de tablas, gráficos y medidas estadísticas, a veces en Excel; prácticas y exámenes escritos.",
+  "como_aprobar": [
+   "Haz los ejercicios también en Excel: así aprendes la herramienta que más vas a usar.",
+   "Aprende cuándo conviene la media, la mediana o la moda: es pregunta segura.",
+   "Lleva calculadora científica con modo estadístico y practica con ella antes del examen."
+  ],
   "importancia": "Base para análisis de datos",
   "malla": "17"
  },
@@ -138,7 +183,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Técnicas de estudio, organización del tiempo, lectura comprensiva y normas para trabajos universitarios.",
-  "recomendacion": "Aplica lo que veas en tus otros cursos del semestre: es el momento de armar tu propio método.",
+  "que_se_hace": "Talleres de técnicas de estudio, trabajos escritos con normas APA y exposiciones.",
+  "como_aprobar": [
+   "Aplica lo que veas en tus otros cursos del semestre: es el momento de armar tu propio método.",
+   "Cumple todas las entregas: el curso se aprueba sobre todo con trabajos.",
+   "Usa Zotero o el gestor de citas de Word desde ya para tus referencias."
+  ],
   "importancia": "Herramientas para el éxito académico",
   "malla": "17"
  },
@@ -151,7 +201,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Taller práctico de expresión artística para la formación integral del estudiante.",
-  "recomendacion": "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
+  "que_se_hace": "Sesiones prácticas de ensayo y una presentación final ante el grupo o el público.",
+  "como_aprobar": [
+   "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
+   "Asiste a todos los ensayos: la asistencia suele ser la mayor parte de la nota.",
+   "Prepara bien la presentación final: es lo que más pesa al calificar."
+  ],
   "importancia": "Formación integral",
   "malla": "17"
  },
@@ -164,7 +219,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Taller práctico de expresión artística para la formación integral del estudiante.",
-  "recomendacion": "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
+  "que_se_hace": "Sesiones prácticas de ensayo y una presentación final ante el grupo o el público.",
+  "como_aprobar": [
+   "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
+   "Asiste a todos los ensayos: la asistencia suele ser la mayor parte de la nota.",
+   "Prepara bien la presentación final: es lo que más pesa al calificar."
+  ],
   "importancia": "Formación integral",
   "malla": "17"
  },
@@ -177,7 +237,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Taller práctico de expresión artística para la formación integral del estudiante.",
-  "recomendacion": "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
+  "que_se_hace": "Sesiones prácticas de ensayo y una presentación final ante el grupo o el público.",
+  "como_aprobar": [
+   "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
+   "Asiste a todos los ensayos: la asistencia suele ser la mayor parte de la nota.",
+   "Prepara bien la presentación final: es lo que más pesa al calificar."
+  ],
   "importancia": "Formación integral",
   "malla": "17"
  },
@@ -194,7 +259,12 @@
    "17204"
   ],
   "sumilla": "Integrales indefinidas y definidas, técnicas de integración y cálculo de áreas y volúmenes.",
-  "recomendacion": "Haz una hoja resumen de las técnicas (sustitución, por partes, fracciones parciales) y practica reconocer cuál usar.",
+  "que_se_hace": "Ejercicios de técnicas de integración y aplicaciones (áreas, volúmenes); prácticas calificadas y exámenes.",
+  "como_aprobar": [
+   "Haz una hoja resumen de las técnicas (sustitución, por partes, fracciones parciales) y practica reconocer cuál usar.",
+   "Repasa trigonometría: la necesitas en la sustitución trigonométrica.",
+   "Resuelve exámenes pasados con tiempo medido antes de cada parcial."
+  ],
   "importancia": "Continuación esencial del cálculo",
   "malla": "17"
  },
@@ -211,7 +281,12 @@
    "17303"
   ],
   "sumilla": "Primer lenguaje formal: variables, tipos de datos, estructuras de control, funciones y arreglos.",
-  "recomendacion": "Programa todos los días, aunque sean 20 minutos; resuelve retos en HackerRank o LeetCode.",
+  "que_se_hace": "Programas en laboratorio, ejercicios semanales, un proyecto pequeño y exámenes de programar en computadora o en papel.",
+  "como_aprobar": [
+   "Programa todos los días, aunque sean 20 minutos; resuelve retos en HackerRank o LeetCode.",
+   "Escribe el código tú mismo aunque lo veas en un video: copiar no te prepara para el examen práctico.",
+   "Aprende a leer los mensajes de error: te ahorran horas."
+  ],
   "importancia": "Primera experiencia práctica en código",
   "malla": "17"
  },
@@ -224,7 +299,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Ecosistemas, recursos naturales, contaminación y desarrollo sostenible.",
-  "recomendacion": "Relaciónalo con la minería de Pasco: los trabajos con un caso local destacan.",
+  "que_se_hace": "Clases teóricas, trabajos de investigación sobre problemas ambientales y exposiciones; a veces una salida de campo.",
+  "como_aprobar": [
+   "Relaciónalo con la minería de Pasco: los trabajos con un caso local destacan.",
+   "Lleva a tus trabajos datos y fotos propias: un caso observado vale más que uno copiado.",
+   "Repasa los conceptos clave para el examen teórico: suelen ser preguntas de definición y ejemplo."
+  ],
   "importancia": "Conciencia ambiental",
   "malla": "17"
  },
@@ -237,7 +317,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Gramática y vocabulario básico del inglés, con lectura de textos sencillos.",
-  "recomendacion": "Lee documentación técnica en inglés desde ahora: es el idioma de casi todo lo que vas a estudiar.",
+  "que_se_hace": "Ejercicios de gramática, vocabulario, lectura y conversación; exámenes escritos y orales.",
+  "como_aprobar": [
+   "Lee documentación técnica en inglés desde ahora: es el idioma de casi todo lo que vas a estudiar.",
+   "Practica 15 minutos al día con una app o con series subtituladas en inglés.",
+   "Pierde el miedo a hablar en clase: la participación oral suele calificarse."
+  ],
   "importancia": "Esencial para documentación técnica",
   "malla": "17"
  },
@@ -250,7 +335,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Bases del quechua: pronunciación, saludos, vocabulario y estructura de oraciones.",
-  "recomendacion": "Practica con familiares o vecinos que lo hablen: es la forma más rápida de avanzar.",
+  "que_se_hace": "Pronunciación, vocabulario y diálogos en clase, con prácticas orales y escritas.",
+  "como_aprobar": [
+   "Practica con familiares o vecinos que lo hablen: es la forma más rápida de avanzar.",
+   "Repite los diálogos en voz alta fuera de clase.",
+   "Arma tu propio vocabulario por temas (familia, números, saludos)."
+  ],
   "importancia": "Formación cultural",
   "malla": "17"
  },
@@ -263,7 +353,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Actividad física, deporte y hábitos de vida saludable.",
-  "recomendacion": "Asiste a todas las sesiones: se evalúa sobre todo la participación.",
+  "que_se_hace": "Sesiones prácticas de deporte y ejercicio, con evaluaciones físicas.",
+  "como_aprobar": [
+   "Asiste a todas las sesiones: se evalúa sobre todo la participación.",
+   "Lleva ropa deportiva y llega puntual: muchas veces sin eso no se marca la asistencia.",
+   "Hidrátate y abrígate: en Cerro de Pasco la altura se siente al hacer ejercicio."
+  ],
   "importancia": "Salud y bienestar",
   "malla": "17"
  },
@@ -278,7 +373,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Continuación de Matemática Básica: geometría analítica, cónicas, funciones y sucesiones.",
-  "recomendacion": "Repasa funciones antes de empezar: son la base de todo lo que sigue.",
+  "que_se_hace": "Ejercicios de geometría analítica y funciones; prácticas calificadas y exámenes escritos.",
+  "como_aprobar": [
+   "Repasa funciones antes de empezar: son la base de todo lo que sigue.",
+   "Grafica cada cónica que resuelvas: ayuda a detectar errores.",
+   "Ten a mano las ecuaciones canónicas de las cónicas con su gráfico."
+  ],
   "importancia": "Profundización matemática",
   "malla": "17"
  },
@@ -295,7 +395,12 @@
    "17209"
   ],
   "sumilla": "Funciones de varias variables, derivadas parciales e integrales dobles y triples.",
-  "recomendacion": "Mira las superficies en GeoGebra 3D: ver la gráfica ayuda mucho.",
+  "que_se_hace": "Ejercicios de derivadas parciales e integrales dobles y triples; prácticas y exámenes escritos.",
+  "como_aprobar": [
+   "Mira las superficies en GeoGebra 3D: ver la gráfica ayuda mucho.",
+   "Dibuja la región de integración antes de plantear los límites.",
+   "Practica los cambios a coordenadas polares, cilíndricas y esféricas."
+  ],
   "importancia": "Cálculo avanzado aplicado",
   "malla": "17"
  },
@@ -312,7 +417,12 @@
    "17208"
   ],
   "sumilla": "Mecánica: estática, dinámica de partículas y del cuerpo rígido, y oscilaciones.",
-  "recomendacion": "Resuelve exámenes pasados: los tipos de problema se repiten.",
+  "que_se_hace": "Problemas de mecánica, laboratorios con informe y exámenes de resolución de problemas.",
+  "como_aprobar": [
+   "Resuelve exámenes pasados: los tipos de problema se repiten.",
+   "Haz el diagrama de cuerpo libre en cada problema, aunque parezca obvio.",
+   "Entrega informes completos: gráficas, cálculos y conclusiones."
+  ],
   "importancia": "Física aplicada a ingeniería",
   "malla": "17"
  },
@@ -327,7 +437,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Programación orientada a objetos: clases, herencia, polimorfismo, colecciones y manejo de excepciones.",
-  "recomendacion": "Haz un proyecto pequeño propio (un inventario, una agenda): los objetos se entienden usándolos.",
+  "que_se_hace": "Programas orientados a objetos en laboratorio, un proyecto en grupo y exámenes prácticos.",
+  "como_aprobar": [
+   "Haz un proyecto pequeño propio (un inventario, una agenda): los objetos se entienden usándolos.",
+   "Diseña las clases en papel (un diagrama UML simple) antes de programar.",
+   "Usa Git en el proyecto grupal: no pierdes código y se ve quién hizo qué."
+  ],
   "importancia": "Programación intermedia",
   "malla": "17"
  },
@@ -342,7 +457,12 @@
    "17222"
   ],
   "sumilla": "Cómo plantear un problema, objetivos, hipótesis, marco teórico y diseño de una investigación.",
-  "recomendacion": "Elige un tema de sistemas que de verdad te interese: puede volverse tu tesis.",
+  "que_se_hace": "Avanzas por partes un proyecto de investigación (problema, objetivos, marco teórico) y lo sustentas.",
+  "como_aprobar": [
+   "Elige un tema de sistemas que de verdad te interese: puede volverse tu tesis.",
+   "Busca antecedentes en Google Académico y en el repositorio RENATI desde la primera semana.",
+   "Corrige cada avance con las observaciones del docente antes de la siguiente entrega."
+  ],
   "importancia": "Base para investigación académica",
   "malla": "17"
  },
@@ -355,7 +475,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Lógica, conjuntos, relaciones, combinatoria, grafos y árboles.",
-  "recomendacion": "Conecta cada tema con la programación: grafos y combinatoria reaparecen en algoritmos y redes.",
+  "que_se_hace": "Ejercicios de lógica, conjuntos, combinatoria y grafos; prácticas y exámenes escritos.",
+  "como_aprobar": [
+   "Conecta cada tema con la programación: grafos y combinatoria reaparecen en algoritmos y redes.",
+   "Practica demostraciones por inducción: suelen venir en el examen.",
+   "Programa algunos ejercicios (combinaciones, recorridos de grafos) para entenderlos mejor."
+  ],
   "importancia": "Base de ciencias de la computación",
   "malla": "17"
  },
@@ -370,7 +495,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Distribuciones, muestreo, intervalos de confianza y pruebas de hipótesis.",
-  "recomendacion": "Aprende a hacerlo en Excel, R o Python: en la tesis lo necesitarás para analizar tus datos.",
+  "que_se_hace": "Ejercicios de intervalos de confianza y pruebas de hipótesis, a veces con software; prácticas y exámenes.",
+  "como_aprobar": [
+   "Aprende a hacerlo en Excel, R o Python: en la tesis lo necesitarás para analizar tus datos.",
+   "Aprende a plantear bien H0 y H1: ahí está la mitad de la pregunta.",
+   "Haz un resumen de qué prueba usar en cada caso (z, t, chi-cuadrado)."
+  ],
   "importancia": "Análisis estadístico avanzado",
   "malla": "17"
  },
@@ -387,7 +517,12 @@
    "17213"
   ],
   "sumilla": "Circuitos eléctricos y componentes (resistencias, diodos, transistores) y su análisis.",
-  "recomendacion": "Arma los circuitos en un simulador (Tinkercad, Proteus) antes del laboratorio.",
+  "que_se_hace": "Análisis de circuitos en clase, laboratorios armando circuitos con informe y exámenes.",
+  "como_aprobar": [
+   "Arma los circuitos en un simulador (Tinkercad, Proteus) antes del laboratorio.",
+   "Aprende a usar bien el multímetro: lo necesitas en cada laboratorio.",
+   "Domina las leyes de Ohm y Kirchhoff: todo el curso se apoya en ellas."
+  ],
   "importancia": "Fundamentos de hardware",
   "malla": "17"
  },
@@ -404,7 +539,12 @@
    "17212"
   ],
   "sumilla": "Programación lineal, método simplex y modelos de transporte y asignación.",
-  "recomendacion": "Plantea bien el modelo antes de resolver y compruébalo con Solver de Excel.",
+  "que_se_hace": "Planteas modelos de programación lineal y los resuelves a mano y con software (Solver, LINDO); prácticas y exámenes.",
+  "como_aprobar": [
+   "Plantea bien el modelo antes de resolver y compruébalo con Solver de Excel.",
+   "Interpreta la solución en palabras (cuánto producir, cuánto se gana): también se califica.",
+   "Lleva el simplex tabla por tabla con orden: un error de signo arruina todo."
+  ],
   "importancia": "Optimización y decisiones",
   "malla": "17"
  },
@@ -419,7 +559,12 @@
    "17214"
   ],
   "sumilla": "Microeconomía y macroeconomía: oferta, demanda, mercados, inflación y PBI.",
-  "recomendacion": "Relaciona cada concepto con una noticia económica del Perú: se entiende y se recuerda mejor.",
+  "que_se_hace": "Clases teóricas, ejercicios de oferta y demanda, lecturas y exámenes escritos.",
+  "como_aprobar": [
+   "Relaciona cada concepto con una noticia económica del Perú: se entiende y se recuerda mejor.",
+   "Grafica oferta y demanda en cada ejercicio: la respuesta se vuelve evidente.",
+   "Repasa las definiciones (elasticidad, PBI, inflación) con un ejemplo cada una."
+  ],
   "importancia": "Gestión y negocios",
   "malla": "17"
  },
@@ -434,7 +579,12 @@
    "17305"
   ],
   "sumilla": "Autómatas, lenguajes formales, gramáticas y máquinas de Turing.",
-  "recomendacion": "Usa JFLAP para dibujar y probar autómatas: ver cómo procesan una cadena lo aclara todo.",
+  "que_se_hace": "Ejercicios de autómatas, gramáticas y máquinas de Turing; prácticas y exámenes escritos.",
+  "como_aprobar": [
+   "Usa JFLAP para dibujar y probar autómatas: ver cómo procesan una cadena lo aclara todo.",
+   "Prueba cada autómata con cadenas que debe aceptar y con otras que debe rechazar.",
+   "Repasa conjuntos y lógica de Matemática Discreta antes de empezar."
+  ],
   "importancia": "Fundamentos teóricos de la computación",
   "malla": "17"
  },
@@ -447,7 +597,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Enfoque sistémico: sistemas, subsistemas, entropía y retroalimentación, aplicados a organizaciones.",
-  "recomendacion": "Analiza una organización real (tu facultad, un negocio) como sistema: así se vuelve concreto.",
+  "que_se_hace": "Lecturas, análisis de organizaciones como sistemas, trabajos grupales y exposiciones.",
+  "como_aprobar": [
+   "Analiza una organización real (tu facultad, un negocio) como sistema: así se vuelve concreto.",
+   "Usa diagramas (caja negra, retroalimentación) en tus trabajos: muestran que entendiste.",
+   "Para el examen, ten una definición y un ejemplo propio de cada concepto."
+  ],
   "importancia": "Pensamiento sistémico",
   "malla": "17"
  },
@@ -464,7 +619,12 @@
    "17310"
   ],
   "sumilla": "Modelos probabilísticos: teoría de colas, inventarios, decisiones y cadenas de Markov.",
-  "recomendacion": "Repasa probabilidad antes de empezar: casi todo el curso se apoya en ella.",
+  "que_se_hace": "Ejercicios de colas, inventarios y cadenas de Markov; prácticas con software y exámenes.",
+  "como_aprobar": [
+   "Repasa probabilidad antes de empezar: casi todo el curso se apoya en ella.",
+   "Ten las fórmulas de cada modelo de colas con sus supuestos en una hoja resumen.",
+   "Comprueba tus resultados con Excel o Python."
+  ],
   "importancia": "Optimización avanzada",
   "malla": "17"
  },
@@ -481,7 +641,12 @@
    "17332"
   ],
   "sumilla": "Electrónica digital: compuertas lógicas, álgebra de Boole y circuitos combinacionales y secuenciales.",
-  "recomendacion": "Practica con Arduino o un simulador: ver tu lógica encender un LED ayuda mucho.",
+  "que_se_hace": "Diseño de circuitos digitales, laboratorios con protoboard o simulador e informes; exámenes.",
+  "como_aprobar": [
+   "Practica con Arduino o un simulador: ver tu lógica encender un LED ayuda mucho.",
+   "Simplifica con mapas de Karnaugh antes de armar: menos compuertas, menos errores.",
+   "Prueba cada parte del circuito por separado antes de unirlo todo."
+  ],
   "importancia": "Hardware avanzado",
   "malla": "17"
  },
@@ -498,7 +663,12 @@
    "17216"
   ],
   "sumilla": "Estados financieros, registro contable y cálculo de costos de producción.",
-  "recomendacion": "Arma en Excel los estados de un negocio pequeño: la teoría sola se olvida rápido.",
+  "que_se_hace": "Ejercicios de asientos contables, estados financieros y costos, muchas veces en Excel; exámenes.",
+  "como_aprobar": [
+   "Arma en Excel los estados de un negocio pequeño: la teoría sola se olvida rápido.",
+   "Practica el libro diario y el mayor hasta que cuadren solos.",
+   "Repasa la ecuación contable (activo = pasivo + patrimonio): ordena todo lo demás."
+  ],
   "importancia": "Gestión financiera",
   "malla": "17"
  },
@@ -513,7 +683,12 @@
    "17218"
   ],
   "sumilla": "Proceso administrativo y gestión de la calidad: ciclo PDCA, normas ISO y mejora continua.",
-  "recomendacion": "Busca un ejemplo real de mejora continua: los casos prácticos pesan en la nota.",
+  "que_se_hace": "Clases teóricas, casos de empresas, trabajos grupales con herramientas de calidad y exposiciones.",
+  "como_aprobar": [
+   "Busca un ejemplo real de mejora continua: los casos prácticos pesan en la nota.",
+   "Aplica las herramientas (Ishikawa, Pareto, PDCA) a un caso real en tus trabajos.",
+   "Repasa los autores clave (Deming, Juran, Ishikawa) para el examen."
+  ],
   "importancia": "Gestión organizacional",
   "malla": "17"
  },
@@ -530,7 +705,12 @@
    "17307"
   ],
   "sumilla": "Cómo está hecho un computador: CPU, memoria, buses, entrada/salida y lenguaje ensamblador.",
-  "recomendacion": "Abre una PC (con cuidado) y ubica cada parte; luego prueba un simulador de ensamblador.",
+  "que_se_hace": "Teoría, ejercicios de sistemas numéricos y ensamblador, y laboratorios con simulador; exámenes escritos.",
+  "como_aprobar": [
+   "Abre una PC (con cuidado) y ubica cada parte; luego prueba un simulador de ensamblador.",
+   "Domina las conversiones entre binario, hexadecimal y decimal: aparecen en todo examen.",
+   "Haz programas pequeños en un simulador de ensamblador (MARS, emu8086) fuera de clase."
+  ],
   "importancia": "Fundamentos de hardware computacional",
   "malla": "17"
  },
@@ -547,7 +727,12 @@
    "17309"
   ],
   "sumilla": "Modelo entidad-relación, modelo relacional, normalización y SQL básico.",
-  "recomendacion": "Practica SQL en un motor real (SQL Server, MySQL o PostgreSQL) con datos que tú mismo inventes.",
+  "que_se_hace": "Diseñas modelos entidad-relación, normalizas y escribes consultas SQL en laboratorio; proyecto de una base de datos y exámenes.",
+  "como_aprobar": [
+   "Practica SQL en un motor real (SQL Server, MySQL o PostgreSQL) con datos que tú mismo inventes.",
+   "JOIN y GROUP BY son lo más preguntado: practícalos hasta que salgan solos.",
+   "Normaliza tu proyecto paso a paso y prepárate para explicar cada forma normal en la sustentación."
+  ],
   "importancia": "Gestión de datos",
   "malla": "17"
  },
@@ -564,7 +749,12 @@
    "17219"
   ],
   "sumilla": "Flujo de materiales en una empresa: compras, inventarios, almacenes y distribución.",
-  "recomendacion": "Fíjate en los sistemas (ERP) que controlan esa cadena: ahí está el aporte del ingeniero de sistemas.",
+  "que_se_hace": "Clases teóricas, casos de empresas, ejercicios de inventarios y trabajos grupales.",
+  "como_aprobar": [
+   "Fíjate en los sistemas (ERP) que controlan esa cadena: ahí está el aporte del ingeniero de sistemas.",
+   "Relaciona cada tema con una empresa que conozcas (una minera, un supermercado).",
+   "Practica los ejercicios de inventarios (lote económico): suelen venir en el examen."
+  ],
   "importancia": "Gestión de operaciones",
   "malla": "17"
  },
@@ -577,7 +767,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Conducta de las personas en la empresa: motivación, liderazgo, cultura y cambio organizacional.",
-  "recomendacion": "Te servirá al implantar sistemas: la resistencia al cambio de los usuarios es real.",
+  "que_se_hace": "Lecturas, casos, dinámicas grupales y exposiciones sobre las personas en las organizaciones.",
+  "como_aprobar": [
+   "Te servirá al implantar sistemas: la resistencia al cambio de los usuarios es real.",
+   "Participa en las dinámicas: en este curso la participación cuenta.",
+   "Lee los casos antes de clase: los debates se califican."
+  ],
   "importancia": "Gestión del talento humano",
   "malla": "17"
  },
@@ -594,7 +789,12 @@
    "17312"
   ],
   "sumilla": "Procesos, hilos, planificación, memoria, archivos y concurrencia.",
-  "recomendacion": "Usa Linux a diario mientras llevas el curso: la terminal te acompañará toda la carrera.",
+  "que_se_hace": "Teoría de procesos, memoria y archivos, laboratorios en Linux y ejercicios de planificación; exámenes.",
+  "como_aprobar": [
+   "Usa Linux a diario mientras llevas el curso: la terminal te acompañará toda la carrera.",
+   "Aprende los comandos básicos (ls, chmod, ps, grep): los laboratorios se hacen en la terminal.",
+   "Practica los algoritmos de planificación (FCFS, SJF, Round Robin) con diagramas de Gantt."
+  ],
   "importancia": "Gestión de recursos computacionales",
   "malla": "17"
  },
@@ -611,7 +811,12 @@
    "17314"
   ],
   "sumilla": "Ciclo de vida del software, requisitos, modelado con UML y metodologías de desarrollo.",
-  "recomendacion": "Trabaja con un proyecto real: un buen documento de requisitos te ahorra problemas en Software II.",
+  "que_se_hace": "Levantas requisitos y modelas un sistema con UML para un caso real; avances de proyecto en grupo y exámenes.",
+  "como_aprobar": [
+   "Trabaja con un proyecto real: un buen documento de requisitos te ahorra problemas en Software II.",
+   "Valida los requisitos con el usuario antes de pasar al diseño.",
+   "Mantén los diagramas coherentes entre sí: casos de uso, clases y secuencia hablan del mismo sistema."
+  ],
   "importancia": "Desarrollo de software profesional",
   "malla": "17"
  },
@@ -628,7 +833,12 @@
    "17313"
   ],
   "sumilla": "Bases de datos avanzadas: procedimientos almacenados, transacciones, índices, seguridad y optimización.",
-  "recomendacion": "Trabaja con un volumen grande de datos: así notas la diferencia que hace un índice.",
+  "que_se_hace": "Laboratorios de procedimientos almacenados, triggers, transacciones e índices; proyecto sobre una base de datos y exámenes prácticos.",
+  "como_aprobar": [
+   "Trabaja con un volumen grande de datos: así notas la diferencia que hace un índice.",
+   "Repasa el SQL de Base de Datos I antes de empezar: aquí se da por sabido.",
+   "Guarda tus scripts ordenados y comentados: te los pueden pedir en la sustentación."
+  ],
   "importancia": "Gestión avanzada de datos",
   "malla": "17"
  },
@@ -643,7 +853,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Modelado y simulación de sistemas: números aleatorios, Montecarlo y simulación de eventos discretos.",
-  "recomendacion": "Aprende una herramienta (Arena, FlexSim o Python): el curso se entiende construyendo modelos.",
+  "que_se_hace": "Modelos de simulación de sistemas (colas, inventarios) con software como Arena, Promodel o Python; proyecto y exámenes.",
+  "como_aprobar": [
+   "Aprende una herramienta (Arena, FlexSim o Python): el curso se entiende construyendo modelos.",
+   "Valida tu modelo con datos reales antes de sacar conclusiones.",
+   "Repasa las distribuciones de probabilidad: generan los datos de la simulación."
+  ],
   "importancia": "Modelamiento de sistemas",
   "malla": "17"
  },
@@ -656,7 +871,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Software y tecnología aplicados a la minería: modelamiento, planificación y control de operaciones.",
-  "recomendacion": "Pasco es zona minera: conversar con alguien que trabaje en una mina abre puertas para las prácticas.",
+  "que_se_hace": "Conoces y practicas software usado en minería (planeamiento, topografía, monitoreo) con trabajos aplicados.",
+  "como_aprobar": [
+   "Pasco es zona minera: conversar con alguien que trabaje en una mina abre puertas para las prácticas.",
+   "Practica con las versiones educativas o de prueba del software que veas en clase.",
+   "Guarda tus trabajos: sirven de portafolio para postular a una minera."
+  ],
   "importancia": "Tecnología aplicada a minería",
   "malla": "17"
  },
@@ -673,7 +893,12 @@
    "17220"
   ],
   "sumilla": "Misión, visión, análisis FODA, objetivos estratégicos y control de la gestión.",
-  "recomendacion": "Practica con una empresa real: te servirá en el planeamiento de TI y en la tesis.",
+  "que_se_hace": "Elaboras en grupo un plan estratégico para una organización (FODA, misión, objetivos) y lo expones.",
+  "como_aprobar": [
+   "Practica con una empresa real: te servirá en el planeamiento de TI y en la tesis.",
+   "Usa PESTEL y las cinco fuerzas de Porter para el análisis externo.",
+   "Cuida la coherencia: cada estrategia debe salir del FODA."
+  ],
   "importancia": "Gestión estratégica",
   "malla": "17"
  },
@@ -690,7 +915,12 @@
    "17221"
   ],
   "sumilla": "Análisis financiero, valor del dinero en el tiempo, presupuestos y financiamiento.",
-  "recomendacion": "Domina el VAN y la TIR en Excel: vuelven en los cursos de proyectos.",
+  "que_se_hace": "Ejercicios de análisis financiero, interés y flujo de caja en Excel; exámenes.",
+  "como_aprobar": [
+   "Domina el VAN y la TIR en Excel: vuelven en los cursos de proyectos.",
+   "Domina el valor del dinero en el tiempo: todo el curso se apoya en él.",
+   "Arma tu propia plantilla de Excel con las fórmulas del curso."
+  ],
   "importancia": "Finanzas corporativas",
   "malla": "17"
  },
@@ -707,7 +937,12 @@
    "17319"
   ],
   "sumilla": "Modelos OSI y TCP/IP, direccionamiento IP, subredes, cableado y dispositivos de red.",
-  "recomendacion": "Practica el subneteo hasta hacerlo rápido y arma topologías en Cisco Packet Tracer.",
+  "que_se_hace": "Teoría del modelo OSI y TCP/IP, subneteo y laboratorios con Packet Tracer y cableado; exámenes.",
+  "como_aprobar": [
+   "Practica el subneteo hasta hacerlo rápido y arma topologías en Cisco Packet Tracer.",
+   "Aprende a armar y probar un cable de red (norma T568B): suele haber laboratorio de cableado.",
+   "Comprueba cada red que armes con ping y tracert: así encuentras dónde falla."
+  ],
   "importancia": "Conectividad y redes",
   "malla": "17"
  },
@@ -724,7 +959,12 @@
    "17333"
   ],
   "sumilla": "Data warehouse, procesos ETL, cubos OLAP y tableros para tomar decisiones.",
-  "recomendacion": "Haz un tablero en Power BI con datos reales: queda muy bien en tu portafolio.",
+  "que_se_hace": "Construyes un almacén de datos y tableros (Power BI) con los datos de un caso; proyecto y exámenes.",
+  "como_aprobar": [
+   "Haz un tablero en Power BI con datos reales: queda muy bien en tu portafolio.",
+   "Limpia bien los datos antes de graficar: ahí está la mayor parte del trabajo.",
+   "Que tu tablero responda una pregunta: qué decisión ayuda a tomar."
+  ],
   "importancia": "Business Intelligence",
   "malla": "17"
  },
@@ -742,7 +982,12 @@
    "17321"
   ],
   "sumilla": "Diseño, arquitectura, pruebas, mantenimiento y gestión de la configuración del software.",
-  "recomendacion": "Usa Git con tu equipo desde el primer día: trabajar con ramas te lo pedirán en cualquier empleo.",
+  "que_se_hace": "Diseño, construcción y pruebas de un sistema en grupo, con entregas por avance y sustentación.",
+  "como_aprobar": [
+   "Usa Git con tu equipo desde el primer día: trabajar con ramas te lo pedirán en cualquier empleo.",
+   "Repartan las tareas con un tablero (Trello, GitHub Projects) desde el inicio.",
+   "Prueben el sistema con datos reales antes de la sustentación."
+  ],
   "importancia": "Desarrollo de software avanzado",
   "malla": "17"
  },
@@ -757,7 +1002,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Cómo se diseña un lenguaje: sintaxis, semántica, análisis léxico y sintáctico, compiladores e intérpretes.",
-  "recomendacion": "Construye un intérprete pequeño (una calculadora): es la mejor forma de entender un compilador.",
+  "que_se_hace": "Teoría de lenguajes, ejercicios de gramáticas y un pequeño analizador o intérprete como proyecto.",
+  "como_aprobar": [
+   "Construye un intérprete pequeño (una calculadora): es la mejor forma de entender un compilador.",
+   "Empieza el proyecto del analizador temprano: siempre tarda más de lo pensado.",
+   "Compara cómo resuelven lo mismo varios lenguajes (Python, C, Java)."
+  ],
   "importancia": "Teoría de lenguajes",
   "malla": "17"
  },
@@ -772,7 +1022,12 @@
    "17322"
   ],
   "sumilla": "Configuración de switches y routers: VLAN y enrutamiento estático y dinámico (RIP, OSPF).",
-  "recomendacion": "Practica mucho en Packet Tracer y, si puedes, sigue el material de CCNA.",
+  "que_se_hace": "Laboratorios de configuración de switches y routers (VLAN, OSPF) en Packet Tracer o en equipos; exámenes prácticos.",
+  "como_aprobar": [
+   "Practica mucho en Packet Tracer y, si puedes, sigue el material de CCNA.",
+   "Aprende los comandos de Cisco IOS de memoria: el examen práctico es con tiempo.",
+   "Guarda la configuración de cada laboratorio (show running-config) para repasar."
+  ],
   "importancia": "Redes avanzadas",
   "malla": "17"
  },
@@ -787,7 +1042,12 @@
    "17323"
   ],
   "sumilla": "Scrum, Kanban y XP: iteraciones, historias de usuario y roles del equipo.",
-  "recomendacion": "Organiza tus trabajos de grupo en un tablero (Trello o GitHub Projects): es práctica real.",
+  "que_se_hace": "Trabajas un proyecto en equipo con Scrum: sprints, historias de usuario, reuniones y entregas.",
+  "como_aprobar": [
+   "Organiza tus trabajos de grupo en un tablero (Trello o GitHub Projects): es práctica real.",
+   "Mantén el tablero del equipo al día: el docente suele revisarlo.",
+   "Muestra algo funcionando en cada sprint, aunque sea pequeño."
+  ],
   "importancia": "Desarrollo ágil",
   "malla": "17"
  },
@@ -802,7 +1062,12 @@
    "17324"
   ],
   "sumilla": "HTML, CSS y JavaScript para construir la parte visible de una web, con diseño adaptable.",
-  "recomendacion": "Publica tus prácticas en GitHub Pages o Vercel: un portafolio en línea vale más que una nota.",
+  "que_se_hace": "Laboratorios de JavaScript y de un framework (React, Vue o Angular) y un proyecto web final.",
+  "como_aprobar": [
+   "Publica tus prácticas en GitHub Pages o Vercel: un portafolio en línea vale más que una nota.",
+   "Domina JavaScript puro antes del framework.",
+   "Divide la interfaz en componentes pequeños y reutilizables."
+  ],
   "importancia": "Desarrollo web frontend",
   "malla": "17"
  },
@@ -817,7 +1082,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Planificación, cronograma, costos, riesgos y seguimiento de proyectos según la guía PMBOK.",
-  "recomendacion": "Arma el cronograma de un proyecto real en un diagrama de Gantt: lo usarás en la tesis y en el trabajo.",
+  "que_se_hace": "Planificas un proyecto (alcance, cronograma, costos, riesgos) con MS Project o similar; trabajo grupal y exámenes.",
+  "como_aprobar": [
+   "Arma el cronograma de un proyecto real en un diagrama de Gantt: lo usarás en la tesis y en el trabajo.",
+   "Aprende a hallar la ruta crítica: es el ejercicio típico del examen.",
+   "Usa la guía PMBOK como base: muchos docentes la siguen."
+  ],
   "importancia": "Project Management",
   "malla": "17"
  },
@@ -834,7 +1104,12 @@
    "17224"
   ],
   "sumilla": "Marketing: segmentación, producto, precio, plaza, promoción y marketing digital.",
-  "recomendacion": "Analiza cómo un negocio local usa sus redes sociales: los casos cercanos se entienden mejor.",
+  "que_se_hace": "Casos de marketing, un plan de marketing en grupo para un producto y exposiciones.",
+  "como_aprobar": [
+   "Analiza cómo un negocio local usa sus redes sociales: los casos cercanos se entienden mejor.",
+   "Elige un producto real o un emprendimiento propio para el plan.",
+   "Sustenta con datos (encuestas, competencia), no solo con opiniones."
+  ],
   "importancia": "Marketing y ventas",
   "malla": "17"
  },
@@ -851,7 +1126,12 @@
    "17223"
   ],
   "sumilla": "Elaboración del proyecto de investigación: problema, objetivos, marco teórico y metodología.",
-  "recomendacion": "Elige tu tema y tu asesor pronto: es lo que más retrasa la titulación.",
+  "que_se_hace": "Elaboras tu proyecto de investigación por entregas, con revisiones del docente, y lo sustentas.",
+  "como_aprobar": [
+   "Elige tu tema y tu asesor pronto: es lo que más retrasa la titulación.",
+   "Delimita bien el problema: un tema pequeño y concreto se termina; uno enorme, no.",
+   "Lleva cada avance corregido según las observaciones anteriores."
+  ],
   "importancia": "Investigación de tesis",
   "malla": "17"
  },
@@ -868,7 +1148,12 @@
    "17326"
   ],
   "sumilla": "Redes avanzadas: WAN, servicios de red, redes inalámbricas y seguridad.",
-  "recomendacion": "Configura servicios reales (DHCP, DNS) en máquinas virtuales para practicar.",
+  "que_se_hace": "Laboratorios de enrutamiento, servicios de red y seguridad básica; proyecto de diseño de red y exámenes.",
+  "como_aprobar": [
+   "Configura servicios reales (DHCP, DNS) en máquinas virtuales para practicar.",
+   "Documenta cada laboratorio con capturas y la configuración: te sirve para el examen.",
+   "Repasa subneteo y los comandos de Redes I antes de empezar."
+  ],
   "importancia": "Redes avanzadas",
   "malla": "17"
  },
@@ -885,7 +1170,12 @@
    "17325"
   ],
   "sumilla": "Sistemas que apoyan las decisiones de los gerentes: tipos de sistemas de información, ERP, CRM e indicadores.",
-  "recomendacion": "Relaciona cada tipo de sistema con una empresa que conozcas.",
+  "que_se_hace": "Casos de empresas, análisis de sus sistemas de información y un trabajo grupal sobre una organización real.",
+  "como_aprobar": [
+   "Relaciona cada tipo de sistema con una empresa que conozcas.",
+   "Estudia cómo un ERP integra las áreas de una empresa: es tema central.",
+   "Repasa los conceptos clave para el examen teórico."
+  ],
   "importancia": "Sistemas gerenciales",
   "malla": "17"
  },
@@ -903,7 +1193,12 @@
    "17328"
   ],
   "sumilla": "Temas actuales de la carrera que elige el docente: nuevas tecnologías y tendencias.",
-  "recomendacion": "Aprovecha para explorar un área nueva: puede marcar tu especialización.",
+  "que_se_hace": "Temas actuales elegidos por el docente, con trabajos de investigación, exposiciones o un proyecto.",
+  "como_aprobar": [
+   "Aprovecha para explorar un área nueva: puede marcar tu especialización.",
+   "Elige un tema que te sirva para tu tesis o para el trabajo que quieres tener.",
+   "Prepara bien las exposiciones: suelen ser gran parte de la nota."
+  ],
   "importancia": "Tendencias tecnológicas",
   "malla": "17"
  },
@@ -920,7 +1215,12 @@
    "17329"
   ],
   "sumilla": "Instalación y administración de servidores Linux y Windows: usuarios, servicios, seguridad, respaldos y contenedores.",
-  "recomendacion": "Practica en máquinas virtuales o con Docker: romper y reparar tu propio servidor enseña más que la teoría.",
+  "que_se_hace": "Laboratorios instalando y configurando servidores (Linux o Windows Server, web, DNS, Docker) y un proyecto desplegado.",
+  "como_aprobar": [
+   "Practica en máquinas virtuales o con Docker: romper y reparar tu propio servidor enseña más que la teoría.",
+   "Aprende a leer los logs del servidor: casi todo error se explica ahí.",
+   "Anota cada comando que uses en tu propio manual."
+  ],
   "importancia": "Administración de infraestructura",
   "malla": "17"
  },
@@ -937,7 +1237,12 @@
    "17330"
   ],
   "sumilla": "Desarrollo en equipo de un sistema completo, desde los requisitos hasta la entrega.",
-  "recomendacion": "Elige un problema real (un negocio, una oficina de la UNDAC): un sistema que se usa de verdad suma en tu portafolio.",
+  "que_se_hace": "Desarrollas en equipo una solución de software para un problema real, con avances y sustentación.",
+  "como_aprobar": [
+   "Elige un problema real (un negocio, una oficina de la UNDAC): un sistema que se usa de verdad suma en tu portafolio.",
+   "Definan el alcance con el docente al inicio y no lo agranden después.",
+   "Lleven algo funcionando a cada revisión."
+  ],
   "importancia": "Desarrollo empresarial",
   "malla": "17"
  },
@@ -954,7 +1259,12 @@
    "17331"
   ],
   "sumilla": "Programación del lado del servidor (PHP, Node.js u otros), conexión a bases de datos, sesiones y APIs.",
-  "recomendacion": "Aprende a crear una API REST: casi todas las aplicaciones modernas se comunican así.",
+  "que_se_hace": "Laboratorios de backend (PHP, Node o Python), APIs y bases de datos, con un proyecto web completo.",
+  "como_aprobar": [
+   "Aprende a crear una API REST: casi todas las aplicaciones modernas se comunican así.",
+   "Aprende sesiones, validación y seguridad básica (inyección SQL).",
+   "Prueba tus APIs con Postman o Thunder Client."
+  ],
   "importancia": "Desarrollo web backend",
   "malla": "17"
  },
@@ -971,7 +1281,12 @@
    "17225"
   ],
   "sumilla": "Ejecución de la investigación: recojo y análisis de datos, resultados, discusión y conclusiones.",
-  "recomendacion": "Reúnete con tu asesor cada semana y no dejes la redacción para el final.",
+  "que_se_hace": "Ejecutas la investigación: recoges datos, los analizas y redactas resultados, con revisiones periódicas.",
+  "como_aprobar": [
+   "Reúnete con tu asesor cada semana y no dejes la redacción para el final.",
+   "Recoge tus datos apenas tengas el instrumento validado: no lo dejes para el final.",
+   "Usa desde el inicio una plantilla con el formato que pide la UNDAC."
+  ],
   "importancia": "Desarrollo de tesis",
   "malla": "17"
  },
@@ -988,7 +1303,12 @@
    "17226"
   ],
   "sumilla": "Análisis, modelado y mejora de los procesos de negocio con BPMN, apoyados en la tecnología.",
-  "recomendacion": "Modela los procesos en Bizagi (es gratuito): es la herramienta que más se usa para BPMN.",
+  "que_se_hace": "Modelas los procesos actuales de una organización, propones mejoras con BPMN y las sustentas en grupo.",
+  "como_aprobar": [
+   "Modela los procesos en Bizagi (es gratuito): es la herramienta que más se usa para BPMN.",
+   "Visita la organización y entrevista a quien hace el proceso: los datos reales hacen la diferencia.",
+   "Mide el antes y el después (tiempo, costo, pasos) en tu propuesta."
+  ],
   "importancia": "Mejora de procesos",
   "malla": "17"
  },
@@ -1003,7 +1323,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Sistemas que razonan como un experto: base de conocimiento, reglas, motor de inferencia y lógica difusa.",
-  "recomendacion": "Construye un sistema experto pequeño (un diagnóstico, por ejemplo) en Python o Prolog.",
+  "que_se_hace": "Teoría de sistemas basados en conocimiento y un sistema experto como proyecto (reglas en Prolog, CLIPS o Python).",
+  "como_aprobar": [
+   "Construye un sistema experto pequeño (un diagnóstico, por ejemplo) en Python o Prolog.",
+   "Saca las reglas entrevistando a un experto real.",
+   "Prueba tu sistema con casos cuya respuesta ya conoces."
+  ],
   "importancia": "Inteligencia artificial",
   "malla": "17"
  },
@@ -1020,7 +1345,12 @@
    "17334"
   ],
   "sumilla": "Gestión del área de TI en una organización: servicios, ITIL, COBIT y gobierno de TI.",
-  "recomendacion": "Aprende ITIL a nivel básico: lo piden mucho en empleos de soporte y gestión.",
+  "que_se_hace": "Casos de gestión de TI con marcos como ITIL y COBIT, trabajos grupales y exámenes.",
+  "como_aprobar": [
+   "Aprende ITIL a nivel básico: lo piden mucho en empleos de soporte y gestión.",
+   "Ten claro qué es un SLA, un incidente y un cambio: son preguntas típicas.",
+   "Aplica los marcos a una organización real en tus trabajos."
+  ],
   "importancia": "Gestión de TI",
   "malla": "17"
  },
@@ -1035,7 +1365,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Temas actuales de la carrera que elige el docente: nuevas tecnologías y tendencias.",
-  "recomendacion": "Aprovecha para explorar un área nueva: puede marcar tu especialización.",
+  "que_se_hace": "Temas actuales elegidos por el docente, con trabajos de investigación, exposiciones o un proyecto.",
+  "como_aprobar": [
+   "Aprovecha para explorar un área nueva: puede marcar tu especialización.",
+   "Elige un tema que te sirva para tu tesis o para el trabajo que quieres tener.",
+   "Prepara bien las exposiciones: suelen ser gran parte de la nota."
+  ],
   "importancia": "Tendencias avanzadas",
   "malla": "17"
  },
@@ -1052,7 +1387,12 @@
    "17336"
   ],
   "sumilla": "Trabajo en una empresa o institución aplicando lo aprendido, bajo la guía de un docente asesor.",
-  "recomendacion": "Busca la empresa con tiempo y revisa la ruta de prácticas en SOFIA: plazos, anexos y el FUT que toca.",
+  "que_se_hace": "Trabajas en una empresa o institución con un docente asesor y entregas informes de lo que haces.",
+  "como_aprobar": [
+   "Busca la empresa con tiempo y revisa la ruta de prácticas en SOFIA: plazos, anexos y el FUT que toca.",
+   "Cumple el horario y entrega los informes en los plazos del reglamento.",
+   "Guarda evidencias (fotos, documentos, constancias) para tu informe final."
+  ],
   "importancia": "Experiencia profesional",
   "malla": "17"
  },
@@ -1067,7 +1407,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Máquinas virtuales, contenedores y servicios en la nube (IaaS, PaaS, SaaS) en AWS, Azure o Google Cloud.",
-  "recomendacion": "Usa las cuentas gratuitas para estudiantes (AWS Educate, Azure for Students) y despliega algo tuyo.",
+  "que_se_hace": "Laboratorios con máquinas virtuales, contenedores y servicios en la nube; proyecto desplegado y exámenes.",
+  "como_aprobar": [
+   "Usa las cuentas gratuitas para estudiantes (AWS Educate, Azure for Students) y despliega algo tuyo.",
+   "Apaga o borra los recursos de la nube al terminar cada práctica: evitas cobros.",
+   "Practica Docker en tu PC antes de llevarlo a la nube."
+  ],
   "importancia": "Cloud computing",
   "malla": "17"
  },
@@ -1082,7 +1427,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Continuación de Desarrollo de Soluciones I: un sistema más grande, con calidad, pruebas y despliegue.",
-  "recomendacion": "Puede servirte de base para la tesis o las prácticas: elige el tema pensando en eso.",
+  "que_se_hace": "Completas o construyes una solución más grande, la pruebas con usuarios y la presentas.",
+  "como_aprobar": [
+   "Puede servirte de base para la tesis o las prácticas: elige el tema pensando en eso.",
+   "Terminen lo esencial antes de agregar funciones.",
+   "Ensayen la demostración para la sustentación."
+  ],
   "importancia": "Desarrollo avanzado",
   "malla": "17"
  },
@@ -1097,7 +1447,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Publicar una aplicación en producción: servidores, dominios, HTTPS, contenedores e integración continua.",
-  "recomendacion": "Despliega tus proyectos en Vercel, Render o un VPS: tener algo en línea demuestra que sabes.",
+  "que_se_hace": "Publicas aplicaciones en servidores o en la nube (dominio, HTTPS, despliegue automático) en laboratorio y con un proyecto.",
+  "como_aprobar": [
+   "Despliega tus proyectos en Vercel, Render o un VPS: tener algo en línea demuestra que sabes.",
+   "Usa variables de entorno para claves y contraseñas: nunca las subas al repositorio.",
+   "Documenta cada paso del despliegue para poder repetirlo."
+  ],
   "importancia": "DevOps",
   "malla": "17"
  },
@@ -1112,7 +1467,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Investigación final con la que se obtiene el grado de bachiller.",
-  "recomendacion": "Si puedes, que sea la base de tu tesis: avanzas dos cosas a la vez.",
+  "que_se_hace": "Terminas, redactas y sustentas tu trabajo de investigación con un asesor.",
+  "como_aprobar": [
+   "Si puedes, que sea la base de tu tesis: avanzas dos cosas a la vez.",
+   "Fija reuniones regulares con tu asesor.",
+   "Revisa el reglamento de grados y títulos para el formato y los plazos."
+  ],
   "importancia": "Proyecto final",
   "malla": "17"
  },
@@ -1127,7 +1487,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Cómo crear un negocio: idea, modelo Canvas, validación con clientes y plan de negocios.",
-  "recomendacion": "Piensa en una startup tecnológica: muchos proyectos de software se vuelven negocios.",
+  "que_se_hace": "Desarrollas en grupo una idea de negocio (Canvas, validación, plan) y la presentas como pitch.",
+  "como_aprobar": [
+   "Piensa en una startup tecnológica: muchos proyectos de software se vuelven negocios.",
+   "Habla con clientes reales para validar la idea: el docente lo valora más que la teoría.",
+   "Ensaya el pitch para que dure exactamente lo que piden."
+  ],
   "importancia": "Emprendimiento",
   "malla": "17"
  },
@@ -1142,7 +1507,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Automatización de procesos industriales y de oficina: sensores, controladores, PLC y robots de software (RPA).",
-  "recomendacion": "Practica con Arduino o con una herramienta RPA (UiPath tiene versión gratuita).",
+  "que_se_hace": "Automatizas tareas con RPA, scripts u otras herramientas según el enfoque del docente; proyecto y exámenes.",
+  "como_aprobar": [
+   "Practica con Arduino o con una herramienta RPA (UiPath tiene versión gratuita).",
+   "Elige un proceso repetitivo real para automatizar.",
+   "Mide el tiempo que ahorras: es tu mejor argumento en la sustentación."
+  ],
   "importancia": "Automatización",
   "malla": "17"
  },
@@ -1157,7 +1527,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Descubrir patrones en grandes volúmenes de datos: clasificación, agrupamiento y reglas de asociación.",
-  "recomendacion": "Aprende Python con pandas y scikit-learn y practica con datos públicos de Kaggle.",
+  "que_se_hace": "Aplicas clasificación, agrupamiento y reglas de asociación a datos reales con Python, Weka o RapidMiner; proyecto.",
+  "como_aprobar": [
+   "Aprende Python con pandas y scikit-learn y practica con datos públicos de Kaggle.",
+   "Busca datos en Kaggle o en el portal de datos abiertos del Perú.",
+   "Explica qué significa cada resultado, no solo muestres la precisión."
+  ],
   "importancia": "Data mining",
   "malla": "17"
  },
@@ -1172,7 +1547,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Evaluación de los controles, la seguridad y el uso de la tecnología en una organización (COBIT, normas ISO).",
-  "recomendacion": "Audita una oficina real: los hallazgos concretos son lo que más se valora.",
+  "que_se_hace": "Casos de auditoría con normas (COBIT, ISO 27001) y una auditoría simulada a una organización, con informe.",
+  "como_aprobar": [
+   "Audita una oficina real: los hallazgos concretos son lo que más se valora.",
+   "Trabaja con listas de verificación basadas en la norma.",
+   "Redacta cada hallazgo con problema, evidencia y recomendación."
+  ],
   "importancia": "Auditoría de TI",
   "malla": "17"
  },
@@ -1185,7 +1565,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Leyes peruanas sobre tecnología: delitos informáticos, datos personales, firma digital y propiedad intelectual.",
-  "recomendacion": "Lee la Ley 30096 (delitos informáticos) y la Ley 29733 (datos personales): te tocará cumplirlas.",
+  "que_se_hace": "Lecturas de leyes peruanas (delitos informáticos, protección de datos), análisis de casos y exposiciones.",
+  "como_aprobar": [
+   "Lee la Ley 30096 (delitos informáticos) y la Ley 29733 (datos personales): te tocará cumplirlas.",
+   "Haz un cuadro de cada ley: qué castiga o protege y con qué sanción.",
+   "Analiza casos reales en tus trabajos."
+  ],
   "importancia": "Marco legal",
   "malla": "17"
  },
@@ -1200,7 +1585,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Trabajo en una empresa o institución aplicando lo aprendido, bajo la guía de un docente asesor.",
-  "recomendacion": "Busca la empresa con tiempo y revisa la ruta de prácticas en SOFIA: plazos, anexos y el FUT que toca.",
+  "que_se_hace": "Trabajas en una empresa o institución con un docente asesor y entregas informes de lo que haces.",
+  "como_aprobar": [
+   "Busca la empresa con tiempo y revisa la ruta de prácticas en SOFIA: plazos, anexos y el FUT que toca.",
+   "Cumple el horario y entrega los informes en los plazos del reglamento.",
+   "Guarda evidencias (fotos, documentos, constancias) para tu informe final."
+  ],
   "importancia": "Experiencia profesional avanzada",
   "malla": "17"
  },
@@ -1215,7 +1605,12 @@
    "26113"
   ],
   "sumilla": "Lógica proposicional, conjuntos, números reales, ecuaciones, inecuaciones y funciones.",
-  "recomendacion": "Resuelve ejercicios todos los días: aquí se arma el álgebra que usarás en todos los cursos de cálculo.",
+  "que_se_hace": "Teoría y muchos ejercicios en clase, prácticas calificadas cada pocas semanas y exámenes parcial y final escritos.",
+  "como_aprobar": [
+   "Resuelve ejercicios todos los días: aquí se arma el álgebra que usarás en todos los cursos de cálculo.",
+   "Asiste a todas las prácticas calificadas: sumadas suelen pesar tanto como un examen.",
+   "Estudia en grupo y explica a otro cómo resolviste un ejercicio: si lo puedes explicar, lo sabes."
+  ],
   "importancia": "Base para Matemática II y Cálculo",
   "malla": "26"
  },
@@ -1228,7 +1623,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Redacción de textos académicos, ortografía, argumentación y exposición oral.",
-  "recomendacion": "Aprende a citar en APA desde ya: lo vas a usar en cada informe hasta la tesis.",
+  "que_se_hace": "Redactas textos (resúmenes, ensayos, informes) y haces exposiciones orales frente al grupo.",
+  "como_aprobar": [
+   "Aprende a citar en APA desde ya: lo vas a usar en cada informe hasta la tesis.",
+   "Revisa ortografía y tildes antes de entregar: es lo primero que se descuenta.",
+   "Ensaya tus exposiciones en voz alta y con tiempo: la seguridad al hablar también se califica."
+  ],
   "importancia": "Redactar informes y exponer",
   "malla": "26"
  },
@@ -1243,7 +1643,12 @@
    "26127"
   ],
   "sumilla": "Técnicas de estudio, organización del tiempo, lectura comprensiva y normas para trabajos universitarios.",
-  "recomendacion": "Aplica lo que veas en tus otros cursos del semestre: es el momento de armar tu propio método.",
+  "que_se_hace": "Talleres de técnicas de estudio, trabajos escritos con normas APA y exposiciones.",
+  "como_aprobar": [
+   "Aplica lo que veas en tus otros cursos del semestre: es el momento de armar tu propio método.",
+   "Cumple todas las entregas: el curso se aprueba sobre todo con trabajos.",
+   "Usa Zotero o el gestor de citas de Word desde ya para tus referencias."
+  ],
   "importancia": "Organizar tu estudio",
   "malla": "26"
  },
@@ -1256,7 +1661,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Actividad física, deporte y hábitos de vida saludable.",
-  "recomendacion": "Asiste a todas las sesiones: se evalúa sobre todo la participación.",
+  "que_se_hace": "Sesiones prácticas de deporte y ejercicio, con evaluaciones físicas.",
+  "como_aprobar": [
+   "Asiste a todas las sesiones: se evalúa sobre todo la participación.",
+   "Lleva ropa deportiva y llega puntual: muchas veces sin eso no se marca la asistencia.",
+   "Hidrátate y abrígate: en Cerro de Pasco la altura se siente al hacer ejercicio."
+  ],
   "importancia": "Salud y bienestar",
   "malla": "26"
  },
@@ -1271,7 +1681,12 @@
    "26202"
   ],
   "sumilla": "Magnitudes, vectores, cinemática, dinámica, trabajo y energía.",
-  "recomendacion": "Dibuja siempre el diagrama de fuerzas antes de escribir ecuaciones.",
+  "que_se_hace": "Teoría con problemas resueltos, laboratorios con informe y exámenes de resolución de problemas.",
+  "como_aprobar": [
+   "Dibuja siempre el diagrama de fuerzas antes de escribir ecuaciones.",
+   "Entrega todos los informes de laboratorio: son nota segura si sigues el formato.",
+   "Escribe las unidades en cada paso: evitan errores y muchos docentes las califican."
+  ],
   "importancia": "Fundamento para física aplicada",
   "malla": "26"
  },
@@ -1284,7 +1699,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Ecosistemas, recursos naturales, contaminación y desarrollo sostenible.",
-  "recomendacion": "Relaciónalo con la minería de Pasco: los trabajos con un caso local destacan.",
+  "que_se_hace": "Clases teóricas, trabajos de investigación sobre problemas ambientales y exposiciones; a veces una salida de campo.",
+  "como_aprobar": [
+   "Relaciónalo con la minería de Pasco: los trabajos con un caso local destacan.",
+   "Lleva a tus trabajos datos y fotos propias: un caso observado vale más que uno copiado.",
+   "Repasa los conceptos clave para el examen teórico: suelen ser preguntas de definición y ejemplo."
+  ],
   "importancia": "Proyectos responsables con el ambiente",
   "malla": "26"
  },
@@ -1299,7 +1719,12 @@
    "26304"
   ],
   "sumilla": "Qué hace un ingeniero de sistemas: áreas de la carrera, historia de la computación, hardware, software y redes.",
-  "recomendacion": "Explora todas las áreas con curiosidad: aquí empiezas a ver cuál te gusta (el Elector de área de SOFIA ayuda).",
+  "que_se_hace": "Charlas y trabajos sobre qué hace un ingeniero de sistemas, sus áreas y herramientas; exposiciones y trabajos grupales.",
+  "como_aprobar": [
+   "Explora todas las áreas con curiosidad: aquí empiezas a ver cuál te gusta (el Elector de área de SOFIA ayuda).",
+   "Conversa con estudiantes de ciclos superiores sobre los cursos que vienen.",
+   "Cumple todas las entregas: es un curso de trabajos más que de exámenes."
+  ],
   "importancia": "Conocer la carrera y sus áreas",
   "malla": "26"
  },
@@ -1314,7 +1739,12 @@
    "26303"
   ],
   "sumilla": "Cómo plantear la solución de un problema paso a paso: pseudocódigo, diagramas de flujo, condicionales, bucles y arreglos.",
-  "recomendacion": "Aunque el curso sea en papel, pasa cada pseudocódigo a Python o C++ y pruébalo.",
+  "que_se_hace": "Resuelves problemas en pseudocódigo y diagramas de flujo, con prácticas en clase y exámenes de escribir algoritmos a mano.",
+  "como_aprobar": [
+   "Aunque el curso sea en papel, pasa cada pseudocódigo a Python o C++ y pruébalo.",
+   "Haz la prueba de escritorio (seguir el algoritmo con valores) antes de dar por buena una solución.",
+   "Practica bucles anidados y arreglos: son lo que más aparece en los exámenes."
+  ],
   "importancia": "Base fundamental de la programación",
   "malla": "26"
  },
@@ -1329,7 +1759,12 @@
    "26205"
   ],
   "sumilla": "Estadística descriptiva: tablas, gráficos, medidas de tendencia y dispersión, y probabilidad básica.",
-  "recomendacion": "Haz los ejercicios también en Excel: así aprendes la herramienta que más vas a usar.",
+  "que_se_hace": "Ejercicios de tablas, gráficos y medidas estadísticas, a veces en Excel; prácticas y exámenes escritos.",
+  "como_aprobar": [
+   "Haz los ejercicios también en Excel: así aprendes la herramienta que más vas a usar.",
+   "Aprende cuándo conviene la media, la mediana o la moda: es pregunta segura.",
+   "Lleva calculadora científica con modo estadístico y practica con ella antes del examen."
+  ],
   "importancia": "Base para análisis de datos",
   "malla": "26"
  },
@@ -1346,7 +1781,12 @@
    "26204"
   ],
   "sumilla": "Matrices, determinantes, sistemas de ecuaciones, vectores y geometría analítica.",
-  "recomendacion": "Practica las operaciones con matrices a mano: reaparecen en gráficos por computadora e IA.",
+  "que_se_hace": "Continuación de Matemática I con ejercicios en clase, prácticas calificadas y exámenes escritos.",
+  "como_aprobar": [
+   "Practica las operaciones con matrices a mano: reaparecen en gráficos por computadora e IA.",
+   "Repasa los temas de Matemática I que te costaron: son la base.",
+   "Resuelve exámenes pasados antes de cada parcial."
+  ],
   "importancia": "Base para Cálculo y modelamiento",
   "malla": "26"
  },
@@ -1361,7 +1801,12 @@
    "26209"
   ],
   "sumilla": "Análisis de la situación social, económica, política y cultural del Perú y de la región.",
-  "recomendacion": "Sigue las noticias de Pasco y la sierra central: los trabajos suelen pedir casos de la región.",
+  "que_se_hace": "Lecturas, debates y trabajos grupales sobre los problemas del país y de la región, con exposiciones.",
+  "como_aprobar": [
+   "Sigue las noticias de Pasco y la sierra central: los trabajos suelen pedir casos de la región.",
+   "Participa en los debates con datos (INEI, noticias): la participación suele tener nota.",
+   "Reparte el trabajo grupal desde el inicio y guarda evidencia de tu parte."
+  ],
   "importancia": "Entender el contexto del país",
   "malla": "26"
  },
@@ -1374,7 +1819,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Taller práctico de expresión artística para la formación integral del estudiante.",
-  "recomendacion": "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
+  "que_se_hace": "Sesiones prácticas de ensayo y una presentación final ante el grupo o el público.",
+  "como_aprobar": [
+   "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
+   "Asiste a todos los ensayos: la asistencia suele ser la mayor parte de la nota.",
+   "Prepara bien la presentación final: es lo que más pesa al calificar."
+  ],
   "importancia": "Formación integral",
   "malla": "26"
  },
@@ -1387,7 +1837,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Taller práctico de expresión artística para la formación integral del estudiante.",
-  "recomendacion": "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
+  "que_se_hace": "Sesiones prácticas de ensayo y una presentación final ante el grupo o el público.",
+  "como_aprobar": [
+   "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
+   "Asiste a todos los ensayos: la asistencia suele ser la mayor parte de la nota.",
+   "Prepara bien la presentación final: es lo que más pesa al calificar."
+  ],
   "importancia": "Formación integral",
   "malla": "26"
  },
@@ -1400,7 +1855,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Taller práctico de expresión artística para la formación integral del estudiante.",
-  "recomendacion": "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
+  "que_se_hace": "Sesiones prácticas de ensayo y una presentación final ante el grupo o el público.",
+  "como_aprobar": [
+   "Elige el que más te guste: es electivo y se aprueba sobre todo con asistencia y participación.",
+   "Asiste a todos los ensayos: la asistencia suele ser la mayor parte de la nota.",
+   "Prepara bien la presentación final: es lo que más pesa al calificar."
+  ],
   "importancia": "Formación integral",
   "malla": "26"
  },
@@ -1413,7 +1873,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Gramática y vocabulario básico del inglés, con lectura de textos sencillos.",
-  "recomendacion": "Lee documentación técnica en inglés desde ahora: es el idioma de casi todo lo que vas a estudiar.",
+  "que_se_hace": "Ejercicios de gramática, vocabulario, lectura y conversación; exámenes escritos y orales.",
+  "como_aprobar": [
+   "Lee documentación técnica en inglés desde ahora: es el idioma de casi todo lo que vas a estudiar.",
+   "Practica 15 minutos al día con una app o con series subtituladas en inglés.",
+   "Pierde el miedo a hablar en clase: la participación oral suele calificarse."
+  ],
   "importancia": "Leer documentación técnica",
   "malla": "26"
  },
@@ -1426,7 +1891,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Bases del quechua: pronunciación, saludos, vocabulario y estructura de oraciones.",
-  "recomendacion": "Practica con familiares o vecinos que lo hablen: es la forma más rápida de avanzar.",
+  "que_se_hace": "Pronunciación, vocabulario y diálogos en clase, con prácticas orales y escritas.",
+  "como_aprobar": [
+   "Practica con familiares o vecinos que lo hablen: es la forma más rápida de avanzar.",
+   "Repite los diálogos en voz alta fuera de clase.",
+   "Arma tu propio vocabulario por temas (familia, números, saludos)."
+  ],
   "importancia": "Comunicarte con tu región",
   "malla": "26"
  },
@@ -1441,7 +1911,12 @@
    "26203"
   ],
   "sumilla": "Límites, derivadas, integrales y sus aplicaciones.",
-  "recomendacion": "Practica las reglas de derivación e integración hasta hacerlas sin pensar.",
+  "que_se_hace": "Límites, derivadas e integrales con muchos ejercicios; prácticas calificadas y exámenes escritos.",
+  "como_aprobar": [
+   "Practica las reglas de derivación e integración hasta hacerlas sin pensar.",
+   "Asegura las derivadas en la primera mitad: integrar es derivar al revés.",
+   "Resuelve exámenes pasados con tiempo medido antes de cada parcial."
+  ],
   "importancia": "Base para Ecuaciones Diferenciales y Física Aplicada",
   "malla": "26"
  },
@@ -1458,7 +1933,12 @@
    "26305"
   ],
   "sumilla": "Primer lenguaje formal: variables, tipos de datos, estructuras de control, funciones y arreglos.",
-  "recomendacion": "Programa todos los días, aunque sean 20 minutos; resuelve retos en HackerRank o LeetCode.",
+  "que_se_hace": "Programas en laboratorio, ejercicios semanales, un proyecto pequeño y exámenes de programar en computadora o en papel.",
+  "como_aprobar": [
+   "Programa todos los días, aunque sean 20 minutos; resuelve retos en HackerRank o LeetCode.",
+   "Escribe el código tú mismo aunque lo veas en un video: copiar no te prepara para el examen práctico.",
+   "Aprende a leer los mensajes de error: te ahorran horas."
+  ],
   "importancia": "Primera experiencia práctica en código",
   "malla": "26"
  },
@@ -1475,7 +1955,12 @@
    "26206"
   ],
   "sumilla": "Mecánica, electricidad y magnetismo aplicados a la ingeniería.",
-  "recomendacion": "Dibuja siempre el diagrama antes de plantear ecuaciones.",
+  "que_se_hace": "Problemas de física aplicados a la ingeniería (mecánica, electricidad, ondas), laboratorios con informe y exámenes.",
+  "como_aprobar": [
+   "Dibuja siempre el diagrama antes de plantear ecuaciones.",
+   "Entrega todos los informes de laboratorio a tiempo: es la parte más fácil de la nota.",
+   "Repasa vectores y derivadas antes de empezar: se usan desde la primera semana."
+  ],
   "importancia": "Base para Electrónica",
   "malla": "26"
  },
@@ -1492,7 +1977,12 @@
    "26306"
   ],
   "sumilla": "Ecuaciones diferenciales ordinarias y su uso para modelar fenómenos: crecimiento, circuitos, enfriamiento.",
-  "recomendacion": "Resuelve los modelos también en Python o GeoGebra para ver cómo se comportan.",
+  "que_se_hace": "Resuelves ecuaciones diferenciales y modelas problemas reales (crecimiento, circuitos, enfriamiento); prácticas y exámenes.",
+  "como_aprobar": [
+   "Resuelve los modelos también en Python o GeoGebra para ver cómo se comportan.",
+   "Clasifica la ecuación antes de resolverla: el tipo te dice el método.",
+   "Comprueba tus soluciones derivándolas o con Wolfram Alpha."
+  ],
   "importancia": "Modelar sistemas que cambian en el tiempo",
   "malla": "26"
  },
@@ -1509,7 +1999,12 @@
    "26309"
   ],
   "sumilla": "Lógica, conjuntos, relaciones, combinatoria, grafos y árboles.",
-  "recomendacion": "Conecta cada tema con la programación: grafos y combinatoria reaparecen en algoritmos y redes.",
+  "que_se_hace": "Ejercicios de lógica, conjuntos, combinatoria y grafos; prácticas y exámenes escritos.",
+  "como_aprobar": [
+   "Conecta cada tema con la programación: grafos y combinatoria reaparecen en algoritmos y redes.",
+   "Practica demostraciones por inducción: suelen venir en el examen.",
+   "Programa algunos ejercicios (combinaciones, recorridos de grafos) para entenderlos mejor."
+  ],
   "importancia": "Base de ciencias de la computación",
   "malla": "26"
  },
@@ -1526,7 +2021,12 @@
    "26330"
   ],
   "sumilla": "Distribuciones, muestreo, intervalos de confianza y pruebas de hipótesis.",
-  "recomendacion": "Aprende a hacerlo en Excel, R o Python: en la tesis lo necesitarás para analizar tus datos.",
+  "que_se_hace": "Ejercicios de intervalos de confianza y pruebas de hipótesis, a veces con software; prácticas y exámenes.",
+  "como_aprobar": [
+   "Aprende a hacerlo en Excel, R o Python: en la tesis lo necesitarás para analizar tus datos.",
+   "Aprende a plantear bien H0 y H1: ahí está la mitad de la pregunta.",
+   "Haz un resumen de qué prueba usar en cada caso (z, t, chi-cuadrado)."
+  ],
   "importancia": "Análisis estadístico avanzado",
   "malla": "26"
  },
@@ -1543,7 +2043,12 @@
    "26212"
   ],
   "sumilla": "HTML, CSS y JavaScript básicos para crear páginas web y publicarlas.",
-  "recomendacion": "Publica tus prácticas en GitHub Pages o Vercel desde el primer trabajo.",
+  "que_se_hace": "Páginas con HTML, CSS y JavaScript en laboratorio y un sitio web como proyecto final.",
+  "como_aprobar": [
+   "Publica tus prácticas en GitHub Pages o Vercel desde el primer trabajo.",
+   "Cuida que tus páginas se vean bien en el celular: suele revisarse.",
+   "Usa las herramientas de desarrollador del navegador (F12) para encontrar errores."
+  ],
   "importancia": "Base del desarrollo web",
   "malla": "26"
  },
@@ -1560,7 +2065,12 @@
    "26307"
   ],
   "sumilla": "Programación orientada a objetos: clases, herencia, polimorfismo, colecciones y manejo de excepciones.",
-  "recomendacion": "Haz un proyecto pequeño propio (un inventario, una agenda): los objetos se entienden usándolos.",
+  "que_se_hace": "Programas orientados a objetos en laboratorio, un proyecto en grupo y exámenes prácticos.",
+  "como_aprobar": [
+   "Haz un proyecto pequeño propio (un inventario, una agenda): los objetos se entienden usándolos.",
+   "Diseña las clases en papel (un diagrama UML simple) antes de programar.",
+   "Usa Git en el proyecto grupal: no pierdes código y se ve quién hizo qué."
+  ],
   "importancia": "Programación intermedia",
   "malla": "26"
  },
@@ -1577,7 +2087,12 @@
    "26211"
   ],
   "sumilla": "Cómo plantear un problema, objetivos, hipótesis, marco teórico y diseño de una investigación.",
-  "recomendacion": "Elige un tema de sistemas que de verdad te interese: puede volverse tu tesis.",
+  "que_se_hace": "Avanzas por partes un proyecto de investigación (problema, objetivos, marco teórico) y lo sustentas.",
+  "como_aprobar": [
+   "Elige un tema de sistemas que de verdad te interese: puede volverse tu tesis.",
+   "Busca antecedentes en Google Académico y en el repositorio RENATI desde la primera semana.",
+   "Corrige cada avance con las observaciones del docente antes de la siguiente entrega."
+  ],
   "importancia": "Base para investigación académica",
   "malla": "26"
  },
@@ -1594,7 +2109,12 @@
    "26208"
   ],
   "sumilla": "Circuitos eléctricos y componentes (resistencias, diodos, transistores) y su análisis.",
-  "recomendacion": "Arma los circuitos en un simulador (Tinkercad, Proteus) antes del laboratorio.",
+  "que_se_hace": "Análisis de circuitos en clase, laboratorios armando circuitos con informe y exámenes.",
+  "como_aprobar": [
+   "Arma los circuitos en un simulador (Tinkercad, Proteus) antes del laboratorio.",
+   "Aprende a usar bien el multímetro: lo necesitas en cada laboratorio.",
+   "Domina las leyes de Ohm y Kirchhoff: todo el curso se apoya en ellas."
+  ],
   "importancia": "Fundamentos de hardware",
   "malla": "26"
  },
@@ -1607,7 +2127,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Proceso administrativo y gestión de la calidad: ciclo PDCA, normas ISO y mejora continua.",
-  "recomendacion": "Busca un ejemplo real de mejora continua: los casos prácticos pesan en la nota.",
+  "que_se_hace": "Clases teóricas, casos de empresas, trabajos grupales con herramientas de calidad y exposiciones.",
+  "como_aprobar": [
+   "Busca un ejemplo real de mejora continua: los casos prácticos pesan en la nota.",
+   "Aplica las herramientas (Ishikawa, Pareto, PDCA) a un caso real en tus trabajos.",
+   "Repasa los autores clave (Deming, Juran, Ishikawa) para el examen."
+  ],
   "importancia": "Gestión organizacional",
   "malla": "26"
  },
@@ -1624,7 +2149,12 @@
    "26314"
   ],
   "sumilla": "Programación lineal, método simplex y modelos de transporte y asignación.",
-  "recomendacion": "Plantea bien el modelo antes de resolver y compruébalo con Solver de Excel.",
+  "que_se_hace": "Planteas modelos de programación lineal y los resuelves a mano y con software (Solver, LINDO); prácticas y exámenes.",
+  "como_aprobar": [
+   "Plantea bien el modelo antes de resolver y compruébalo con Solver de Excel.",
+   "Interpreta la solución en palabras (cuánto producir, cuánto se gana): también se califica.",
+   "Lleva el simplex tabla por tabla con orden: un error de signo arruina todo."
+  ],
   "importancia": "Optimización y decisiones",
   "malla": "26"
  },
@@ -1642,7 +2172,12 @@
    "26312"
   ],
   "sumilla": "Ciclo de vida del software, requisitos, modelado con UML y metodologías de desarrollo.",
-  "recomendacion": "Trabaja con un proyecto real: un buen documento de requisitos te ahorra problemas en Software II.",
+  "que_se_hace": "Levantas requisitos y modelas un sistema con UML para un caso real; avances de proyecto en grupo y exámenes.",
+  "como_aprobar": [
+   "Trabaja con un proyecto real: un buen documento de requisitos te ahorra problemas en Software II.",
+   "Valida los requisitos con el usuario antes de pasar al diseño.",
+   "Mantén los diagramas coherentes entre sí: casos de uso, clases y secuencia hablan del mismo sistema."
+  ],
   "importancia": "Desarrollo de software profesional",
   "malla": "26"
  },
@@ -1659,7 +2194,12 @@
    "26313"
   ],
   "sumilla": "Autómatas, lenguajes formales, gramáticas y máquinas de Turing.",
-  "recomendacion": "Usa JFLAP para dibujar y probar autómatas: ver cómo procesan una cadena lo aclara todo.",
+  "que_se_hace": "Ejercicios de autómatas, gramáticas y máquinas de Turing; prácticas y exámenes escritos.",
+  "como_aprobar": [
+   "Usa JFLAP para dibujar y probar autómatas: ver cómo procesan una cadena lo aclara todo.",
+   "Prueba cada autómata con cadenas que debe aceptar y con otras que debe rechazar.",
+   "Repasa conjuntos y lógica de Matemática Discreta antes de empezar."
+  ],
   "importancia": "Fundamentos teóricos de la computación",
   "malla": "26"
  },
@@ -1676,7 +2216,12 @@
    "26325"
   ],
   "sumilla": "Electrónica digital: compuertas lógicas, álgebra de Boole y circuitos combinacionales y secuenciales.",
-  "recomendacion": "Practica con Arduino o un simulador: ver tu lógica encender un LED ayuda mucho.",
+  "que_se_hace": "Diseño de circuitos digitales, laboratorios con protoboard o simulador e informes; exámenes.",
+  "como_aprobar": [
+   "Practica con Arduino o un simulador: ver tu lógica encender un LED ayuda mucho.",
+   "Simplifica con mapas de Karnaugh antes de armar: menos compuertas, menos errores.",
+   "Prueba cada parte del circuito por separado antes de unirlo todo."
+  ],
   "importancia": "Hardware avanzado",
   "malla": "26"
  },
@@ -1693,7 +2238,12 @@
    "26319"
   ],
   "sumilla": "Diseño, arquitectura, pruebas, mantenimiento y gestión de la configuración del software.",
-  "recomendacion": "Usa Git con tu equipo desde el primer día: trabajar con ramas te lo pedirán en cualquier empleo.",
+  "que_se_hace": "Diseño, construcción y pruebas de un sistema en grupo, con entregas por avance y sustentación.",
+  "como_aprobar": [
+   "Usa Git con tu equipo desde el primer día: trabajar con ramas te lo pedirán en cualquier empleo.",
+   "Repartan las tareas con un tablero (Trello, GitHub Projects) desde el inicio.",
+   "Prueben el sistema con datos reales antes de la sustentación."
+  ],
   "importancia": "Desarrollo de software avanzado",
   "malla": "26"
  },
@@ -1708,7 +2258,12 @@
    "26317"
   ],
   "sumilla": "Enfoque sistémico: sistemas, subsistemas, entropía y retroalimentación, aplicados a organizaciones.",
-  "recomendacion": "Analiza una organización real (tu facultad, un negocio) como sistema: así se vuelve concreto.",
+  "que_se_hace": "Lecturas, análisis de organizaciones como sistemas, trabajos grupales y exposiciones.",
+  "como_aprobar": [
+   "Analiza una organización real (tu facultad, un negocio) como sistema: así se vuelve concreto.",
+   "Usa diagramas (caja negra, retroalimentación) en tus trabajos: muestran que entendiste.",
+   "Para el examen, ten una definición y un ejemplo propio de cada concepto."
+  ],
   "importancia": "Pensamiento sistémico",
   "malla": "26"
  },
@@ -1725,7 +2280,12 @@
    "26315"
   ],
   "sumilla": "Modelo entidad-relación, modelo relacional, normalización y SQL básico.",
-  "recomendacion": "Practica SQL en un motor real (SQL Server, MySQL o PostgreSQL) con datos que tú mismo inventes.",
+  "que_se_hace": "Diseñas modelos entidad-relación, normalizas y escribes consultas SQL en laboratorio; proyecto de una base de datos y exámenes.",
+  "como_aprobar": [
+   "Practica SQL en un motor real (SQL Server, MySQL o PostgreSQL) con datos que tú mismo inventes.",
+   "JOIN y GROUP BY son lo más preguntado: practícalos hasta que salgan solos.",
+   "Normaliza tu proyecto paso a paso y prepárate para explicar cada forma normal en la sustentación."
+  ],
   "importancia": "Gestión de datos",
   "malla": "26"
  },
@@ -1742,7 +2302,12 @@
    "26316"
   ],
   "sumilla": "Cómo está hecho un computador: CPU, memoria, buses, entrada/salida y lenguaje ensamblador.",
-  "recomendacion": "Abre una PC (con cuidado) y ubica cada parte; luego prueba un simulador de ensamblador.",
+  "que_se_hace": "Teoría, ejercicios de sistemas numéricos y ensamblador, y laboratorios con simulador; exámenes escritos.",
+  "como_aprobar": [
+   "Abre una PC (con cuidado) y ubica cada parte; luego prueba un simulador de ensamblador.",
+   "Domina las conversiones entre binario, hexadecimal y decimal: aparecen en todo examen.",
+   "Haz programas pequeños en un simulador de ensamblador (MARS, emu8086) fuera de clase."
+  ],
   "importancia": "Entender cómo funciona el hardware",
   "malla": "26"
  },
@@ -1759,7 +2324,12 @@
    "26318"
   ],
   "sumilla": "Modelos probabilísticos: teoría de colas, inventarios, decisiones y cadenas de Markov.",
-  "recomendacion": "Repasa probabilidad antes de empezar: casi todo el curso se apoya en ella.",
+  "que_se_hace": "Ejercicios de colas, inventarios y cadenas de Markov; prácticas con software y exámenes.",
+  "como_aprobar": [
+   "Repasa probabilidad antes de empezar: casi todo el curso se apoya en ella.",
+   "Ten las fórmulas de cada modelo de colas con sus supuestos en una hoja resumen.",
+   "Comprueba tus resultados con Excel o Python."
+  ],
   "importancia": "Optimización avanzada",
   "malla": "26"
  },
@@ -1772,7 +2342,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Autoconocimiento, manejo de emociones, empatía y trabajo en equipo.",
-  "recomendacion": "Aplícalo en tus trabajos de grupo: las empresas valoran estas habilidades tanto como las técnicas.",
+  "que_se_hace": "Dinámicas, reflexiones personales y trabajos grupales sobre el manejo de las emociones.",
+  "como_aprobar": [
+   "Aplícalo en tus trabajos de grupo: las empresas valoran estas habilidades tanto como las técnicas.",
+   "Participa en las dinámicas: son la parte principal de la nota.",
+   "Lleva un registro breve de cada sesión: muchas veces lo piden al final."
+  ],
   "importancia": "Trabajo en equipo y liderazgo",
   "malla": "26"
  },
@@ -1789,7 +2364,12 @@
    "26320"
   ],
   "sumilla": "Análisis, modelado y mejora de los procesos de negocio con BPMN, apoyados en la tecnología.",
-  "recomendacion": "Modela los procesos en Bizagi (es gratuito): es la herramienta que más se usa para BPMN.",
+  "que_se_hace": "Modelas los procesos actuales de una organización, propones mejoras con BPMN y las sustentas en grupo.",
+  "como_aprobar": [
+   "Modela los procesos en Bizagi (es gratuito): es la herramienta que más se usa para BPMN.",
+   "Visita la organización y entrevista a quien hace el proceso: los datos reales hacen la diferencia.",
+   "Mide el antes y el después (tiempo, costo, pasos) en tu propuesta."
+  ],
   "importancia": "Diseñar sistemas que sigan los procesos reales",
   "malla": "26"
  },
@@ -1802,7 +2382,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Valor del dinero en el tiempo, VAN, TIR y evaluación de alternativas de inversión.",
-  "recomendacion": "Domina el VAN y la TIR en Excel: vuelven en los cursos de proyectos.",
+  "que_se_hace": "Ejercicios de interés, VAN, TIR y comparación de alternativas en Excel; exámenes.",
+  "como_aprobar": [
+   "Domina el VAN y la TIR en Excel: vuelven en los cursos de proyectos.",
+   "Practica la conversión de tasas (nominal a efectiva): ahí está el error más común.",
+   "Dibuja el flujo de caja antes de calcular."
+  ],
   "importancia": "Saber si una inversión conviene",
   "malla": "26"
  },
@@ -1819,7 +2404,12 @@
    "26214"
   ],
   "sumilla": "Marketing en internet: redes sociales, SEO, publicidad digital y analítica.",
-  "recomendacion": "Haz crecer una página real (tuya o de un negocio conocido) y mide los resultados.",
+  "que_se_hace": "Campañas en redes sociales, posicionamiento en buscadores y analítica web con un caso práctico; proyecto y exposición.",
+  "como_aprobar": [
+   "Haz crecer una página real (tuya o de un negocio conocido) y mide los resultados.",
+   "Define un público objetivo concreto antes de diseñar la campaña.",
+   "Aprende Google Analytics y Meta Business Suite: son lo más pedido."
+  ],
   "importancia": "Dar a conocer productos digitales",
   "malla": "26"
  },
@@ -1836,7 +2426,12 @@
    "26324"
   ],
   "sumilla": "Bases de datos avanzadas: procedimientos almacenados, transacciones, índices, seguridad y optimización.",
-  "recomendacion": "Trabaja con un volumen grande de datos: así notas la diferencia que hace un índice.",
+  "que_se_hace": "Laboratorios de procedimientos almacenados, triggers, transacciones e índices; proyecto sobre una base de datos y exámenes prácticos.",
+  "como_aprobar": [
+   "Trabaja con un volumen grande de datos: así notas la diferencia que hace un índice.",
+   "Repasa el SQL de Base de Datos I antes de empezar: aquí se da por sabido.",
+   "Guarda tus scripts ordenados y comentados: te los pueden pedir en la sustentación."
+  ],
   "importancia": "Bases de datos de alto rendimiento",
   "malla": "26"
  },
@@ -1853,7 +2448,12 @@
    "26321"
   ],
   "sumilla": "Procesos, hilos, planificación, memoria, archivos y concurrencia.",
-  "recomendacion": "Usa Linux a diario mientras llevas el curso: la terminal te acompañará toda la carrera.",
+  "que_se_hace": "Teoría de procesos, memoria y archivos, laboratorios en Linux y ejercicios de planificación; exámenes.",
+  "como_aprobar": [
+   "Usa Linux a diario mientras llevas el curso: la terminal te acompañará toda la carrera.",
+   "Aprende los comandos básicos (ls, chmod, ps, grep): los laboratorios se hacen en la terminal.",
+   "Practica los algoritmos de planificación (FCFS, SJF, Round Robin) con diagramas de Gantt."
+  ],
   "importancia": "Gestión de recursos computacionales",
   "malla": "26"
  },
@@ -1868,7 +2468,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Modelar sistemas complejos con diagramas causales, flujos y niveles, y simularlos en el tiempo.",
-  "recomendacion": "Usa Vensim (tiene versión gratuita) para construir y simular tus modelos.",
+  "que_se_hace": "Modelos con diagramas causales y de flujos y niveles en Vensim o similar; proyecto de simulación.",
+  "como_aprobar": [
+   "Usa Vensim (tiene versión gratuita) para construir y simular tus modelos.",
+   "Empieza por el diagrama causal antes de pasar al software.",
+   "Valida el modelo comparándolo con datos reales."
+  ],
   "importancia": "Analizar sistemas con retroalimentación",
   "malla": "26"
  },
@@ -1885,7 +2490,12 @@
    "26213"
   ],
   "sumilla": "Elaboración del proyecto de investigación: problema, objetivos, marco teórico y metodología.",
-  "recomendacion": "Elige tu tema y tu asesor pronto: es lo que más retrasa la titulación.",
+  "que_se_hace": "Elaboras tu proyecto de investigación por entregas, con revisiones del docente, y lo sustentas.",
+  "como_aprobar": [
+   "Elige tu tema y tu asesor pronto: es lo que más retrasa la titulación.",
+   "Delimita bien el problema: un tema pequeño y concreto se termina; uno enorme, no.",
+   "Lleva cada avance corregido según las observaciones anteriores."
+  ],
   "importancia": "Primer paso del trabajo de investigación",
   "malla": "26"
  },
@@ -1900,7 +2510,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Modelado y simulación de sistemas: números aleatorios, Montecarlo y simulación de eventos discretos.",
-  "recomendacion": "Aprende una herramienta (Arena, FlexSim o Python): el curso se entiende construyendo modelos.",
+  "que_se_hace": "Modelos de simulación de sistemas (colas, inventarios) con software como Arena, Promodel o Python; proyecto y exámenes.",
+  "como_aprobar": [
+   "Aprende una herramienta (Arena, FlexSim o Python): el curso se entiende construyendo modelos.",
+   "Valida tu modelo con datos reales antes de sacar conclusiones.",
+   "Repasa las distribuciones de probabilidad: generan los datos de la simulación."
+  ],
   "importancia": "Modelamiento de sistemas",
   "malla": "26"
  },
@@ -1917,7 +2532,12 @@
    "26332"
   ],
   "sumilla": "Programación a bajo nivel: ensamblador, compiladores, enlazadores y llamadas al sistema operativo.",
-  "recomendacion": "Practica en C sobre Linux: entender la memoria te hace mejor programador en cualquier lenguaje.",
+  "que_se_hace": "Programas de bajo nivel (C, llamadas al sistema, ensamblador o compiladores) en laboratorio; proyecto y exámenes.",
+  "como_aprobar": [
+   "Practica en C sobre Linux: entender la memoria te hace mejor programador en cualquier lenguaje.",
+   "Repasa punteros en C antes de empezar.",
+   "Aprende a usar un depurador (gdb): encuentra errores que a ojo no ves."
+  ],
   "importancia": "Entender cómo se ejecuta un programa",
   "malla": "26"
  },
@@ -1932,7 +2552,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Pruebas de software, métricas, estándares de calidad (ISO 25010) y aseguramiento de la calidad.",
-  "recomendacion": "Escribe pruebas automáticas para tus propios proyectos: es una práctica muy pedida en el trabajo.",
+  "que_se_hace": "Planes de prueba, pruebas automatizadas y normas de calidad (ISO 25010) aplicadas a un proyecto.",
+  "como_aprobar": [
+   "Escribe pruebas automáticas para tus propios proyectos: es una práctica muy pedida en el trabajo.",
+   "Aprende una herramienta de pruebas (JUnit, pytest o Selenium).",
+   "Escribe casos de prueba claros: entrada, pasos y resultado esperado."
+  ],
   "importancia": "Entregar software confiable",
   "malla": "26"
  },
@@ -1949,7 +2574,12 @@
    "26326"
   ],
   "sumilla": "Modelos OSI y TCP/IP, direccionamiento IP, subredes, cableado y dispositivos de red.",
-  "recomendacion": "Practica el subneteo hasta hacerlo rápido y arma topologías en Cisco Packet Tracer.",
+  "que_se_hace": "Teoría del modelo OSI y TCP/IP, subneteo y laboratorios con Packet Tracer y cableado; exámenes.",
+  "como_aprobar": [
+   "Practica el subneteo hasta hacerlo rápido y arma topologías en Cisco Packet Tracer.",
+   "Aprende a armar y probar un cable de red (norma T568B): suele haber laboratorio de cableado.",
+   "Comprueba cada red que armes con ping y tracert: así encuentras dónde falla."
+  ],
   "importancia": "Conectividad y redes",
   "malla": "26"
  },
@@ -1962,7 +2592,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Datos geográficos, mapas digitales y análisis espacial con herramientas SIG.",
-  "recomendacion": "Instala QGIS (es gratuito) y practica con mapas de tu región.",
+  "que_se_hace": "Mapas y análisis espacial con QGIS o ArcGIS sobre datos reales; proyecto.",
+  "como_aprobar": [
+   "Instala QGIS (es gratuito) y practica con mapas de tu región.",
+   "Usa datos de Pasco (GeoGPS Perú, INEI) para tu proyecto.",
+   "Revisa el sistema de coordenadas de cada capa: es el error más común."
+  ],
   "importancia": "Analizar datos con ubicación",
   "malla": "26"
  },
@@ -1975,7 +2610,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Desarrollo de aplicaciones para Android e iOS, nativas o con Flutter o React Native.",
-  "recomendacion": "Publica una app pequeña propia: aunque sea simple, demuestra que llegaste hasta el final.",
+  "que_se_hace": "Desarrollas apps (Android, Flutter o React Native) en laboratorio y una app propia como proyecto.",
+  "como_aprobar": [
+   "Publica una app pequeña propia: aunque sea simple, demuestra que llegaste hasta el final.",
+   "Prueba en tu celular, no solo en el emulador.",
+   "Sube el código a GitHub y guarda el APK como portafolio."
+  ],
   "importancia": "Desarrollar apps para celular",
   "malla": "26"
  },
@@ -1992,7 +2632,12 @@
    "26216"
   ],
   "sumilla": "Ejecución de la investigación: recojo y análisis de datos, resultados, discusión y conclusiones.",
-  "recomendacion": "Reúnete con tu asesor cada semana y no dejes la redacción para el final.",
+  "que_se_hace": "Ejecutas la investigación: recoges datos, los analizas y redactas resultados, con revisiones periódicas.",
+  "como_aprobar": [
+   "Reúnete con tu asesor cada semana y no dejes la redacción para el final.",
+   "Recoge tus datos apenas tengas el instrumento validado: no lo dejes para el final.",
+   "Usa desde el inicio una plantilla con el formato que pide la UNDAC."
+  ],
   "importancia": "Terminar el trabajo de investigación",
   "malla": "26"
  },
@@ -2009,7 +2654,12 @@
    "26215"
   ],
   "sumilla": "Estudio de mercado, técnico y financiero de un proyecto de inversión.",
-  "recomendacion": "Elige un proyecto tecnológico real: puede servirte después en Emprendimiento.",
+  "que_se_hace": "Formulas en grupo un proyecto completo (mercado, técnico, financiero) y lo evalúas con VAN y TIR.",
+  "como_aprobar": [
+   "Elige un proyecto tecnológico real: puede servirte después en Emprendimiento.",
+   "Usa precios y demanda reales, no inventados.",
+   "Arma el flujo de caja en Excel con fórmulas, no con números escritos."
+  ],
   "importancia": "Saber si un proyecto es viable",
   "malla": "26"
  },
@@ -2026,7 +2676,12 @@
    "26331"
   ],
   "sumilla": "Data warehouse, procesos ETL, cubos OLAP y tableros para tomar decisiones.",
-  "recomendacion": "Haz un tablero en Power BI con datos reales: queda muy bien en tu portafolio.",
+  "que_se_hace": "Construyes un almacén de datos y tableros (Power BI) con los datos de un caso; proyecto y exámenes.",
+  "como_aprobar": [
+   "Haz un tablero en Power BI con datos reales: queda muy bien en tu portafolio.",
+   "Limpia bien los datos antes de graficar: ahí está la mayor parte del trabajo.",
+   "Que tu tablero responda una pregunta: qué decisión ayuda a tomar."
+  ],
   "importancia": "Business Intelligence",
   "malla": "26"
  },
@@ -2041,7 +2696,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Automatización de procesos industriales y de oficina: sensores, controladores, PLC y robots de software (RPA).",
-  "recomendacion": "Practica con Arduino o con una herramienta RPA (UiPath tiene versión gratuita).",
+  "que_se_hace": "Automatizas tareas con RPA, scripts u otras herramientas según el enfoque del docente; proyecto y exámenes.",
+  "como_aprobar": [
+   "Practica con Arduino o con una herramienta RPA (UiPath tiene versión gratuita).",
+   "Elige un proceso repetitivo real para automatizar.",
+   "Mide el tiempo que ahorras: es tu mejor argumento en la sustentación."
+  ],
   "importancia": "Automatización",
   "malla": "26"
  },
@@ -2058,7 +2718,12 @@
    "26333"
   ],
   "sumilla": "Redes avanzadas: WAN, servicios de red, redes inalámbricas y seguridad.",
-  "recomendacion": "Configura servicios reales (DHCP, DNS) en máquinas virtuales para practicar.",
+  "que_se_hace": "Laboratorios de enrutamiento, servicios de red y seguridad básica; proyecto de diseño de red y exámenes.",
+  "como_aprobar": [
+   "Configura servicios reales (DHCP, DNS) en máquinas virtuales para practicar.",
+   "Documenta cada laboratorio con capturas y la configuración: te sirve para el examen.",
+   "Repasa subneteo y los comandos de Redes I antes de empezar."
+  ],
   "importancia": "Redes avanzadas",
   "malla": "26"
  },
@@ -2071,7 +2736,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Cómo alinear la tecnología de la información con los objetivos de la organización: el plan estratégico de TI.",
-  "recomendacion": "Practica con una empresa real: te servirá en el trabajo de investigación.",
+  "que_se_hace": "Elaboras en grupo un plan estratégico de TI para una organización (diagnóstico y cartera de proyectos).",
+  "como_aprobar": [
+   "Practica con una empresa real: te servirá en el trabajo de investigación.",
+   "Empieza por el diagnóstico de la TI actual (inventario, problemas, usuarios).",
+   "Une cada proyecto de TI con un objetivo del negocio."
+  ],
   "importancia": "Planificar la TI de una organización",
   "malla": "26"
  },
@@ -2084,7 +2754,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Normas y estándares de la profesión (ISO, IEEE) y cómo aplicarlos en proyectos de TI.",
-  "recomendacion": "Haz un resumen de las normas principales: te tocará citarlas en informes y en la tesis.",
+  "que_se_hace": "Estudias normas (ISO, IEEE, NTP) y las aplicas a casos, con trabajos y exposiciones.",
+  "como_aprobar": [
+   "Haz un resumen de las normas principales: te tocará citarlas en informes y en la tesis.",
+   "Aprende a buscar normas técnicas peruanas en el catálogo de INACAL.",
+   "Aplica una norma a un caso concreto en tu trabajo."
+  ],
   "importancia": "Trabajar según normas reconocidas",
   "malla": "26"
  },
@@ -2097,7 +2772,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Negocios por internet: tiendas en línea, medios de pago, logística y seguridad.",
-  "recomendacion": "Monta una tienda de prueba (WooCommerce o Shopify) para entender todo el flujo.",
+  "que_se_hace": "Montas una tienda en línea (WooCommerce, Shopify o propia) y estudias pagos, logística y legislación.",
+  "como_aprobar": [
+   "Monta una tienda de prueba (WooCommerce o Shopify) para entender todo el flujo.",
+   "Conoce las normas peruanas de protección al consumidor en compras por internet.",
+   "Analiza tiendas peruanas exitosas como referencia."
+  ],
   "importancia": "Vender por internet",
   "malla": "26"
  },
@@ -2110,7 +2790,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Cómo crear un negocio (idea, modelo Canvas, plan de negocios) con impacto positivo en la sociedad.",
-  "recomendacion": "Piensa en una startup tecnológica: muchos proyectos de software se vuelven negocios.",
+  "que_se_hace": "Desarrollas en grupo una idea de negocio (Canvas, validación, plan) y la presentas como pitch.",
+  "como_aprobar": [
+   "Piensa en una startup tecnológica: muchos proyectos de software se vuelven negocios.",
+   "Habla con clientes reales para validar la idea: el docente lo valora más que la teoría.",
+   "Ensaya el pitch para que dure exactamente lo que piden."
+  ],
   "importancia": "Crear tu propio negocio",
   "malla": "26"
  },
@@ -2125,7 +2810,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Planificación, cronograma, costos, riesgos y seguimiento de proyectos según la guía PMBOK.",
-  "recomendacion": "Arma el cronograma de un proyecto real en un diagrama de Gantt: lo usarás en la tesis y en el trabajo.",
+  "que_se_hace": "Planificas un proyecto (alcance, cronograma, costos, riesgos) con MS Project o similar; trabajo grupal y exámenes.",
+  "como_aprobar": [
+   "Arma el cronograma de un proyecto real en un diagrama de Gantt: lo usarás en la tesis y en el trabajo.",
+   "Aprende a hallar la ruta crítica: es el ejercicio típico del examen.",
+   "Usa la guía PMBOK como base: muchos docentes la siguen."
+  ],
   "importancia": "Project Management",
   "malla": "26"
  },
@@ -2142,7 +2832,12 @@
    "26337"
   ],
   "sumilla": "Fundamentos de la IA: búsqueda, representación del conocimiento y aprendizaje automático.",
-  "recomendacion": "Aprende Python con scikit-learn y practica con datos públicos de Kaggle.",
+  "que_se_hace": "Teoría de búsqueda, aprendizaje automático y redes neuronales, laboratorios en Python y un proyecto.",
+  "como_aprobar": [
+   "Aprende Python con scikit-learn y practica con datos públicos de Kaggle.",
+   "Repasa Python, álgebra lineal y probabilidad antes de empezar.",
+   "Usa Google Colab para entrenar modelos sin depender de tu PC."
+  ],
   "importancia": "Base de la inteligencia artificial",
   "malla": "26"
  },
@@ -2159,7 +2854,12 @@
    "26336"
   ],
   "sumilla": "Sistemas que apoyan las decisiones de los gerentes: tipos de sistemas de información, ERP, CRM e indicadores.",
-  "recomendacion": "Relaciona cada tipo de sistema con una empresa que conozcas.",
+  "que_se_hace": "Casos de empresas, análisis de sus sistemas de información y un trabajo grupal sobre una organización real.",
+  "como_aprobar": [
+   "Relaciona cada tipo de sistema con una empresa que conozcas.",
+   "Estudia cómo un ERP integra las áreas de una empresa: es tema central.",
+   "Repasa los conceptos clave para el examen teórico."
+  ],
   "importancia": "Apoyar las decisiones de gerencia",
   "malla": "26"
  },
@@ -2176,7 +2876,12 @@
    "26338"
   ],
   "sumilla": "Evaluación de los controles, la seguridad y el uso de la tecnología en una organización (COBIT, normas ISO).",
-  "recomendacion": "Audita una oficina real: los hallazgos concretos son lo que más se valora.",
+  "que_se_hace": "Casos de auditoría con normas (COBIT, ISO 27001) y una auditoría simulada a una organización, con informe.",
+  "como_aprobar": [
+   "Audita una oficina real: los hallazgos concretos son lo que más se valora.",
+   "Trabaja con listas de verificación basadas en la norma.",
+   "Redacta cada hallazgo con problema, evidencia y recomendación."
+  ],
   "importancia": "Auditoría de TI",
   "malla": "26"
  },
@@ -2193,7 +2898,12 @@
    "26217"
   ],
   "sumilla": "Protección de la información: amenazas, criptografía, controles, ISO 27001 y gestión de riesgos.",
-  "recomendacion": "Practica en laboratorios legales (TryHackMe, Hack The Box), nunca en sistemas ajenos sin permiso.",
+  "que_se_hace": "Teoría de seguridad, la norma ISO 27001, laboratorios de análisis de vulnerabilidades y un análisis de riesgos.",
+  "como_aprobar": [
+   "Practica en laboratorios legales (TryHackMe, Hack The Box), nunca en sistemas ajenos sin permiso.",
+   "Ten claros los tres pilares (confidencialidad, integridad, disponibilidad) con un ejemplo cada uno.",
+   "Aprende a armar una matriz de riesgos."
+  ],
   "importancia": "Proteger los datos de una organización",
   "malla": "26"
  },
@@ -2206,7 +2916,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Leyes peruanas sobre tecnología: delitos informáticos, datos personales, firma digital y propiedad intelectual.",
-  "recomendacion": "Lee la Ley 30096 (delitos informáticos) y la Ley 29733 (datos personales): te tocará cumplirlas.",
+  "que_se_hace": "Lecturas de leyes peruanas (delitos informáticos, protección de datos), análisis de casos y exposiciones.",
+  "como_aprobar": [
+   "Lee la Ley 30096 (delitos informáticos) y la Ley 29733 (datos personales): te tocará cumplirlas.",
+   "Haz un cuadro de cada ley: qué castiga o protege y con qué sanción.",
+   "Analiza casos reales en tus trabajos."
+  ],
   "importancia": "Marco legal",
   "malla": "26"
  },
@@ -2219,7 +2934,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Recolección y análisis de evidencia digital para investigar incidentes y delitos informáticos.",
-  "recomendacion": "Practica con herramientas libres como Autopsy sobre imágenes de prueba.",
+  "que_se_hace": "Laboratorios de recuperación y análisis de evidencia digital (Autopsy, FTK) y casos con informe pericial.",
+  "como_aprobar": [
+   "Practica con herramientas libres como Autopsy sobre imágenes de prueba.",
+   "Respeta la cadena de custodia en cada práctica.",
+   "Redacta el informe en orden: hallazgo, evidencia, conclusión."
+  ],
   "importancia": "Investigar incidentes informáticos",
   "malla": "26"
  },
@@ -2234,7 +2954,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Investigación final con la que se obtiene el grado de bachiller.",
-  "recomendacion": "Si puedes, que sea la base de tu tesis: avanzas dos cosas a la vez.",
+  "que_se_hace": "Terminas, redactas y sustentas tu trabajo de investigación con un asesor.",
+  "como_aprobar": [
+   "Si puedes, que sea la base de tu tesis: avanzas dos cosas a la vez.",
+   "Fija reuniones regulares con tu asesor.",
+   "Revisa el reglamento de grados y títulos para el formato y los plazos."
+  ],
   "importancia": "Proyecto final",
   "malla": "26"
  },
@@ -2249,7 +2974,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Máquinas virtuales, contenedores y servicios en la nube (IaaS, PaaS, SaaS) en AWS, Azure o Google Cloud.",
-  "recomendacion": "Usa las cuentas gratuitas para estudiantes (AWS Educate, Azure for Students) y despliega algo tuyo.",
+  "que_se_hace": "Laboratorios con máquinas virtuales, contenedores y servicios en la nube; proyecto desplegado y exámenes.",
+  "como_aprobar": [
+   "Usa las cuentas gratuitas para estudiantes (AWS Educate, Azure for Students) y despliega algo tuyo.",
+   "Apaga o borra los recursos de la nube al terminar cada práctica: evitas cobros.",
+   "Practica Docker en tu PC antes de llevarlo a la nube."
+  ],
   "importancia": "Desplegar servicios en la nube",
   "malla": "26"
  },
@@ -2262,7 +2992,12 @@
   "prerrequisitos": [],
   "desbloquea": [],
   "sumilla": "Responsabilidad del ingeniero: código de ética, privacidad, propiedad intelectual y dilemas de la tecnología.",
-  "recomendacion": "Relaciónalo con casos reales (fugas de datos, uso de la IA): los debates bien argumentados suben la nota.",
+  "que_se_hace": "Lecturas, análisis de casos éticos en tecnología y debates.",
+  "como_aprobar": [
+   "Relaciónalo con casos reales (fugas de datos, uso de la IA): los debates bien argumentados suben la nota.",
+   "Lee el código de ética del Colegio de Ingenieros del Perú.",
+   "Defiende tus posturas con casos reales."
+  ],
   "importancia": "Ejercer la profesión con responsabilidad",
   "malla": "26"
  },
@@ -2277,7 +3012,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Trabajo en una empresa o institución aplicando lo aprendido, bajo la guía de un docente asesor.",
-  "recomendacion": "Busca la empresa con tiempo y revisa la ruta de prácticas en SOFIA: plazos, anexos y el FUT que toca.",
+  "que_se_hace": "Trabajas en una empresa o institución con un docente asesor y entregas informes de lo que haces.",
+  "como_aprobar": [
+   "Busca la empresa con tiempo y revisa la ruta de prácticas en SOFIA: plazos, anexos y el FUT que toca.",
+   "Cumple el horario y entrega los informes en los plazos del reglamento.",
+   "Guarda evidencias (fotos, documentos, constancias) para tu informe final."
+  ],
   "importancia": "Experiencia profesional",
   "malla": "26"
  },
@@ -2292,7 +3032,12 @@
   ],
   "desbloquea": [],
   "sumilla": "IA avanzada: redes neuronales, aprendizaje profundo, visión por computadora y procesamiento de lenguaje natural.",
-  "recomendacion": "Entrena un modelo propio y publícalo; SOFIA misma usa un modelo de lenguaje local.",
+  "que_se_hace": "Proyectos de aprendizaje profundo, visión o lenguaje con Python (TensorFlow o PyTorch).",
+  "como_aprobar": [
+   "Entrena un modelo propio y publícalo; SOFIA misma usa un modelo de lenguaje local.",
+   "Parte de modelos preentrenados en lugar de entrenar desde cero.",
+   "Anota cada experimento (datos, parámetros, resultados)."
+  ],
   "importancia": "Construir sistemas inteligentes",
   "malla": "26"
  },
@@ -2307,7 +3052,12 @@
   ],
   "desbloquea": [],
   "sumilla": "Temas actuales de la carrera que elige el docente: nuevas tecnologías y tendencias.",
-  "recomendacion": "Aprovecha para explorar un área nueva: puede marcar tu especialización.",
+  "que_se_hace": "Temas actuales elegidos por el docente, con trabajos de investigación, exposiciones o un proyecto.",
+  "como_aprobar": [
+   "Aprovecha para explorar un área nueva: puede marcar tu especialización.",
+   "Elige un tema que te sirva para tu tesis o para el trabajo que quieres tener.",
+   "Prepara bien las exposiciones: suelen ser gran parte de la nota."
+  ],
   "importancia": "Explorar tendencias de la carrera",
   "malla": "26"
  }

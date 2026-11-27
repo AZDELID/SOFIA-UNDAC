@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
-import { Compass, Map, Calendar, FileText, MessageCircle, Briefcase, Users, ListChecks, ChevronRight, ArrowUpRight } from 'lucide-react';
+import { Compass, Map, Calendar, FileText, MessageCircle, Briefcase, Users, Plane, ListChecks, ChevronRight, ArrowUpRight } from 'lucide-react';
 import type { Page } from '../App';
 import { LOGOS, urlLogo } from '../data/logos';
 
@@ -33,6 +33,7 @@ const HERRAMIENTAS: { pagina: Page; titulo: string; texto: string; Icono: typeof
   { pagina: 'tramites', titulo: 'Trámites con FUT', texto: 'Cuenta tu caso y la IA redacta tu FUT', Icono: FileText, tono: 'bg-teal-50 text-teal-700' },
   { pagina: 'practicas', titulo: 'Prácticas Preprofesionales', texto: 'Suma tus créditos y sigue la ruta paso a paso', Icono: Briefcase, tono: 'bg-amber-50 text-amber-700' },
   { pagina: 'proyeccion', titulo: 'Proyección Social', texto: 'Requisitos, fechas y ruta del proyecto con la comunidad', Icono: Users, tono: 'bg-red-50 text-red-600' },
+  { pagina: 'movilidad', titulo: 'Movilidad Estudiantil', texto: 'Estudia un ciclo en otra universidad: requisitos y pasos', Icono: Plane, tono: 'bg-indigo-50 text-indigo-600' },
   { pagina: 'chat', titulo: 'Asistente IA', texto: 'Pregunta por cursos, prerrequisitos y trámites', Icono: MessageCircle, tono: 'bg-sky-50 text-sky-700' },
   { pagina: 'tracks', titulo: 'Elector de Área', texto: 'Compara las 3 áreas electivas de la carrera', Icono: Compass, tono: 'bg-emerald-50 text-emerald-700' },
   { pagina: 'quiz', titulo: 'Quiz de Área', texto: 'Responde unas preguntas y descubre tu área ideal', Icono: ListChecks, tono: 'bg-orange-50 text-orange-600' },
@@ -106,7 +107,7 @@ export function Home({ onNavigate }: HomeProps) {
 
       <section className="pb-16 px-4 sm:px-6 lg:px-8">
         {/* En el celular cada herramienta es una fila; desde md, una tarjeta */}
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
           {HERRAMIENTAS.map(({ pagina, titulo, texto, Icono, tono }, i) => (
             <button
               key={titulo}

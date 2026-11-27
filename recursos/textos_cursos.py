@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """Escribe en web/src/app/data/cursos.json, para cada curso de las dos mallas:
   sumilla        de qué va el curso
-  recomendacion  un consejo práctico para llevarlo (reemplaza el texto de la plantilla)
+  que_se_hace    qué se hace en el curso (clases, labs, proyecto, exámenes) — textos_aprobar.py
+  como_aprobar   lista de consejos para aprobarlo: el consejo de TEXTOS + los dos de textos_aprobar.py
   importancia    para qué te sirve (la 17xxx ya lo traía; la 26xxx lo copia del curso
                  del mismo nombre o lo toma de IMPORTANCIA_26)
 
@@ -13,6 +14,8 @@ Uso:  python recursos/textos_cursos.py      (desde la carpeta "aplicacion inteli
 """
 import json
 from pathlib import Path
+
+from textos_aprobar import APROBAR
 
 RUTA = Path(__file__).resolve().parents[1] / "web" / "src" / "app" / "data" / "cursos.json"
 
@@ -320,17 +323,22 @@ def main():
     imp17 = {c["nombre"]: c["importancia"] for c in cursos if c["malla"] == "17" and c.get("importancia")}
     faltan = sorted({c["nombre"] for c in cursos} - TEXTOS.keys())
     assert not faltan, f"Sin textos: {faltan}"
+    faltan = sorted({c["nombre"] for c in cursos} - APROBAR.keys())
+    assert not faltan, f"Sin qué se hace / cómo aprobar: {faltan}"
     nuevos = []
     for c in cursos:
         sumilla, consejo = TEXTOS[c["nombre"]]
+        que_se_hace, consejos = APROBAR[c["nombre"]]
         importancia = c.get("importancia") or imp17.get(c["nombre"]) or IMPORTANCIA_26[c["nombre"]]
-        # sumilla antes de recomendacion para que el JSON se lea en orden
-        d = {k: v for k, v in c.items() if k not in ("sumilla", "recomendacion", "importancia", "malla")}
-        d.update(sumilla=sumilla, recomendacion=consejo, importancia=importancia, malla=c["malla"])
+        # sumilla antes de los consejos para que el JSON se lea en orden
+        d = {k: v for k, v in c.items()
+             if k not in ("sumilla", "recomendacion", "que_se_hace", "como_aprobar", "importancia", "malla")}
+        d.update(sumilla=sumilla, que_se_hace=que_se_hace, como_aprobar=[consejo, *consejos],
+                 importancia=importancia, malla=c["malla"])
         nuevos.append(d)
     with open(RUTA, "w", encoding="utf-8", newline="\r\n") as f:
         f.write(json.dumps(nuevos, ensure_ascii=False, indent=1) + "\n")
-    print(f"{len(nuevos)} cursos con sumilla, consejo e importancia")
+    print(f"{len(nuevos)} cursos con sumilla, qué se hace, cómo aprobar e importancia")
 
 
 if __name__ == "__main__":

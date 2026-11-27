@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { Search, Filter, ChevronDown, ChevronUp, ArrowRight, BookOpen, Target } from 'lucide-react';
+import { Search, Filter, ChevronDown, ChevronUp, ArrowRight } from 'lucide-react';
 import { DiagramaCurricular } from './DiagramaCurricular';
+import { TextosCurso } from './TextosCurso';
 import { cursosData, MALLAS, type Malla, creditosSemestre } from '../data/cursos';
 
 interface Course {
@@ -10,6 +11,7 @@ interface Course {
   type: string;
   prerequisite: string;
   track?: string;
+  curso: (typeof cursosData)[number];
 }
 
 interface Semester {
@@ -42,11 +44,11 @@ const semestresDe = (malla: Malla): Semester[] =>
       .filter((c) => c.semestre === i + 1)
       .map((c) => ({
         code: c.codigo, name: c.nombre, credits: c.creditos, type: c.tipo,
-        prerequisite: c.prerrequisitos.join(', ') || 'Ninguno', track: RAMAS[c.codigo],
+        prerequisite: c.prerrequisitos.join(', ') || 'Ninguno', track: RAMAS[c.codigo], curso: c,
       })),
   }));
 
-export function Roadmap({ onHorario, onActividad }: { onHorario?: (codigo: string) => void; onActividad?: (pagina: "practicas" | "proyeccion") => void }) {
+export function Roadmap({ onHorario, onActividad }: { onHorario?: (codigo: string) => void; onActividad?: (pagina: "practicas" | "proyeccion" | "movilidad") => void }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [filterType, setFilterType] = useState<string>('all');
   // En el celular el mapa queda muy ancho: se abre la lista, y el mapa sigue a un clic
@@ -274,26 +276,7 @@ export function Roadmap({ onHorario, onActividad }: { onHorario?: (codigo: strin
                             {expandedCourse === course.code && (
                               <tr className="border-b border-slate-100">
                                 <td colSpan={6} className="py-4 px-6 bg-white">
-                                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    <div>
-                                      <h4 className="text-slate-900 mb-2 flex items-center gap-2">
-                                        <BookOpen size={18} className="text-[#4A6DFF]" /> Descripción del Curso
-                                      </h4>
-                                      <p className="text-slate-600 text-sm">
-                                        [Descripción detallada del curso {course.name} - Por agregar]
-                                      </p>
-                                    </div>
-                                    <div>
-                                      <h4 className="text-slate-900 mb-2 flex items-center gap-2">
-                                        <Target size={18} className="text-[#7A5BFF]" /> Competencias a Desarrollar
-                                      </h4>
-                                      <ul className="text-slate-600 text-sm space-y-1">
-                                        <li>• [Competencia 1 - Por agregar]</li>
-                                        <li>• [Competencia 2 - Por agregar]</li>
-                                        <li>• [Competencia 3 - Por agregar]</li>
-                                      </ul>
-                                    </div>
-                                  </div>
+                                  <div className="max-w-3xl"><TextosCurso curso={course.curso} /></div>
                                 </td>
                               </tr>
                             )}

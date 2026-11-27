@@ -14,6 +14,8 @@
   font-family: "Mermaid";
   src: url("./fuentes/Mermaid1001.ttf") format("truetype");
   font-display: swap;
+  /* Mermaid no trae ¡ ni ¿ (salían deformes): esos dos los pone la letra de respaldo */
+  unicode-range: U+0000-00A0, U+00A2-00BE, U+00C0-FFFF;
 }
 @theme {
   --font-sans: "Plus Jakarta Sans Variable", system-ui, Arial, sans-serif;
@@ -61,6 +63,20 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Títulos de página en el celular: Rush Driver es ancha y en cursiva, y una palabra larga
+   («PREPROFESIONALES», «ESPECIALIZACIÓN») no cabía, ensanchaba toda la página y el botón
+   del menú quedaba fuera de la pantalla. Se achican con el ancho y, si aun así no caben,
+   se cortan con guion (el html está en español). Fuera de capa: le gana a text-4xl/5xl. */
+h1 {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+@media (max-width: 480px) {
+  h1:is(.text-4xl, .text-5xl) {
+    font-size: clamp(1.5rem, 8.6vw, 2.25rem);
+  }
 }
 
 ::selection {
@@ -142,8 +158,8 @@ html {
 .dark .text-orange-600:not(.tema-claro *) { color: #fdba74; }
 .dark ::selection { background: #3730a3; }
 
-/* Islas que se quedan claras también en oscuro: hoja de horario y etiquetas pastel
-   (el mapa curricular sí se oscurece: sus tarjetas traen su propio color). Sus colores pastel con letra oscura no tienen versión oscura. */
+/* Islas que se quedan claras también en oscuro: fichas de logos (hay logos negros) y etiquetas pastel con letra oscura.
+   El horario y el mapa curricular sí se oscurecen: sus colores son translúcidos o propios. */
 .tema-claro {
   color-scheme: light;
   --color-slate-50: oklch(98.4% 0.003 247.858);
@@ -213,6 +229,22 @@ html {
     animation: subir linear both;
     animation-timeline: view();
     animation-range: entry 0% entry 60%;
+  }
+}
+
+/* Barras de los gráficos: crecen desde la izquierda; si el navegador puede, al entrar a la pantalla */
+@keyframes crecer {
+  from { scale: 0 1; }
+}
+.crecer {
+  transform-origin: left;
+  animation: crecer 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+@supports (animation-timeline: view()) {
+  .crecer {
+    animation: crecer linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 40%;
   }
 }
 

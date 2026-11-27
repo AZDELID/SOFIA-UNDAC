@@ -1,5 +1,6 @@
 import { useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from "react";
-import { ZoomIn, ZoomOut, Maximize2, X, ArrowRight, ArrowLeft, BookOpen, Lightbulb, Target } from "lucide-react";
+import { ZoomIn, ZoomOut, Maximize2, X, ArrowRight, ArrowLeft } from "lucide-react";
+import { TextosCurso } from "./TextosCurso";
 import { cursosData, creditosSemestre, SEMESTRES_AHORA } from "../data/cursos";
 import { LOGOS, herramientasDe, urlLogo } from "../data/logos";
 
@@ -74,9 +75,9 @@ function cadena(inicio: string, vecinos: Map<string, string[]>): Set<string> {
 }
 
 // Actividades extracurriculares (no son cursos); valen para las dos mallas y van al pie de su semestre
-// `pagina`: la tarjeta lleva a su sección de SOFIA (Movilidad aún no tiene)
-const ACTIVIDADES: { semestre: number; nombre: string; tipo: string; detalle: string; pagina?: "practicas" | "proyeccion" }[] = [
-  { semestre: 5, nombre: "Movilidad estudiantil", tipo: "Opcional", detalle: "Un semestre en otra universidad; los requisitos dependen de la universidad de destino." },
+// `pagina`: la tarjeta lleva a su sección de SOFIA
+const ACTIVIDADES: { semestre: number; nombre: string; tipo: string; detalle: string; pagina?: "practicas" | "proyeccion" | "movilidad" }[] = [
+  { semestre: 5, nombre: "Movilidad estudiantil", tipo: "Opcional", detalle: "Un ciclo en otra universidad del Perú (RPU) o del extranjero; pide tercio superior.", pagina: "movilidad" },
   { semestre: 7, nombre: "Proyección Social", tipo: "Obligatoria", detalle: "Desde el VII semestre: 180 horas en brigada con la comunidad.", pagina: "proyeccion" },
   { semestre: 8, nombre: "Prácticas Preprofesionales", tipo: "Obligatoria", detalle: "Desde el VIII semestre, con 154 créditos o más. Es distinta del curso de prácticas.", pagina: "practicas" },
 ];
@@ -108,7 +109,7 @@ function alturasAuto(cursos: Curso[]): Map<string, number> {
 
 export function DiagramaCurricular({ cursos: todos, ramas, onHorario, onActividad }: {
   cursos: Curso[]; ramas: Record<string, string>; onHorario?: (codigo: string) => void;
-  onActividad?: (pagina: "practicas" | "proyeccion") => void;
+  onActividad?: (pagina: "practicas" | "proyeccion" | "movilidad") => void;
 }) {
   const cursos = useMemo(() => todos.filter((c) => !FUERA_DEL_MAPA.has(c.codigo)), [todos]);
   const porCodigo = useMemo(() => new Map(cursos.map((c) => [c.codigo, c])), [cursos]);
@@ -335,7 +336,7 @@ export function DiagramaCurricular({ cursos: todos, ramas, onHorario, onActivida
 
             {ACTIVIDADES.map((a) => {
               const destino = onActividad && a.pagina;
-              // con sección propia la tarjeta es un botón; sin ella (Movilidad) solo informa
+              // con sección propia la tarjeta es un botón; sin ella solo informa
               const Etiqueta = destino ? "button" : "div";
               return (
                 <Etiqueta
@@ -380,19 +381,7 @@ export function DiagramaCurricular({ cursos: todos, ramas, onHorario, onActivida
               <X size={18} />
             </button>
           </div>
-          <div className="mt-3 space-y-3 text-sm">
-            {[
-              { icono: BookOpen, titulo: "De qué va", texto: seleccionado.sumilla },
-              { icono: Lightbulb, titulo: "Consejo", texto: seleccionado.recomendacion },
-              { icono: Target, titulo: "Para qué te sirve", texto: seleccionado.importancia },
-            ].map(({ icono: Icono, titulo, texto }) => texto && (
-              <div key={titulo}>
-                <div className="flex items-center gap-1.5 text-xs font-semibold text-slate-500"><Icono size={14} /> {titulo}</div>
-                <p className="text-slate-700 mt-0.5">{texto}</p>
-              </div>
-            ))}
-            <p className="text-[11px] text-slate-400">Textos referenciales: el sílabo de tu docente manda.</p>
-          </div>
+          <div className="mt-3"><TextosCurso curso={seleccionado} /></div>
           {herramientasDe(seleccionado.nombre).length > 0 && (
             <div className="mt-4">
               <div className="text-xs font-medium text-slate-500 mb-2">Herramientas que se suelen usar</div>

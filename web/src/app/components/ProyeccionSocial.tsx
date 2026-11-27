@@ -1,10 +1,10 @@
-import { Clock, Info, CheckCircle2, AlertTriangle } from "lucide-react";
+import { Info, CheckCircle2, AlertTriangle, ListChecks, Cpu, ShieldAlert, MessagesSquare, FileText, CalendarRange, Files, FileCheck2, Users, Lightbulb } from "lucide-react";
+import { LineaTiempo, type PasoRuta } from "./LineaTiempo";
+import { Tarjeta, Lista, Contactos } from "./Detalle";
 
 // Pasos según la Convocatoria 2026 de la Dirección de Proyección Social y Extensión Cultural (UNDAC, feb. 2026);
 // cada paso cita su sección. Las fechas son de 2026: al salir la convocatoria 2027 se cambian aquí.
-type Paso = { titulo: string; texto: string; plazo?: string; ref: string };
-
-const PASOS: Paso[] = [
+const PASOS: PasoRuta[] = [
   {
     titulo: "Verifica que puedes inscribirte",
     texto: "Necesitas matrícula vigente en el año académico y estar entre el VII y el XI semestre, o ser egresado. Es obligatoria para terminar la carrera.",
@@ -86,6 +86,73 @@ const SANCIONES = [
   "Para retirarte, avisa por escrito con justificación (casos graves) al asesor y a la Dirección; así puedes participar el año siguiente.",
 ];
 
+// Qué cubre cada informe (Sección IX y XV): [informe, fecha de ingreso al sistema, meses que reporta]
+const INFORMES: [string, string, string][] = [
+  ["I informe parcial", "6 al 10 de julio", "Abril a julio (hasta el 10)"],
+  ["II informe parcial", "19 al 23 de octubre", "10 de julio al 23 de octubre"],
+  ["Informe final", "23 al 27 de noviembre", "Todo el proyecto, hasta el 27 de noviembre"],
+];
+
+// Formato 1: esquema del proyecto 2026
+const FORMATO_1 = [
+  "Carátula: título (qué, para quién y dónde), ejecutores con código y semestre, modalidad, fecha y firmas del asesor y del presidente.",
+  "Antecedentes y diagnóstico: estudios previos y la realidad del lugar, analizada con instrumentos.",
+  "Problema y justificación: la situación encontrada y por qué y para qué se hace el proyecto.",
+  "Síntesis ejecutiva: un resumen de 10 líneas como máximo.",
+  "Objetivos: uno general (claro, medible, ligado al título) y hasta 5 específicos.",
+  "Metas: cuánto se logrará y en qué tiempo, en números.",
+  "Referente académico: sustento teórico que conecta los cursos de la carrera con el problema (máximo 10 hojas).",
+  "Estrategias, lugar y fechas: actividades, métodos, delimitación espacial y temporal.",
+  "Beneficiarios: cuántos directos e indirectos (mínimo 50).",
+  "Cronograma: actividades, responsables y tiempos en diagrama de Gantt.",
+  "Indicadores: cómo medirán el avance y el impacto.",
+  "Presupuesto y financiamiento: costos aproximados y cómo se cubren, de preferencia con gobiernos locales.",
+  "Anexos obligatorios: solicitud del beneficiario con sello y fecha, y reglamento del grupo firmado.",
+];
+
+// Formato 4: esquema del informe final 2026 (lo que más se olvida)
+const FORMATO_4 = [
+  "Síntesis: 120 palabras como máximo, más el abstract en inglés.",
+  "Sustento teórico: 5 hojas como máximo.",
+  "Actividades: todas, de inicio a fin, y si quedó alguna pendiente, por qué.",
+  "Resultados e impacto: metas alcanzadas y beneficios reales para la comunidad.",
+  "Sostenibilidad: cómo seguirá mejorando la vida de los beneficiarios.",
+  "Constancia de cumplimiento: firmada por el representante de los beneficiarios; el original se muestra al jurado.",
+  "Balance económico: aportes de estudiantes, beneficiarios o instituciones.",
+  "Otros anexos: certificado de entrega de materiales, cuaderno de campo digital (Formato 5), carátulas de los informes parciales, fotos con leyenda y enlaces a videos en Drive.",
+];
+
+const FORMATOS = [
+  "Formato 1: esquema del proyecto.",
+  "Formato 2: informes parciales I y II, con una tabla de actividades por mes y su % de avance.",
+  "Formato 3: monitoreo; lo usa solo la Dirección cuando visita el proyecto.",
+  "Formato 4: informe final.",
+  "Formato 5: cuaderno de campo; por cada actividad, qué se hizo, quién asistió y cuántas horas trabajó cada uno.",
+];
+
+const EQUIPO = [
+  "Asesor: un docente adscrito a proyección social, que solo puede asesorar un proyecto.",
+  "Colaboradores: hasta 2 docentes; un co-asesor solo si el proyecto es relevante y con autorización.",
+  "Otros integrantes: graduados, personal administrativo o voluntarios pueden sumarse como colaboradores.",
+  "Más de 15 estudiantes: solo con más de 200 beneficiarios identificados y autorización de la Dirección.",
+  "Proyectos de 2025: pueden seguir en 2026 en una nueva etapa, con autorización.",
+  "Segunda carrera: la proyección social es obligatoria en el programa que estás llevando.",
+];
+
+// Consejos de SOFIA (no salen de la convocatoria)
+const CONSEJOS = [
+  "Arma la brigada y consigue la carta del beneficiario antes de abril: del 20 al 30 de abril no da tiempo para empezar de cero.",
+  "Sube las evidencias el mismo día de cada actividad: el plazo es de solo 2 días.",
+  "Desde el inicio lleva el cuaderno de campo y una carpeta compartida con fotos y videos ordenados por mes: el informe final se arma con eso.",
+  "Elijan un tesorero ordenado y guarden boletas: el balance económico es un anexo obligatorio.",
+  "Para la sustentación, coordinen con tiempo que asistan los beneficiarios: su presencia cuenta en la nota.",
+];
+
+const CONTACTOS: [string, string, string][] = [
+  ["Directora de Proyección Social y Extensión Cultural", "Mag. Marianela Susana Neira López", "mneiral@undac.edu.pe"],
+  ["Jefe de Proyección Social · Facultad de Ingeniería", "Jonas Ananias Ramos Martinez", "jramosma@undac.edu.pe"],
+];
+
 export function ProyeccionSocial() {
   return (
     <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
@@ -108,33 +175,11 @@ export function ProyeccionSocial() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="lg:col-span-2 bg-white rounded-2xl border border-slate-200 p-6">
             <h2 className="text-slate-900 text-xl font-semibold mb-6">Ruta paso a paso</h2>
-            <ol className="relative">
-              {PASOS.map((p, i) => (
-                <li key={p.titulo} className="relative flex gap-4 pb-7 last:pb-0">
-                  {i < PASOS.length - 1 && <span className="absolute left-[17px] top-9 bottom-0 w-0.5 bg-slate-200" aria-hidden="true" />}
-                  <span className="relative z-[1] flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#4A6DFF] to-[#7A5BFF] text-sm font-bold text-white">
-                    {i + 1}
-                  </span>
-                  <div className="flex-1 pt-1">
-                    <h3 className="text-slate-900 font-semibold">{p.titulo}</h3>
-                    <p className="text-slate-600 text-sm mt-1">{p.texto}</p>
-                    <div className="flex flex-wrap items-center gap-2 mt-2">
-                      {p.plazo && (
-                        <span className="inline-flex items-center gap-1 rounded-full bg-amber-50 border border-amber-200 px-2.5 py-0.5 text-xs text-amber-800">
-                          <Clock size={12} className="shrink-0" /> {p.plazo}
-                        </span>
-                      )}
-                      <span className="text-xs text-slate-400">{p.ref}</span>
-                    </div>
-                  </div>
-                </li>
-              ))}
-            </ol>
+            <LineaTiempo pasos={PASOS} />
           </div>
 
           <div className="space-y-6 h-fit">
-            <aside className="bg-white rounded-2xl border border-slate-200 p-6">
-              <h3 className="text-slate-900 font-semibold mb-4">Requisitos y reglas</h3>
+            <Tarjeta titulo="Requisitos y reglas" icono={ListChecks} tono="verde">
               <ul className="space-y-3">
                 {REGLAS.map((r) => (
                   <li key={r} className="flex gap-2 text-sm text-slate-600">
@@ -142,13 +187,11 @@ export function ProyeccionSocial() {
                   </li>
                 ))}
               </ul>
-            </aside>
+            </Tarjeta>
 
-            <aside className="bg-white rounded-2xl border border-slate-200 p-6">
-              <h3 className="text-slate-900 font-semibold mb-1">Línea para Sistemas y Computación</h3>
-              <p className="text-slate-500 text-xs mb-3">El proyecto debe seguir una línea de tu facultad.</p>
+            <Tarjeta titulo="Línea para Sistemas y Computación" nota="El proyecto debe seguir una línea de tu facultad." icono={Cpu} tono="violeta">
               <p className="text-sm text-slate-700 font-medium">8. Innovación tecnológica</p>
-              <ul className="mt-1 mb-3 list-disc pl-5 text-sm text-slate-600 space-y-0.5">
+              <ul className="mt-1 mb-3 list-disc pl-5 text-sm text-slate-600 space-y-0.5 marker:text-[var(--tono)]">
                 <li>Sistemas de redes informáticas</li>
                 <li>Hardware y software informático</li>
                 <li>Implementación del parque científico y tecnológico</li>
@@ -156,19 +199,58 @@ export function ProyeccionSocial() {
               <p className="text-xs text-slate-500">
                 También vale la línea 9 (cuidado del medio ambiente), abierta a todas las facultades.
               </p>
-            </aside>
+            </Tarjeta>
 
-            <aside className="bg-white rounded-2xl border border-slate-200 p-6">
-              <h3 className="text-slate-900 font-semibold mb-4">Sanciones y retiro</h3>
+            <Tarjeta titulo="Sanciones y retiro" icono={ShieldAlert} tono="rojo">
               <ul className="space-y-3">
                 {SANCIONES.map((s) => (
                   <li key={s} className="flex gap-2 text-sm text-slate-600">
-                    <AlertTriangle size={16} className="text-amber-500 shrink-0 mt-0.5" /> {s}
+                    <AlertTriangle size={16} className="text-red-500 shrink-0 mt-0.5" /> {s}
                   </li>
                 ))}
               </ul>
-            </aside>
+            </Tarjeta>
+
+            <Tarjeta titulo="A quién preguntar" nota="Del Directorio Institucional de la UNDAC." icono={MessagesSquare} tono="celeste">
+              <Contactos personas={CONTACTOS} />
+            </Tarjeta>
           </div>
+        </div>
+
+        <h2 className="text-slate-900 text-2xl font-semibold mt-12 mb-6">Más detalles</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
+          <Tarjeta titulo="Qué va en el proyecto" nota="Formato 1 · esquema del proyecto 2026" icono={FileText} tono="azul" className="lg:row-span-2">
+            <Lista items={FORMATO_1} />
+          </Tarjeta>
+
+          <Tarjeta titulo="Qué cubre cada informe" nota="Se ingresan al sistema; si no llegan a tiempo, separan al grupo." icono={CalendarRange} tono="naranja">
+            <ol className="relative space-y-4 border-l-2 border-dashed border-[color-mix(in_oklab,var(--tono)_40%,transparent)] ml-2 pl-5 text-sm">
+              {INFORMES.map(([nombre, fecha, meses], i) => (
+                <li key={nombre} className="relative">
+                  <span className="absolute -left-[31px] top-0 grid place-items-center w-5 h-5 rounded-full bg-[var(--tono)] text-white text-[10px] font-bold">{i + 1}</span>
+                  <p className="text-slate-800 font-semibold">{nombre}</p>
+                  <p className="font-mono text-xs text-[var(--tono)] mt-0.5">{fecha} de 2026</p>
+                  <p className="text-slate-500 text-xs">Reporta: {meses}</p>
+                </li>
+              ))}
+            </ol>
+          </Tarjeta>
+
+          <Tarjeta titulo="Los cinco formatos" nota="Están en la convocatoria; los llenas en el sistema de la oficina." icono={Files} tono="turquesa">
+            <Lista items={FORMATOS} />
+          </Tarjeta>
+
+          <Tarjeta titulo="Qué va en el informe final" nota="Formato 4 · lo que más se olvida" icono={FileCheck2} tono="verde">
+            <Lista items={FORMATO_4} />
+          </Tarjeta>
+
+          <Tarjeta titulo="Quiénes forman el equipo" nota="Sección IV y XI" icono={Users} tono="violeta">
+            <Lista items={EQUIPO} />
+          </Tarjeta>
+
+          <Tarjeta titulo="Consejos para que no se complique" nota="De SOFIA, no de la convocatoria." icono={Lightbulb} tono="rosa" className="md:col-span-2 lg:col-span-3">
+            <Lista items={CONSEJOS} />
+          </Tarjeta>
         </div>
       </div>
     </div>

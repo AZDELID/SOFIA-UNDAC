@@ -215,7 +215,8 @@ export function Horarios({ cursoInicial = null }: { cursoInicial?: string | null
     const oculta = getComputedStyle(el).display === "none";
     if (oculta) el.style.cssText = "display:block;position:fixed;left:-10000px;top:0;width:1100px;overflow:visible";
     try {
-      return await html2canvas(el, { backgroundColor: "#f5f7fb", scale: 2 });
+      // el fondo del tema actual: en oscuro la imagen también sale oscura
+      return await html2canvas(el, { backgroundColor: getComputedStyle(document.body).backgroundColor, scale: 2 });
     } finally {
       if (oculta) el.style.cssText = "";
     }
@@ -248,6 +249,13 @@ export function Horarios({ cursoInicial = null }: { cursoInicial?: string | null
         unit: "mm",
         format: "a4",
       });
+
+      // En oscuro la hoja entera toma el color del fondo (el pixel de la esquina, fuera del borde redondeado)
+      if (document.documentElement.classList.contains("dark")) {
+        const [r, g, b] = canvas.getContext("2d")!.getImageData(0, 0, 1, 1).data;
+        pdf.setFillColor(r, g, b);
+        pdf.rect(0, 0, 297, 210, "F");
+      }
 
       const imgWidth = 280;
       const imgHeight = (canvas.height * imgWidth) / canvas.width;
@@ -535,7 +543,7 @@ export function Horarios({ cursoInicial = null }: { cursoInicial?: string | null
                 const visibles = grupos.filter((g) => g.almuerzo || g.celda);
                 if (!visibles.some((g) => g.celda)) return <p className="py-8 text-center text-slate-500">Sin clases este día</p>;
                 return (
-                  <ul className="tema-claro space-y-2 rounded-xl bg-white p-2">
+                  <ul className="space-y-2 rounded-xl bg-white p-2">
                     {visibles.map((g) => {
                       const cruce = !!g.celda && g.celda.cursos.length > 1;
                       return (
@@ -567,7 +575,7 @@ export function Horarios({ cursoInicial = null }: { cursoInicial?: string | null
             </div>
 
             {/* Escritorio: la semana completa (también es lo que se exporta) */}
-            <div ref={horarioRef} className="tema-claro hidden md:block overflow-x-auto rounded-xl bg-white">
+            <div ref={horarioRef} className="hidden md:block overflow-x-auto rounded-xl bg-white">
               <table className="w-full border-collapse min-w-[800px]">
                 <thead>
                   <tr className="bg-gradient-to-r from-[#4A6DFF]/30 to-[#7A5BFF]/30">
@@ -624,7 +632,8 @@ export function Horarios({ cursoInicial = null }: { cursoInicial?: string | null
                         }
 
                         // Determinar el color de fondo
-                        let bgColor = "#ffffff";
+                        // vacía: transparente, así toma el fondo de la tarjeta (blanca o oscura según el tema)
+                        let bgColor = "transparent";
                         const esCruce = !!celda && celda.cursos.length > 1;
                         if (celda && celda.cursos.length > 0) {
                           const primerCurso = celda.cursos[0];
